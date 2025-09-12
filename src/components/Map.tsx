@@ -1,0 +1,676 @@
+import { useEffect, useRef, useState } from "preact/hooks";
+import maplibregl from "maplibre-gl";
+import "maplibre-gl/dist/maplibre-gl.css";
+import {
+  loadMultiplePrefectures,
+  DrinkingWaterPoint,
+} from "../utils/dataLoader";
+import { getPrefecturesInViewport } from "../utils/prefectureBounds";
+import { updateURLWithLocationDebounced } from "../utils/urlParams";
+
+const PROPERTIES_TO_SHOW = [
+  "operator",
+  "wheelchair",
+  "fee",
+  "bottle",
+  "fountain",
+  "access",
+  "indoor",
+  "covered",
+  "cold_water",
+  "hot_water",
+  "check_date",
+  "description",
+];
+
+interface MapProps {
+  center: [number, number];
+  zoom: number;
+  onMapReady?: (map: maplibregl.Map) => void;
+  locale?: "en" | "ja";
+}
+
+export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
+  const mapContainer = useRef<HTMLDivElement>(null);
+  const mapRef = useRef<maplibregl.Map | null>(null);
+  const [loadedPrefectures, setLoadedPrefectures] = useState<Set<string>>(
+    new Set(),
+  );
+  const [drinkingWaterData, setDrinkingWaterData] = useState<
+    DrinkingWaterPoint[]
+  >([]);
+  const popupRef = useRef<maplibregl.Popup | null>(null);
+
+  // Translations for UI elements
+  const translations = {
+    en: {
+      zoomIn: "Zoom In",
+      zoomOut: "Zoom Out",
+      myLocation: "My Location",
+      openInMaps: "Open in Maps",
+      location: "Location",
+      drinkingWater: "Drinking Water",
+      geolocationNotSupported: "Geolocation is not supported by this browser.",
+      locationError:
+        "Unable to get your location. Please check your location settings.",
+      fieldLabels: {
+        operator: "Operator",
+        wheelchair: "Wheelchair Access",
+        fee: "Fee Required",
+        bottle: "Bottle Filling",
+        fountain: "Fountain Type",
+        access: "Access",
+        indoor: "Indoor",
+        covered: "Covered",
+        cold_water: "Cold Water",
+        hot_water: "Hot Water",
+        check_date: "Last Checked",
+        description: "Description",
+      },
+    },
+    ja: {
+      zoomIn: "ズームイン",
+      zoomOut: "ズームアウト",
+      myLocation: "現在位置",
+      openInMaps: "マップで開く",
+      location: "位置",
+      drinkingWater: "飲料水",
+      geolocationNotSupported: "このブラウザは位置情報をサポートしていません。",
+      locationError:
+        "あなたの位置を取得できません。位置情報設定を確認してください。",
+      fieldLabels: {
+        operator: "運営者",
+        wheelchair: "車椅子アクセス",
+        fee: "料金",
+        bottle: "ボトル補充",
+        fountain: "噴水タイプ",
+        access: "アクセス",
+        indoor: "屋内",
+        covered: "屋根付き",
+        cold_water: "冷水",
+        hot_water: "温水",
+        check_date: "最終確認日",
+        description: "説明",
+      },
+    },
+  };
+
+  const t = translations[locale];
+
+  // Close existing popup and update click handlers when locale changes
+  useEffect(() => {
+    if (popupRef.current) {
+      popupRef.current.remove();
+      popupRef.current = null;
+    }
+
+    // Update click handlers for existing map
+    if (mapRef.current) {
+      const map = mapRef.current;
+
+      // Remove existing click handlers - MapLibre doesn't support removing specific layer handlers
+      // so we'll let the new handler override the old one
+
+      // Add new click handler with current locale
+      map.on("click", "drinking-water-points", (e) => {
+        if (e.features && e.features[0]) {
+          const feature = e.features[0] as any;
+          const coordinates = feature.geometry.coordinates.slice();
+          const properties = feature.properties;
+
+          // Close existing popup
+          if (popupRef.current) {
+            popupRef.current.remove();
+          }
+
+          // Create popup content with current locale
+          const popupContent = createPopupContent(properties, coordinates);
+
+          // Create and show popup with mobile-friendly options
+          const popup = new maplibregl.Popup({
+            offset: 15,
+            className: "custom-popup",
+            closeButton: true,
+            closeOnClick: false,
+            maxWidth: "300px",
+          })
+            .setLngLat(coordinates)
+            .setHTML(popupContent)
+            .addTo(map);
+
+          popupRef.current = popup;
+        }
+      });
+    }
+  }, [locale]);
+
+  useEffect(() => {
+    if (!mapContainer.current) return;
+
+    // Initialize the map
+    const map = new maplibregl.Map({
+      container: mapContainer.current,
+      style: "https://tiles.stadiamaps.com/styles/alidade_smooth.json", // Stadia Maps Alidade Smooth style
+      center: [center[1], center[0]], // MapLibre uses [lng, lat] format
+      zoom: zoom,
+    });
+
+    mapRef.current = map;
+
+    // Add custom popup styles for mobile accessibility
+    const popupStyleElement = document.createElement("style");
+    popupStyleElement.textContent = `
+      .custom-popup .maplibregl-popup-content {
+        padding: 16px !important;
+        border-radius: 8px !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+        font-size: 14px !important;
+        line-height: 1.4 !important;
+        max-width: 280px !important;
+      }
+      
+      .custom-popup .maplibregl-popup-close-button {
+        font-size: 20px !important;
+        width: 32px !important;
+        height: 32px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        background: rgba(0, 0, 0, 0.1) !important;
+        border-radius: 4px !important;
+        margin: 4px !important;
+        color: #666 !important;
+        cursor: pointer !important;
+        transition: all 0.2s ease !important;
+        line-height: 1 !important;
+        text-align: center !important;
+        font-family: Arial, sans-serif !important;
+      }
+      
+      .custom-popup .maplibregl-popup-close-button:hover {
+        background: rgba(0, 0, 0, 0.2) !important;
+        color: #333 !important;
+      }
+      
+      .custom-popup .maplibregl-popup-tip {
+        border-top-color: white !important;
+      }
+      
+      @media (max-width: 480px) {
+        .custom-popup .maplibregl-popup-content {
+          max-width: 90vw !important;
+          font-size: 16px !important;
+        }
+        
+        .custom-popup .maplibregl-popup-close-button {
+          font-size: 24px !important;
+          width: 36px !important;
+          height: 36px !important;
+        }
+      }
+    `;
+    document.head.appendChild(popupStyleElement);
+
+    // Add global function for opening maps
+    (window as any).openInMaps = (lat: number, lng: number) => {
+      const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+
+      // Check if we're on mobile using modern detection methods
+      const isMobile =
+        "ontouchstart" in window &&
+        window.matchMedia("(pointer: coarse)").matches;
+
+      if (isMobile) {
+        // On mobile, try geo link first, then fallback
+        const geoUrl = `geo:${lat},${lng}`;
+        try {
+          window.location.href = geoUrl;
+          // Fallback after short delay
+          setTimeout(() => {
+            window.open(googleMapsUrl, "_blank");
+          }, 500);
+        } catch (e) {
+          window.open(googleMapsUrl, "_blank");
+        }
+      } else {
+        // On desktop, directly open Google Maps
+        window.open(googleMapsUrl, "_blank");
+      }
+    };
+
+    // Call onMapReady callback when map is loaded
+    map.on("load", () => {
+      // Add drinking water data source with clustering enabled
+      map.addSource("drinking-water", {
+        type: "geojson",
+        data: {
+          type: "FeatureCollection",
+          features: [],
+        },
+        cluster: true,
+        clusterMaxZoom: 12, // Max zoom to cluster points on
+        clusterRadius: 60, // Radius of each cluster when clustering points (reduced for better readability)
+      });
+
+      // Add cluster circles layer
+      map.addLayer({
+        id: "clusters",
+        type: "circle",
+        source: "drinking-water",
+        filter: ["has", "point_count"],
+        paint: {
+          "circle-color": [
+            "step",
+            ["get", "point_count"],
+            "#3b82f6",
+            10,
+            "#1e40af",
+            30,
+            "#1e3a8a",
+          ],
+          "circle-radius": ["step", ["get", "point_count"], 15, 10, 22, 30, 30],
+        },
+      });
+
+      // Add cluster count labels
+      map.addLayer({
+        id: "cluster-count",
+        type: "symbol",
+        source: "drinking-water",
+        filter: ["has", "point_count"],
+        layout: {
+          "text-field": "{point_count_abbreviated}",
+          "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+          "text-size": 12,
+        },
+        paint: {
+          "text-color": "#ffffff",
+        },
+      });
+
+      // Add drinking water points layer (only unclustered points)
+      map.addLayer({
+        id: "drinking-water-points",
+        type: "circle",
+        source: "drinking-water",
+        filter: ["!", ["has", "point_count"]],
+        paint: {
+          "circle-radius": 6,
+          "circle-color": "#3b82f6",
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "#ffffff",
+        },
+      });
+
+      // Add click handler for drinking water points
+      map.on("click", "drinking-water-points", (e) => {
+        if (e.features && e.features[0]) {
+          const feature = e.features[0] as any;
+          const coordinates = feature.geometry.coordinates.slice();
+          const properties = feature.properties;
+
+          // Close existing popup
+          if (popupRef.current) {
+            popupRef.current.remove();
+          }
+
+          // Create popup content
+          const popupContent = createPopupContent(properties, coordinates);
+
+          // Create and show popup with mobile-friendly options
+          const popup = new maplibregl.Popup({
+            offset: 15,
+            className: "custom-popup",
+            closeButton: true,
+            closeOnClick: false,
+            maxWidth: "300px",
+          })
+            .setLngLat(coordinates)
+            .setHTML(popupContent)
+            .addTo(map);
+
+          popupRef.current = popup;
+        }
+      });
+
+      // Add click handler for clusters
+      map.on("click", "clusters", async (e) => {
+        const features = map.queryRenderedFeatures(e.point, {
+          layers: ["clusters"],
+        });
+
+        if (features.length > 0) {
+          const clusterId = features[0].properties?.cluster_id;
+          const source = map.getSource(
+            "drinking-water",
+          ) as maplibregl.GeoJSONSource;
+
+          try {
+            // Get the cluster expansion zoom level
+            const expansionZoom =
+              await source.getClusterExpansionZoom(clusterId);
+
+            map.easeTo({
+              center: (features[0].geometry as any).coordinates,
+              zoom: expansionZoom + 1,
+            });
+          } catch (error) {
+            console.error("Error getting cluster expansion zoom:", error);
+          }
+        }
+      });
+
+      // Change cursor on hover for clusters
+      map.on("mouseenter", "clusters", () => {
+        map.getCanvas().style.cursor = "pointer";
+      });
+
+      map.on("mouseleave", "clusters", () => {
+        map.getCanvas().style.cursor = "";
+      });
+
+      // Change cursor on hover
+      map.on("mouseenter", "drinking-water-points", () => {
+        map.getCanvas().style.cursor = "pointer";
+      });
+
+      map.on("mouseleave", "drinking-water-points", () => {
+        map.getCanvas().style.cursor = "";
+      });
+
+      // Load data for current viewport
+      loadDataForViewport();
+
+      // Load data when map moves
+      map.on("moveend", loadDataForViewport);
+
+      // Update URL when map moves (debounced)
+      map.on("moveend", () => {
+        const center = map.getCenter();
+        const zoom = map.getZoom();
+        updateURLWithLocationDebounced(center.lat, center.lng, zoom, 1000);
+      });
+
+      if (onMapReady) {
+        onMapReady(map);
+      }
+    });
+
+    // Data loading function
+    const loadDataForViewport = async () => {
+      if (!mapRef.current) return;
+
+      const bounds = mapRef.current.getBounds();
+      const visiblePrefectures = getPrefecturesInViewport(bounds);
+
+      // Find prefectures we haven't loaded yet
+      const newPrefectures = visiblePrefectures.filter(
+        (prefecture) => !loadedPrefectures.has(prefecture),
+      );
+
+      if (newPrefectures.length === 0) return;
+
+      try {
+        const newData = await loadMultiplePrefectures(newPrefectures);
+
+        // Update loaded prefectures
+        setLoadedPrefectures((prev) => {
+          const updated = new Set(prev);
+          newPrefectures.forEach((p) => updated.add(p));
+          return updated;
+        });
+
+        // Add new data to existing data
+        setDrinkingWaterData((prev) => [...prev, ...newData]);
+
+        // Update map source with all data
+        const updatedData = [...drinkingWaterData, ...newData];
+        const source = mapRef.current!.getSource(
+          "drinking-water",
+        ) as maplibregl.GeoJSONSource;
+        if (source) {
+          source.setData({
+            type: "FeatureCollection",
+            features: updatedData,
+          });
+        }
+      } catch (error) {
+        console.error("Error loading prefecture data:", error);
+      }
+    };
+
+    // Cleanup on unmount
+    return () => {
+      if (popupRef.current) {
+        popupRef.current.remove();
+      }
+      // Clean up global function
+      delete (window as any).openInMaps;
+      // Clean up styles
+      if (popupStyleElement.parentNode) {
+        popupStyleElement.parentNode.removeChild(popupStyleElement);
+      }
+      map.remove();
+      mapRef.current = null;
+    };
+  }, []);
+
+  // Update map center and zoom when props change
+  useEffect(() => {
+    if (mapRef.current) {
+      mapRef.current.setCenter([center[1], center[0]]);
+      mapRef.current.setZoom(zoom);
+    }
+  }, [center, zoom]);
+
+  // Update map data when drinkingWaterData changes
+  useEffect(() => {
+    if (mapRef.current && mapRef.current.getSource("drinking-water")) {
+      const source = mapRef.current.getSource(
+        "drinking-water",
+      ) as maplibregl.GeoJSONSource;
+      source.setData({
+        type: "FeatureCollection",
+        features: drinkingWaterData,
+      });
+    }
+  }, [drinkingWaterData]);
+
+  // Create popup content from properties
+  const createPopupContent = (
+    properties: any,
+    coordinates: [number, number],
+  ): string => {
+    const currentTranslations = translations[locale];
+    const name =
+      properties["name:en"] ||
+      properties["name:ja"] ||
+      properties.name ||
+      currentTranslations.drinkingWater;
+
+    // Format coordinates to 4 decimal places, removing trailing zeros
+    const formatCoord = (coord: number): string => {
+      return coord.toFixed(4).replace(/\.?0+$/, "");
+    };
+
+    const [lng, lat] = coordinates;
+    const formattedLocation = `${formatCoord(lat)}, ${formatCoord(lng)}`;
+
+    let content = `<div class="popup-content">`;
+    content += `<h3 style="margin: 0 0 12px 0; font-size: 18px; font-weight: 600; color: #1f2937;">${name}</h3>`;
+    content += `<div style="margin-bottom: 12px; color: #6b7280; font-size: 14px;">`;
+    content += `<strong style="color: #374151;">${currentTranslations.location}:</strong> ${formattedLocation}`;
+    content += `<br><button 
+      onclick="openInMaps(${lat}, ${lng})" 
+      style="
+        margin-top: 8px; 
+        padding: 8px 12px; 
+        background: #3b82f6; 
+        color: white; 
+        border: none; 
+        border-radius: 6px; 
+        cursor: pointer; 
+        font-size: 14px; 
+        font-weight: 500;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        transition: all 0.2s ease;
+        min-height: 36px;
+        touch-action: manipulation;
+      "
+      onmouseover="this.style.background='#2563eb'; this.style.transform='translateY(-1px)'" 
+      onmouseout="this.style.background='#3b82f6'; this.style.transform='translateY(0)'">
+      📍 ${currentTranslations.openInMaps}
+    </button>`;
+    content += `</div>`;
+
+    const fieldLabels = currentTranslations.fieldLabels;
+
+    for (const property of PROPERTIES_TO_SHOW) {
+      const value = properties[property];
+      if (value && value !== "unknown") {
+        const label = (fieldLabels as any)[property] || property;
+        content += `<div style="
+          margin-bottom: 8px; 
+          padding: 4px 0;
+          border-bottom: 1px solid #f3f4f6;
+          font-size: 14px;
+          line-height: 1.4;
+        ">
+          <strong style="color: #374151; display: inline-block; min-width: 80px;">${label}:</strong> 
+          <span style="color: #6b7280;">${value}</span>
+        </div>`;
+      }
+    }
+
+    content += `</div>`;
+    return content;
+  };
+
+  const handleZoomIn = () => {
+    if (mapRef.current) {
+      mapRef.current.zoomIn();
+    }
+  };
+
+  const handleZoomOut = () => {
+    if (mapRef.current) {
+      mapRef.current.zoomOut();
+    }
+  };
+
+  const handleMyLocation = () => {
+    if (!navigator.geolocation) {
+      alert(t.geolocationNotSupported);
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords;
+        if (mapRef.current) {
+          mapRef.current.flyTo({
+            center: [longitude, latitude],
+            zoom: 16,
+          });
+          // Update URL immediately for location button usage
+          updateURLWithLocationDebounced(latitude, longitude, 16, 100);
+        }
+      },
+      (error) => {
+        console.error("Error getting location:", error);
+        alert(t.locationError);
+      },
+      {
+        enableHighAccuracy: true,
+        timeout: 10000,
+        maximumAge: 60000,
+      },
+    );
+  };
+
+  return (
+    <div className="w-full h-full relative">
+      <div ref={mapContainer} className="w-full h-full" />
+
+      {/* Map Controls */}
+      <div className="absolute bottom-16 right-4 sm:top-4 sm:left-4 sm:bottom-auto sm:right-auto flex flex-col gap-2 z-10">
+        <div className="bg-white rounded-md shadow-md border border-gray-200 overflow-hidden">
+          <button
+            onClick={handleZoomIn}
+            aria-label={t.zoomIn}
+            className="w-10 h-10 flex items-center justify-center text-gray-700 hover:bg-gray-50 transition-colors border-b border-gray-200 cursor-pointer"
+            title={t.zoomIn}
+          >
+            +
+          </button>
+          <button
+            aria-label={t.zoomOut}
+            onClick={handleZoomOut}
+            className="w-10 h-10 flex items-center justify-center text-gray-700 hover:bg-gray-50 transition-colors cursor-pointer"
+            title={t.zoomOut}
+          >
+            −
+          </button>
+        </div>
+        <button
+          aria-label={t.myLocation}
+          onClick={handleMyLocation}
+          className="w-10 h-10 bg-white rounded-md shadow-md flex items-center justify-center text-gray-700 hover:bg-gray-50 transition-colors border border-gray-200 cursor-pointer"
+          title={t.myLocation}
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="12" cy="12" r="2" fill="currentColor" />
+            <circle
+              cx="12"
+              cy="12"
+              r="8"
+              stroke="currentColor"
+              strokeWidth="2"
+              fill="none"
+            />
+            <line
+              x1="12"
+              y1="2"
+              x2="12"
+              y2="6"
+              stroke="currentColor"
+              strokeWidth="2"
+            />
+            <line
+              x1="12"
+              y1="18"
+              x2="12"
+              y2="22"
+              stroke="currentColor"
+              strokeWidth="2"
+            />
+            <line
+              x1="22"
+              y1="12"
+              x2="18"
+              y2="12"
+              stroke="currentColor"
+              strokeWidth="2"
+            />
+            <line
+              x1="6"
+              y1="12"
+              x2="2"
+              y2="12"
+              stroke="currentColor"
+              strokeWidth="2"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>日本水マップ - 全国の飲料水源を検索 | インタラクティブマップ</title>
+    <meta
+      name="description"
+      content="日本全国47都道府県の飲料水の水飲み場と水源を表示するインタラクティブマップ。ランニングルート、サイクリング、ハイキング、アウトドア活動の計画に最適。詳細な位置情報付きで水分補給スポットを検索できます。"
+    />
+    <meta
+      name="keywords"
+      content="日本 飲料水, 水飲み場 マップ, ランニング ルート 日本, サイクリング 水分補給, ハイキング 水源, アウトドア 活動 日本, 水分補給ステーション, フィットネス 計画"
+    />
+    <meta name="author" content="Japan Water Map" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="ja-JP" />
+    <meta name="revisit-after" content="7 days" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://japanwatermap.netlify.app/" />
+    <meta property="og:title" content="日本水マップ - 全国の飲料水源を検索" />
+    <meta
+      property="og:description"
+      content="日本全国の飲料水源を表示するインタラクティブマップ。ランニングルート、サイクリング、ハイキング、アウトドア活動の計画に最適。全国の水分補給スポットを検索できます。"
+    />
+    <meta
+      property="og:image"
+      content="https://japanwatermap.netlify.app/twitter-card-ja.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Japan Water Map" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://japanwatermap.netlify.app/" />
+    <meta name="twitter:title" content="日本水マップ - 飲料水源を検索" />
+    <meta
+      name="twitter:description"
+      content="日本全国の飲料水源を検索するインタラクティブマップ。ランナー、サイクリスト、ハイカーのルートやアウトドア活動の計画に最適。"
+    />
+    <meta
+      name="twitter:image"
+      content="https://japanwatermap.netlify.app/twitter-card-ja.jpg"
+    />
+
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://japanwatermap.netlify.app/" />
+
+    <!-- Alternate Languages -->
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://japanwatermap.netlify.app/"
+    />
+    <link
+      rel="alternate"
+      hreflang="ja"
+      href="https://japanwatermap.netlify.app/ja/"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://japanwatermap.netlify.app/"
+    />
+
+    <!-- Theme and App Manifest -->
+    <meta name="theme-color" content="#3b82f6" />
+    <meta name="msapplication-TileColor" content="#3b82f6" />
+    <meta name="application-name" content="Japan Water Map" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "日本水マップ",
+        "description": "日本全国の飲料水源を表示するインタラクティブマップ。ランニングルート、サイクリング、ハイキング、アウトドア活動の計画に最適",
+        "url": "https://japanwatermap.netlify.app",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "Any",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Jamie Sinclair"
+        },
+        "inLanguage": ["ja-JP", "en-US"],
+        "keywords": "飲料水, 日本, マップ, 水飲み場, アクセシビリティ, 蓄水, OpenStreetMap",
+        "featureList": [
+          "日本のインタラクティブマップ",
+          "飲料水源の位置情報",
+          "都道府県ベースのデータカバレッジ"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
