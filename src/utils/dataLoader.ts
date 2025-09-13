@@ -26,13 +26,47 @@ export interface DrinkingWaterPoint {
   };
 }
 
+export interface ToiletPoint {
+  type: "Feature";
+  geometry: {
+    type: "Point";
+    coordinates: [number, number]; // [lng, lat]
+  };
+  properties: {
+    id: number;
+    amenity: "toilets";
+    // Common additional properties
+    name?: string;
+    "name:ja"?: string;
+    "name:en"?: string;
+    operator?: string;
+    wheelchair?: "yes" | "no" | "limited";
+    fee?: "yes" | "no";
+    access?: string; // e.g., "yes", "private", "customers"
+    check_date?: string;
+    indoor?: "yes" | "no";
+    baby_changing?: "yes" | "no";
+    unisex?: "yes" | "no";
+    male?: "yes" | "no";
+    female?: "yes" | "no";
+    description?: string;
+  };
+}
+
+export type AmenityPoint = DrinkingWaterPoint | ToiletPoint;
+
 export interface DrinkingWaterCollection {
   type: "FeatureCollection";
   features: DrinkingWaterPoint[];
 }
 
+export interface ToiletCollection {
+  type: "FeatureCollection";
+  features: ToiletPoint[];
+}
+
 // Prefecture mapping for data loading
-const PREFECTURE_FILES = {
+const DRINKING_WATER_FILES = {
   hokkaido: "hokkaido-drinking-water.json",
   aomori: "aomori-drinking-water.json",
   iwate: "iwate-drinking-water.json",
@@ -82,21 +116,72 @@ const PREFECTURE_FILES = {
   okinawa: "okinawa-drinking-water.json",
 };
 
+const TOILET_FILES = {
+  hokkaido: "hokkaido-toilets.json",
+  aomori: "aomori-toilets.json",
+  iwate: "iwate-toilets.json",
+  miyagi: "miyagi-toilets.json",
+  akita: "akita-toilets.json",
+  yamagata: "yamagata-toilets.json",
+  fukushima: "fukushima-toilets.json",
+  ibaraki: "ibaraki-toilets.json",
+  tochigi: "tochigi-toilets.json",
+  gunma: "gunma-toilets.json",
+  saitama: "saitama-toilets.json",
+  chiba: "chiba-toilets.json",
+  tokyo: "tokyo-toilets.json",
+  kanagawa: "kanagawa-toilets.json",
+  niigata: "niigata-toilets.json",
+  toyama: "toyama-toilets.json",
+  ishikawa: "ishikawa-toilets.json",
+  fukui: "fukui-toilets.json",
+  yamanashi: "yamanashi-toilets.json",
+  nagano: "nagano-toilets.json",
+  gifu: "gifu-toilets.json",
+  shizuoka: "shizuoka-toilets.json",
+  aichi: "aichi-toilets.json",
+  mie: "mie-toilets.json",
+  shiga: "shiga-toilets.json",
+  kyoto: "kyoto-toilets.json",
+  osaka: "osaka-toilets.json",
+  hyogo: "hyogo-toilets.json",
+  nara: "nara-toilets.json",
+  wakayama: "wakayama-toilets.json",
+  tottori: "tottori-toilets.json",
+  shimane: "shimane-toilets.json",
+  okayama: "okayama-toilets.json",
+  hiroshima: "hiroshima-toilets.json",
+  yamaguchi: "yamaguchi-toilets.json",
+  tokushima: "tokushima-toilets.json",
+  kagawa: "kagawa-toilets.json",
+  ehime: "ehime-toilets.json",
+  kochi: "kochi-toilets.json",
+  fukuoka: "fukuoka-toilets.json",
+  saga: "saga-toilets.json",
+  nagasaki: "nagasaki-toilets.json",
+  kumamoto: "kumamoto-toilets.json",
+  oita: "oita-toilets.json",
+  miyazaki: "miyazaki-toilets.json",
+  kagoshima: "kagoshima-toilets.json",
+  okinawa: "okinawa-toilets.json",
+};
+
 // Cache for loaded data
-const dataCache = new Map<string, DrinkingWaterCollection>();
+const drinkingWaterCache = new Map<string, DrinkingWaterCollection>();
+const toiletCache = new Map<string, ToiletCollection>();
 
 export async function loadPrefectureData(
   prefecture: string,
 ): Promise<DrinkingWaterCollection | null> {
   // Check cache first
-  if (dataCache.has(prefecture)) {
-    return dataCache.get(prefecture)!;
+  if (drinkingWaterCache.has(prefecture)) {
+    return drinkingWaterCache.get(prefecture)!;
   }
 
   const filename =
-    PREFECTURE_FILES[prefecture as keyof typeof PREFECTURE_FILES];
+    DRINKING_WATER_FILES[prefecture as keyof typeof DRINKING_WATER_FILES];
   if (!filename) {
-    console.warn(`No data file found for prefecture: ${prefecture}`);
+    console.warn(`No drinking water data file found for prefecture: ${prefecture}`);
     return null;
   }
 
@@ -109,19 +194,55 @@ export async function loadPrefectureData(
     const data: DrinkingWaterCollection = await response.json();
 
     // Cache the data
-    dataCache.set(prefecture, data);
+    drinkingWaterCache.set(prefecture, data);
 
     console.log(
       `Loaded ${data.features.length} drinking water points for ${prefecture}`,
     );
     return data;
   } catch (error) {
-    console.error(`Error loading data for ${prefecture}:`, error);
+    console.error(`Error loading drinking water data for ${prefecture}:`, error);
     return null;
   }
 }
 
-// Load multiple prefectures at once
+export async function loadToiletData(
+  prefecture: string,
+): Promise<ToiletCollection | null> {
+  // Check cache first
+  if (toiletCache.has(prefecture)) {
+    return toiletCache.get(prefecture)!;
+  }
+
+  const filename =
+    TOILET_FILES[prefecture as keyof typeof TOILET_FILES];
+  if (!filename) {
+    console.warn(`No toilet data file found for prefecture: ${prefecture}`);
+    return null;
+  }
+
+  try {
+    const response = await fetch(`/data/${filename}`);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch ${filename}: ${response.status}`);
+    }
+
+    const data: ToiletCollection = await response.json();
+
+    // Cache the data
+    toiletCache.set(prefecture, data);
+
+    console.log(
+      `Loaded ${data.features.length} toilet points for ${prefecture}`,
+    );
+    return data;
+  } catch (error) {
+    console.error(`Error loading toilet data for ${prefecture}:`, error);
+    return null;
+  }
+}
+
+// Load multiple prefectures at once for drinking water
 export async function loadMultiplePrefectures(
   prefectures: string[],
 ): Promise<DrinkingWaterPoint[]> {
@@ -141,7 +262,39 @@ export async function loadMultiplePrefectures(
   return allFeatures;
 }
 
+// Load multiple prefectures at once for toilets
+export async function loadMultipleToilets(
+  prefectures: string[],
+): Promise<ToiletPoint[]> {
+  const promises = prefectures.map((prefecture) =>
+    loadToiletData(prefecture),
+  );
+  const results = await Promise.all(promises);
+
+  // Combine all features from successful loads
+  const allFeatures: ToiletPoint[] = [];
+  results.forEach((data) => {
+    if (data) {
+      allFeatures.push(...data.features);
+    }
+  });
+
+  return allFeatures;
+}
+
+// Load both amenity types for multiple prefectures
+export async function loadMultipleAmenities(
+  prefectures: string[],
+): Promise<{ drinkingWater: DrinkingWaterPoint[]; toilets: ToiletPoint[] }> {
+  const [drinkingWater, toilets] = await Promise.all([
+    loadMultiplePrefectures(prefectures),
+    loadMultipleToilets(prefectures),
+  ]);
+
+  return { drinkingWater, toilets };
+}
+
 // Get list of available prefectures
 export function getAvailablePrefectures(): string[] {
-  return Object.keys(PREFECTURE_FILES);
+  return Object.keys(DRINKING_WATER_FILES);
 }

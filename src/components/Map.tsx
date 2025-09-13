@@ -2,13 +2,14 @@ import { useEffect, useRef, useState } from "preact/hooks";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import {
-  loadMultiplePrefectures,
+  loadMultipleAmenities,
   DrinkingWaterPoint,
+  ToiletPoint,
 } from "../utils/dataLoader";
 import { getPrefecturesInViewport } from "../utils/prefectureBounds";
 import { updateURLWithLocationDebounced } from "../utils/urlParams";
 
-const PROPERTIES_TO_SHOW = [
+const WATER_PROPERTIES_TO_SHOW = [
   "operator",
   "wheelchair",
   "fee",
@@ -23,14 +24,37 @@ const PROPERTIES_TO_SHOW = [
   "description",
 ];
 
+const TOILET_PROPERTIES_TO_SHOW = [
+  "operator",
+  "wheelchair",
+  "fee",
+  "access",
+  "indoor",
+  "baby_changing",
+  "unisex",
+  "male",
+  "female",
+  "check_date",
+  "description",
+];
+
 interface MapProps {
   center: [number, number];
   zoom: number;
   onMapReady?: (map: maplibregl.Map) => void;
   locale?: "en" | "ja";
+  showDrinkingWater?: boolean;
+  showToilets?: boolean;
 }
 
-export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
+export function Map({ 
+  center, 
+  zoom, 
+  onMapReady, 
+  locale = "en", 
+  showDrinkingWater = true, 
+  showToilets = true 
+}: MapProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const [loadedPrefectures, setLoadedPrefectures] = useState<Set<string>>(
@@ -39,6 +63,7 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
   const [drinkingWaterData, setDrinkingWaterData] = useState<
     DrinkingWaterPoint[]
   >([]);
+  const [toiletData, setToiletData] = useState<ToiletPoint[]>([]);
   const popupRef = useRef<maplibregl.Popup | null>(null);
 
   // Translations for UI elements
@@ -50,6 +75,7 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
       openInMaps: "Open in Maps",
       location: "Location",
       drinkingWater: "Drinking Water",
+      toilet: "Toilet",
       geolocationNotSupported: "Geolocation is not supported by this browser.",
       locationError:
         "Unable to get your location. Please check your location settings.",
@@ -66,6 +92,10 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
         hot_water: "Hot Water",
         check_date: "Last Checked",
         description: "Description",
+        baby_changing: "Baby Changing",
+        unisex: "Unisex",
+        male: "Male",
+        female: "Female",
       },
     },
     ja: {
@@ -75,6 +105,7 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
       openInMaps: "マップで開く",
       location: "位置",
       drinkingWater: "飲料水",
+      toilet: "トイレ",
       geolocationNotSupported: "このブラウザは位置情報をサポートしていません。",
       locationError:
         "あなたの位置を取得できません。位置情報設定を確認してください。",
@@ -91,6 +122,10 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
         hot_water: "温水",
         check_date: "最終確認日",
         description: "説明",
+        baby_changing: "おむつ交換台",
+        unisex: "男女共用",
+        male: "男性用",
+        female: "女性用",
       },
     },
   };
@@ -238,10 +273,39 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
       }
     };
 
+
     // Call onMapReady callback when map is loaded
     map.on("load", () => {
+      // Load PNG icons
+      map.loadImage('/droplet.png').then((response) => {
+        if (response.data) {
+          map.addImage('droplet-icon', response.data);
+        }
+      }).catch((error) => {
+        console.error('Error loading droplet icon:', error);
+      });
+      
+      map.loadImage('/toilet.png').then((response) => {
+        if (response.data) {
+          map.addImage('toilet-icon', response.data);
+        }
+      }).catch((error) => {
+        console.error('Error loading toilet icon:', error);
+      });
       // Add drinking water data source with clustering enabled
       map.addSource("drinking-water", {
+        type: "geojson",
+        data: {
+          type: "FeatureCollection",
+          features: [],
+        },
+        cluster: true,
+        clusterMaxZoom: 12, // Max zoom to cluster points on
+        clusterRadius: 60, // Radius of each cluster when clustering points (reduced for better readability)
+      });
+
+      // Add toilet data source with clustering enabled
+      map.addSource("toilets", {
         type: "geojson",
         data: {
           type: "FeatureCollection",
@@ -268,7 +332,7 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
             30,
             "#1e3a8a",
           ],
-          "circle-radius": ["step", ["get", "point_count"], 15, 10, 22, 30, 30],
+          "circle-radius": ["step", ["get", "point_count"], 15, 8, 16, 22, 22],
         },
       });
 
@@ -279,7 +343,12 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
         source: "drinking-water",
         filter: ["has", "point_count"],
         layout: {
-          "text-field": "{point_count_abbreviated}",
+          "text-field": locale === "ja" ? [
+            "case",
+            [">=", ["get", "point_count"], 10000],
+            ["concat", ["to-string", ["round", ["/", ["get", "point_count"], 10000]]], "万"],
+            ["to-string", ["get", "point_count"]]
+          ] : "{point_count_abbreviated}",
           "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
           "text-size": 12,
         },
@@ -288,17 +357,70 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
         },
       });
 
-      // Add drinking water points layer (only unclustered points)
+      // Add drinking water points layer (only unclustered points) with icon
       map.addLayer({
         id: "drinking-water-points",
-        type: "circle",
+        type: "symbol",
         source: "drinking-water",
         filter: ["!", ["has", "point_count"]],
+        layout: {
+          "icon-image": "droplet-icon",
+          "icon-size": 0.5, // Scale down the 64px icon
+          "icon-allow-overlap": true,
+        },
+      });
+
+      // Add toilet cluster circles layer
+      map.addLayer({
+        id: "toilet-clusters",
+        type: "circle",
+        source: "toilets",
+        filter: ["has", "point_count"],
         paint: {
-          "circle-radius": 6,
-          "circle-color": "#3b82f6",
-          "circle-stroke-width": 2,
-          "circle-stroke-color": "#ffffff",
+          "circle-color": [
+            "step",
+            ["get", "point_count"],
+            "#6b7280", // Gray-500
+            10,
+            "#4b5563", // Gray-600
+            30,
+            "#374151", // Gray-700
+          ],
+          "circle-radius": ["step", ["get", "point_count"], 15, 8, 16, 22, 22],
+        },
+      });
+
+      // Add toilet cluster count labels
+      map.addLayer({
+        id: "toilet-cluster-count",
+        type: "symbol",
+        source: "toilets",
+        filter: ["has", "point_count"],
+        layout: {
+          "text-field": locale === "ja" ? [
+            "case",
+            [">=", ["get", "point_count"], 10000],
+            ["concat", ["to-string", ["round", ["/", ["get", "point_count"], 10000]]], "万"],
+            ["to-string", ["get", "point_count"]]
+          ] : "{point_count_abbreviated}",
+          "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+          "text-size": 12,
+        },
+        paint: {
+          "text-color": "#ffffff",
+        },
+      });
+
+      // Add toilet points layer (only unclustered points) with icon
+      map.addLayer({
+        id: "toilet-points",
+        type: "symbol",
+        source: "toilets",
+        filter: ["!", ["has", "point_count"]],
+        layout: {
+          "icon-image": "toilet-icon",
+          "icon-size": 0.5, // Scale down the 64px icon
+          "icon-allow-overlap": true,
         },
       });
 
@@ -378,6 +500,80 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
         map.getCanvas().style.cursor = "";
       });
 
+      // Add click handler for toilet points
+      map.on("click", "toilet-points", (e) => {
+        if (e.features && e.features[0]) {
+          const feature = e.features[0] as any;
+          const coordinates = feature.geometry.coordinates.slice();
+          const properties = feature.properties;
+
+          // Close existing popup
+          if (popupRef.current) {
+            popupRef.current.remove();
+          }
+
+          // Create popup content
+          const popupContent = createPopupContent(properties, coordinates);
+
+          // Create and show popup with mobile-friendly options
+          const popup = new maplibregl.Popup({
+            offset: 15,
+            className: "custom-popup",
+            closeButton: true,
+            closeOnClick: false,
+            maxWidth: "300px",
+          })
+            .setLngLat(coordinates)
+            .setHTML(popupContent)
+            .addTo(map);
+
+          popupRef.current = popup;
+        }
+      });
+
+      // Add click handler for toilet clusters
+      map.on("click", "toilet-clusters", async (e) => {
+        const features = map.queryRenderedFeatures(e.point, {
+          layers: ["toilet-clusters"],
+        });
+
+        if (features.length > 0) {
+          const clusterId = features[0].properties?.cluster_id;
+          const source = map.getSource("toilets") as maplibregl.GeoJSONSource;
+
+          try {
+            // Get the cluster expansion zoom level
+            const expansionZoom =
+              await source.getClusterExpansionZoom(clusterId);
+
+            map.easeTo({
+              center: (features[0].geometry as any).coordinates,
+              zoom: expansionZoom + 1,
+            });
+          } catch (error) {
+            console.error("Error getting toilet cluster expansion zoom:", error);
+          }
+        }
+      });
+
+      // Change cursor on hover for toilet clusters
+      map.on("mouseenter", "toilet-clusters", () => {
+        map.getCanvas().style.cursor = "pointer";
+      });
+
+      map.on("mouseleave", "toilet-clusters", () => {
+        map.getCanvas().style.cursor = "";
+      });
+
+      // Change cursor on hover for toilet points
+      map.on("mouseenter", "toilet-points", () => {
+        map.getCanvas().style.cursor = "pointer";
+      });
+
+      map.on("mouseleave", "toilet-points", () => {
+        map.getCanvas().style.cursor = "";
+      });
+
       // Load data for current viewport
       loadDataForViewport();
 
@@ -411,7 +607,7 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
       if (newPrefectures.length === 0) return;
 
       try {
-        const newData = await loadMultiplePrefectures(newPrefectures);
+        const { drinkingWater: newWaterData, toilets: newToiletData } = await loadMultipleAmenities(newPrefectures);
 
         // Update loaded prefectures
         setLoadedPrefectures((prev) => {
@@ -420,18 +616,33 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
           return updated;
         });
 
-        // Add new data to existing data
-        setDrinkingWaterData((prev) => [...prev, ...newData]);
+        // Add new drinking water data to existing data
+        setDrinkingWaterData((prev) => [...prev, ...newWaterData]);
 
-        // Update map source with all data
-        const updatedData = [...drinkingWaterData, ...newData];
-        const source = mapRef.current!.getSource(
+        // Add new toilet data to existing data
+        setToiletData((prev) => [...prev, ...newToiletData]);
+
+        // Update drinking water map source with all data
+        const updatedWaterData = [...drinkingWaterData, ...newWaterData];
+        const waterSource = mapRef.current!.getSource(
           "drinking-water",
         ) as maplibregl.GeoJSONSource;
-        if (source) {
-          source.setData({
+        if (waterSource) {
+          waterSource.setData({
             type: "FeatureCollection",
-            features: updatedData,
+            features: updatedWaterData,
+          });
+        }
+
+        // Update toilet map source with all data
+        const updatedToiletData = [...toiletData, ...newToiletData];
+        const toiletSource = mapRef.current!.getSource(
+          "toilets",
+        ) as maplibregl.GeoJSONSource;
+        if (toiletSource) {
+          toiletSource.setData({
+            type: "FeatureCollection",
+            features: updatedToiletData,
           });
         }
       } catch (error) {
@@ -476,17 +687,59 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
     }
   }, [drinkingWaterData]);
 
+  // Update map data when toiletData changes
+  useEffect(() => {
+    if (mapRef.current && mapRef.current.getSource("toilets")) {
+      const source = mapRef.current.getSource(
+        "toilets",
+      ) as maplibregl.GeoJSONSource;
+      source.setData({
+        type: "FeatureCollection",
+        features: toiletData,
+      });
+    }
+  }, [toiletData]);
+
+  // Update layer visibility when props change
+  useEffect(() => {
+    if (mapRef.current) {
+      const map = mapRef.current;
+      
+      // Drinking water layers
+      const waterLayers = ['clusters', 'cluster-count', 'drinking-water-points'];
+      waterLayers.forEach(layerId => {
+        if (map.getLayer(layerId)) {
+          map.setLayoutProperty(layerId, 'visibility', showDrinkingWater ? 'visible' : 'none');
+        }
+      });
+      
+      // Toilet layers
+      const toiletLayers = ['toilet-clusters', 'toilet-cluster-count', 'toilet-points'];
+      toiletLayers.forEach(layerId => {
+        if (map.getLayer(layerId)) {
+          map.setLayoutProperty(layerId, 'visibility', showToilets ? 'visible' : 'none');
+        }
+      });
+    }
+  }, [showDrinkingWater, showToilets]);
+
   // Create popup content from properties
   const createPopupContent = (
     properties: any,
     coordinates: [number, number],
   ): string => {
     const currentTranslations = translations[locale];
+    const isToilet = properties.amenity === "toilets";
+    
+    const defaultName = isToilet 
+      ? currentTranslations.toilet 
+      : currentTranslations.drinkingWater;
+    
     const name =
       properties["name:en"] ||
       properties["name:ja"] ||
       properties.name ||
-      currentTranslations.drinkingWater;
+      defaultName;
 
     // Format coordinates to 4 decimal places, removing trailing zeros
     const formatCoord = (coord: number): string => {
@@ -495,6 +748,10 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
 
     const [lng, lat] = coordinates;
     const formattedLocation = `${formatCoord(lat)}, ${formatCoord(lng)}`;
+
+    // Choose appropriate button color based on amenity type
+    const buttonColor = isToilet ? "#4b5563" : "#3b82f6"; // Gray-600 for toilet, blue for water
+    const buttonHoverColor = isToilet ? "#374151" : "#2563eb"; // Gray-700 on hover for toilet
 
     let content = `<div class="popup-content">`;
     content += `<h3 style="margin: 0 0 12px 0; font-size: 18px; font-weight: 600; color: #1f2937;">${name}</h3>`;
@@ -505,7 +762,7 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
       style="
         margin-top: 8px; 
         padding: 8px 12px; 
-        background: #3b82f6; 
+        background: ${buttonColor}; 
         color: white; 
         border: none; 
         border-radius: 6px; 
@@ -519,15 +776,18 @@ export function Map({ center, zoom, onMapReady, locale = "en" }: MapProps) {
         min-height: 36px;
         touch-action: manipulation;
       "
-      onmouseover="this.style.background='#2563eb'; this.style.transform='translateY(-1px)'" 
-      onmouseout="this.style.background='#3b82f6'; this.style.transform='translateY(0)'">
+      onmouseover="this.style.background='${buttonHoverColor}'; this.style.transform='translateY(-1px)'" 
+      onmouseout="this.style.background='${buttonColor}'; this.style.transform='translateY(0)'">
       📍 ${currentTranslations.openInMaps}
     </button>`;
     content += `</div>`;
 
     const fieldLabels = currentTranslations.fieldLabels;
 
-    for (const property of PROPERTIES_TO_SHOW) {
+    // Choose appropriate properties to show based on amenity type
+    const propertiesToShow = isToilet ? TOILET_PROPERTIES_TO_SHOW : WATER_PROPERTIES_TO_SHOW;
+
+    for (const property of propertiesToShow) {
       const value = properties[property];
       if (value && value !== "unknown") {
         const label = (fieldLabels as any)[property] || property;

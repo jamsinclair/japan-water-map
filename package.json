@@ -3,11 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "license": "MIT",
+  "author": "Jamie Sinclair",
+  "repository": "github:jamsinclair/japan-water-map",
+  "homepage": "https://github.com/jamsinclair/japan-water-map#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "fetch-water-data": "node scripts/fetch-drinking-water.js",
+    "fetch-water-data": "node scripts/fetch-water-features.js",
+    "generate-social-images": "node scripts/generate-social-images.js",
     "format": "prettier --write .",
     "lint": "prettier --check ."
   },
@@ -23,5 +28,8 @@
     "prettier": "3.6.2",
     "typescript": "^5.2.2",
     "vite": "^5.3.1"
+  },
+  "optionalDependencies": {
+    "puppeteer": "^24.20.0"
   }
 }

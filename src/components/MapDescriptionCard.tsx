@@ -4,12 +4,20 @@ interface MapDescriptionCardProps {
   locale: "en" | "ja";
   onLocaleChange?: (locale: "en" | "ja") => void;
   onCitySelect?: (lat: number, lng: number, cityName: string) => void;
+  showDrinkingWater?: boolean;
+  showToilets?: boolean;
+  onToggleDrinkingWater?: (show: boolean) => void;
+  onToggleToilets?: (show: boolean) => void;
 }
 
 export function MapDescriptionCard({
   locale,
   onLocaleChange,
   onCitySelect,
+  showDrinkingWater = true,
+  showToilets = true,
+  onToggleDrinkingWater,
+  onToggleToilets,
 }: MapDescriptionCardProps) {
   const currentLocale = locale || "en";
   const [isCollapsed, setIsCollapsed] = useState(false);
@@ -46,26 +54,32 @@ export function MapDescriptionCard({
     en: {
       title: "Japan Water Map",
       description:
-        "Interactive map showing drinking water sources across Japan. Perfect for planning running routes, cycling, hiking, and outdoor activities. Data sourced from OpenStreetMap contributors.",
+        "Interactive map showing drinking water sources and public toilets across Japan. Perfect for planning running routes, cycling, hiking, and outdoor activities. Data sourced from OpenStreetMap contributors.",
       disclaimer:
-        "Note: Data reliability may vary and some fountains may be inaccessible.",
+        "Note: Data reliability may vary and some fountains or toilets may be inaccessible.",
       localeLabel: "Language:",
       collapse: "Minimize",
       expand: "Show Details",
       quickCities: "Quick Jump to Cities:",
+      layerControls: "Map Layers:",
+      drinkingWater: "Drinking Water",
+      toilets: "Public Toilets",
       madeBy: "Made by Jamie Sinclair",
       sourceLink: "Source on GitHub",
     },
     ja: {
       title: "日本飲用水マップ",
       description:
-        "日本全国の飲用水源を表示するインタラクティブマップ。ランニングルート、サイクリング、ハイキング、アウトドア活動の計画に最適。OpenStreetMapコントリビューターからのデータ。",
+        "日本全国の飲用水源と公衆トイレを表示するインタラクティブマップ。ランニングルート、サイクリング、ハイキング、アウトドア活動の計画に最適。OpenStreetMapコントリビューターからのデータ。",
       disclaimer:
-        "注意：データの信頼性は様々で、一部の水飲み場はアクセスできない場合があります。",
+        "注意：データの信頼性は様々で、一部の水飲み場やトイレはアクセスできない場合があります。",
       localeLabel: "言語：",
       collapse: "最小化",
       expand: "詳細を表示",
       quickCities: "都市への素早いジャンプ：",
+      layerControls: "マップレイヤー：",
+      drinkingWater: "飲用水",
+      toilets: "公衆トイレ",
       madeBy: "制作者：ジェイミー・シンクレア",
       sourceLink: "GitHubでソースコード",
     },
@@ -146,6 +160,37 @@ export function MapDescriptionCard({
                     {currentLocale === "ja" ? city.ja : city.en}
                   </button>
                 ))}
+              </div>
+            </div>
+
+            {/* Layer Controls */}
+            <div class="border-t border-gray-200 pt-3">
+              <div class="text-xs text-gray-600 mb-2">
+                {currentContent.layerControls}
+              </div>
+              <div class="space-y-2">
+                <label class="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={showDrinkingWater}
+                    onChange={(e) => onToggleDrinkingWater?.(e.currentTarget.checked)}
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2"
+                  />
+                  <span class="text-xs text-gray-700">
+                    💧 {currentContent.drinkingWater}
+                  </span>
+                </label>
+                <label class="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={showToilets}
+                    onChange={(e) => onToggleToilets?.(e.currentTarget.checked)}
+                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2"
+                  />
+                  <span class="text-xs text-gray-700">
+                    🚻 {currentContent.toilets}
+                  </span>
+                </label>
               </div>
             </div>
 

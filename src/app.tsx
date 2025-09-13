@@ -17,6 +17,8 @@ export function App() {
     defaultLoc.lng,
   ]);
   const [mapZoom, setMapZoom] = useState(defaultLoc.zoom || 14);
+  const [showDrinkingWater, setShowDrinkingWater] = useState(true);
+  const [showToilets, setShowToilets] = useState(true);
   const mapInstanceRef = useRef<any>(null);
   const hasInitialized = useRef(false);
 
@@ -70,11 +72,17 @@ export function App() {
         center={mapCenter}
         zoom={mapZoom}
         onMapReady={handleMapReady}
+        showDrinkingWater={showDrinkingWater}
+        showToilets={showToilets}
       />
       <MapDescriptionCard
         locale={locale}
         onLocaleChange={handleLocaleChange}
         onCitySelect={handleCitySelect}
+        showDrinkingWater={showDrinkingWater}
+        showToilets={showToilets}
+        onToggleDrinkingWater={setShowDrinkingWater}
+        onToggleToilets={setShowToilets}
       />
     </div>
   );
