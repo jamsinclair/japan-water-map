@@ -73,6 +73,7 @@ export function Map({
   const [, setToiletData] = useState<ToiletPoint[]>([]);
   const popupRef = useRef<maplibregl.Popup | null>(null);
   const loadDataTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const loadDataForViewportRef = useRef<(() => Promise<void>) | null>(null);
 
   // Translations for UI elements
   const translations = {
@@ -823,6 +824,9 @@ export function Map({
       }
     };
 
+    // Store the function in ref for access from other useEffects
+    loadDataForViewportRef.current = loadDataForViewport;
+
     // Cleanup on unmount
     return () => {
       if (loadDataTimeoutRef.current) {
@@ -856,6 +860,7 @@ export function Map({
   useEffect(() => {
     if (mapRef.current) {
       const map = mapRef.current;
+      let shouldLoadData = false;
 
       // Drinking water layers
       const waterLayers = [
@@ -888,6 +893,9 @@ export function Map({
         // Reset loaded water prefectures so data can be reloaded when re-enabled
         setLoadedWaterPrefectures(new Set());
         loadingWaterPrefectures.current.clear();
+      } else {
+        // When re-enabling drinking water layer, trigger data loading
+        shouldLoadData = true;
       }
 
       // Toilet layers
@@ -921,6 +929,19 @@ export function Map({
         // Reset loaded toilet prefectures so data can be reloaded when re-enabled
         setLoadedToiletPrefectures(new Set());
         loadingToiletPrefectures.current.clear();
+      } else {
+        // When re-enabling toilet layer, trigger data loading
+        shouldLoadData = true;
+      }
+
+      // Load data for current viewport when layers are re-enabled
+      if (shouldLoadData) {
+        // Use setTimeout to ensure state updates are processed first
+        setTimeout(() => {
+          if (loadDataForViewportRef.current) {
+            loadDataForViewportRef.current();
+          }
+        }, 0);
       }
     }
   }, [showDrinkingWater, showToilets]);
