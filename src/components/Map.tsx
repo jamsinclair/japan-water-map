@@ -68,9 +68,7 @@ export function Map({
   // Refs to track currently loading prefectures to prevent duplicate loads
   const loadingWaterPrefectures = useRef<Set<string>>(new Set());
   const loadingToiletPrefectures = useRef<Set<string>>(new Set());
-  const [, setDrinkingWaterData] = useState<
-    DrinkingWaterPoint[]
-  >([]);
+  const [, setDrinkingWaterData] = useState<DrinkingWaterPoint[]>([]);
   const [, setToiletData] = useState<ToiletPoint[]>([]);
   const popupRef = useRef<maplibregl.Popup | null>(null);
   const loadDataTimeoutRef = useRef<NodeJS.Timeout | null>(null);
@@ -1013,7 +1011,7 @@ export function Map({
       <div ref={mapContainer} className="w-full h-full" />
 
       {/* Map Controls */}
-      <div className="absolute bottom-16 right-4 sm:top-4 sm:left-4 sm:bottom-auto sm:right-auto flex flex-col gap-2 z-10">
+      <div className="absolute bottom-20 right-4 sm:top-4 sm:left-4 sm:bottom-auto sm:right-auto flex flex-col gap-2 z-10">
         <div className="bg-white rounded-md shadow-md border border-gray-200 overflow-hidden">
           <button
             onClick={handleZoomIn}
