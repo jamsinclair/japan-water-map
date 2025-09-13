@@ -68,10 +68,10 @@ export function Map({
   // Refs to track currently loading prefectures to prevent duplicate loads
   const loadingWaterPrefectures = useRef<Set<string>>(new Set());
   const loadingToiletPrefectures = useRef<Set<string>>(new Set());
-  const [drinkingWaterData, setDrinkingWaterData] = useState<
+  const [, setDrinkingWaterData] = useState<
     DrinkingWaterPoint[]
   >([]);
-  const [toiletData, setToiletData] = useState<ToiletPoint[]>([]);
+  const [, setToiletData] = useState<ToiletPoint[]>([]);
   const popupRef = useRef<maplibregl.Popup | null>(null);
   const loadDataTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
