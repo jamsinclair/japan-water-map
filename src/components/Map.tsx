@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from "preact/hooks";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import {
-  loadMultipleAmenities,
+  loadMultiplePrefectures,
+  loadMultipleToilets,
   DrinkingWaterPoint,
   ToiletPoint,
 } from "../utils/dataLoader";
