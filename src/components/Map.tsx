@@ -265,17 +265,9 @@ export function Map({
         window.matchMedia("(pointer: coarse)").matches;
 
       if (isMobile) {
-        // On mobile, try geo link first, then fallback
-        const geoUrl = `geo:${lat},${lng}`;
-        try {
-          window.location.href = geoUrl;
-          // Fallback after short delay
-          setTimeout(() => {
-            window.open(googleMapsUrl, "_blank");
-          }, 500);
-        } catch (e) {
-          window.open(googleMapsUrl, "_blank");
-        }
+        // On mobile, always use geo deep link
+        const geoUrl = `geo:${lat},${lng}?q=${lat},${lng}`;
+        window.location.href = geoUrl;
       } else {
         // On desktop, directly open Google Maps
         window.open(googleMapsUrl, "_blank");
