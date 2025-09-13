@@ -64,6 +64,7 @@ export function Map({
   const [loadedToiletPrefectures, setLoadedToiletPrefectures] = useState<
     Set<string>
   >(new Set());
+  const userLocationAnimationRef = useRef<number | null>(null);
 
   // Refs to track currently loading prefectures to prevent duplicate loads
   const loadingWaterPrefectures = useRef<Set<string>>(new Set());
@@ -199,7 +200,7 @@ export function Map({
 
     mapRef.current = map;
 
-    // Add custom popup styles for mobile accessibility
+    // Add custom popup styles for mobile accessibility and user location dot animation
     const popupStyleElement = document.createElement("style");
     popupStyleElement.textContent = `
       .custom-popup .maplibregl-popup-content {
@@ -236,6 +237,25 @@ export function Map({
       
       .custom-popup .maplibregl-popup-tip {
         border-top-color: white !important;
+      }
+      
+      @keyframes user-location-pulse {
+        0% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 0.6;
+          transform: scale(1.2);
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+      
+      .user-location-dot {
+        animation: user-location-pulse 2s ease-in-out infinite;
       }
       
       @media (max-width: 480px) {
@@ -318,6 +338,15 @@ export function Map({
         cluster: true,
         clusterMaxZoom: 12, // Max zoom to cluster points on
         clusterRadius: 60, // Radius of each cluster when clustering points (reduced for better readability)
+      });
+
+      // Add user location source (no clustering needed for single point)
+      map.addSource("user-location", {
+        type: "geojson",
+        data: {
+          type: "FeatureCollection",
+          features: [],
+        },
       });
 
       // Add cluster circles layer
@@ -445,6 +474,23 @@ export function Map({
           "icon-image": "toilet-icon",
           "icon-size": 0.5, // Scale down the 64px icon
           "icon-allow-overlap": true,
+        },
+      });
+
+      // Add user location dot layer with pulsing animation
+      map.addLayer({
+        id: "user-location-dot",
+        type: "circle",
+        source: "user-location",
+        paint: {
+          "circle-color": "#ef4444", // Red color to distinguish from blue water and gray toilet icons
+          "circle-radius": 8,
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "#ffffff",
+          "circle-stroke-opacity": 0.8,
+        },
+        layout: {
+          visibility: "none", // Initially hidden
         },
       });
 
@@ -785,6 +831,8 @@ export function Map({
       if (popupRef.current) {
         popupRef.current.remove();
       }
+      // Stop user location animation
+      stopUserLocationAnimation();
       // Clean up global function
       delete (window as any).openInMaps;
       // Clean up styles
@@ -976,6 +1024,56 @@ export function Map({
     }
   };
 
+  const animateUserLocationDot = () => {
+    if (!mapRef.current) return;
+
+    const map = mapRef.current;
+    let startTime: number;
+
+    const animate = (timestamp: number) => {
+      if (!startTime) startTime = timestamp;
+      const elapsed = timestamp - startTime;
+
+      // Create pulsing effect with sine wave
+      const phase = (elapsed / 2000) * 2 * Math.PI; // 2 second cycle (slower)
+      const pulseRadius = 7 + 0.5 * Math.sin(phase); // Pulse between 7 and 8.5px radius (more subtle)
+      const pulseOpacity = 0.9 + 0.1 * Math.sin(phase); // Pulse opacity between 0.8 and 1 (more subtle)
+
+      try {
+        // Only update if the layer exists and is visible
+        if (
+          map.getLayer("user-location-dot") &&
+          map.getLayoutProperty("user-location-dot", "visibility") === "visible"
+        ) {
+          map.setPaintProperty(
+            "user-location-dot",
+            "circle-radius",
+            pulseRadius,
+          );
+          map.setPaintProperty(
+            "user-location-dot",
+            "circle-opacity",
+            pulseOpacity,
+          );
+
+          userLocationAnimationRef.current = requestAnimationFrame(animate);
+        }
+      } catch (error) {
+        // Layer might not be ready yet, stop animation
+        console.warn("User location animation error:", error);
+      }
+    };
+
+    userLocationAnimationRef.current = requestAnimationFrame(animate);
+  };
+
+  const stopUserLocationAnimation = () => {
+    if (userLocationAnimationRef.current) {
+      cancelAnimationFrame(userLocationAnimationRef.current);
+      userLocationAnimationRef.current = null;
+    }
+  };
+
   const handleMyLocation = () => {
     if (!navigator.geolocation) {
       alert(t.geolocationNotSupported);
@@ -986,10 +1084,43 @@ export function Map({
       (position) => {
         const { latitude, longitude } = position.coords;
         if (mapRef.current) {
+          // Fly to user location
           mapRef.current.flyTo({
             center: [longitude, latitude],
             zoom: 16,
           });
+
+          // Add user location dot to the map
+          const userLocationSource = mapRef.current.getSource(
+            "user-location",
+          ) as maplibregl.GeoJSONSource;
+          if (userLocationSource) {
+            userLocationSource.setData({
+              type: "FeatureCollection",
+              features: [
+                {
+                  type: "Feature",
+                  geometry: {
+                    type: "Point",
+                    coordinates: [longitude, latitude],
+                  },
+                  properties: {},
+                },
+              ],
+            });
+
+            // Show the user location dot layer
+            mapRef.current.setLayoutProperty(
+              "user-location-dot",
+              "visibility",
+              "visible",
+            );
+
+            // Start pulsing animation
+            stopUserLocationAnimation(); // Stop any existing animation
+            animateUserLocationDot();
+          }
+
           // Update URL immediately for location button usage
           updateURLWithLocationDebounced(latitude, longitude, 16, 100);
         }
