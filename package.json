@@ -12,7 +12,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "fetch-water-data": "node scripts/fetch-water-features.js",
-    "generate-social-images": "node scripts/generate-social-images.js",
+    "generate-social-images": "npm i --no-save puppeteer && node scripts/generate-social-images.js",
     "format": "prettier --write .",
     "lint": "prettier --check ."
   },
@@ -28,8 +28,5 @@
     "prettier": "3.6.2",
     "typescript": "^5.2.2",
     "vite": "^7.1.5"
-  },
-  "optionalDependencies": {
-    "puppeteer": "^24.20.0"
   }
 }
