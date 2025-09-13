@@ -1,1 +1,129 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[132.690337,35.4007149]},"properties":{"id":4649149075,"amenity":"drinking_water","check_date":"2025-08-06","name":"真名井の清水","natural":"spring"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[133.0863827,35.1767987]},"properties":{"id":5836624199,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[132.1087575,34.9391834]},"properties":{"id":6163731153,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[133.0586401,35.438333]},"properties":{"id":6583550530,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[133.1820889,35.3650611]},"properties":{"id":8621359490,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[133.181925,35.3654111]},"properties":{"id":8621359504,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[133.056937,35.4427661]},"properties":{"id":10232135080,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[133.0654495,35.4384296]},"properties":{"id":10232157803,"access":"unknown","amenity":"drinking_water","wheelchair":"no"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[133.0635883,35.4414716]},"properties":{"id":10232162216,"amenity":"drinking_water","fee":"no"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[133.062995,35.4349269]},"properties":{"id":10232167425,"amenity":"drinking_water","fee":"no","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[133.0599969,35.4392427]},"properties":{"id":10248023325,"access":"private","amenity":"drinking_water","bottle":"no","fee":"no","operator":"島根県立大学","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[132.9648072,36.0978687]},"properties":{"id":11270875137,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[133.0581052,35.436488]},"properties":{"id":11292317884,"amenity":"drinking_water","bottle":"no","fee":"no","wheelchair":"no"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[133.0603703,35.4392586]},"properties":{"id":12252304231,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[132.6298221,35.4334763]},"properties":{"id":12709510053,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[132.6303659,35.4328822]},"properties":{"id":12709514230,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[132.4355911,35.1035989]},"properties":{"id":12724448526,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[132.4373759,35.1067084]},"properties":{"id":12724468195,"amenity":"drinking_water"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.690337, 35.4007149] },
+      "properties": {
+        "id": 4649149075,
+        "amenity": "drinking_water",
+        "check_date": "2025-08-06",
+        "name": "真名井の清水",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.0863827, 35.1767987] },
+      "properties": { "id": 5836624199, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.1087575, 34.9391834] },
+      "properties": { "id": 6163731153, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.0586401, 35.438333] },
+      "properties": { "id": 6583550530, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.1820889, 35.3650611] },
+      "properties": { "id": 8621359490, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.181925, 35.3654111] },
+      "properties": { "id": 8621359504, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.056937, 35.4427661] },
+      "properties": { "id": 10232135080, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.0654495, 35.4384296] },
+      "properties": {
+        "id": 10232157803,
+        "access": "unknown",
+        "amenity": "drinking_water",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.0635883, 35.4414716] },
+      "properties": {
+        "id": 10232162216,
+        "amenity": "drinking_water",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.062995, 35.4349269] },
+      "properties": {
+        "id": 10232167425,
+        "amenity": "drinking_water",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.0599969, 35.4392427] },
+      "properties": {
+        "id": 10248023325,
+        "access": "private",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "fee": "no",
+        "operator": "島根県立大学",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.9648072, 36.0978687] },
+      "properties": { "id": 11270875137, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.0581052, 35.436488] },
+      "properties": {
+        "id": 11292317884,
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "fee": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [133.0603703, 35.4392586] },
+      "properties": { "id": 12252304231, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.6298221, 35.4334763] },
+      "properties": { "id": 12709510053, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.6303659, 35.4328822] },
+      "properties": { "id": 12709514230, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.4355911, 35.1035989] },
+      "properties": { "id": 12724448526, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.4373759, 35.1067084] },
+      "properties": { "id": 12724468195, "amenity": "drinking_water" }
+    }
+  ]
+}

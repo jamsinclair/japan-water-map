@@ -1,1 +1,3002 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[142.0710164,39.5467191]},"properties":{"id":662185860,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0549706,39.4323077]},"properties":{"id":961619144,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0564695,39.4340442]},"properties":{"id":961619274,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0578748,39.4323692]},"properties":{"id":961620003,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0551928,39.4338189]},"properties":{"id":961620254,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0564877,39.4370554]},"properties":{"id":962454946,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.053279,39.4329956]},"properties":{"id":962454947,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0557018,39.4358856]},"properties":{"id":962454955,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0569831,39.4330801]},"properties":{"id":962454957,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8755171,39.3004139]},"properties":{"id":968604580,"element_type":"node","amenity":"toilets","toilets:disposal":"flush","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0170926,39.7505666]},"properties":{"id":1121034115,"element_type":"node","amenity":"toilets","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.880736,39.27532]},"properties":{"id":1683706195,"element_type":"node","amenity":"toilets","name":"公共トイレ","source":"survey","wheelchair":"no"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7735946,39.3591071]},"properties":{"id":1794546288,"element_type":"node","amenity":"toilets","source":"bing"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1552004,39.8352463]},"properties":{"id":1853495659,"element_type":"node","amenity":"toilets","source":"image;Bing,2011-11-17"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.851864,39.3402347]},"properties":{"id":1853727274,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.8535185,39.3388733]},"properties":{"id":1853750378,"element_type":"node","amenity":"toilets","source":"bing,survey"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1229959,39.2957539]},"properties":{"id":1855479640,"element_type":"node","amenity":"toilets","source":"image,Bing,2008-07-26"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1211817,39.2812285]},"properties":{"id":1856299542,"element_type":"node","amenity":"toilets","fee":"no","source":"image,Bing,2008-07-26","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.5832954,39.0698124]},"properties":{"id":1895715864,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9010642,39.3661371]},"properties":{"id":1897269156,"element_type":"node","amenity":"toilets","source":"survey"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.659822,39.01569]},"properties":{"id":2364946964,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.879824,39.273691]},"properties":{"id":2365254703,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.873293,39.272753]},"properties":{"id":2365517160,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9470438,39.640206]},"properties":{"id":2463870747,"element_type":"node","amenity":"toilets","drinking_water":"no","fee":"no","source":"image,2013-09;Bing,2012-02-15","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.8761682,39.2725475]},"properties":{"id":2474814768,"element_type":"node","amenity":"toilets","source":"image,2013-09;Bing,2012-01-27"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1377657,38.9265299]},"properties":{"id":2481111349,"element_type":"node","access":"public","amenity":"toilets","fee":"no","source":"image,2013-09;Bing,2012-11-06","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.5000932,39.3306742]},"properties":{"id":2600971977,"element_type":"node","amenity":"toilets","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8440211,39.2988747]},"properties":{"id":2736118487,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.6188077,39.0305933]},"properties":{"id":2983945956,"element_type":"node","amenity":"toilets","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.6176067,39.0307213]},"properties":{"id":2983956173,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.5276257,39.3277147]},"properties":{"id":2985340556,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.5450859,39.3425153]},"properties":{"id":2985530948,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0530283,38.9458224]},"properties":{"id":3009729040,"element_type":"node","amenity":"toilets","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0470282,38.9437076]},"properties":{"id":3009766734,"element_type":"node","amenity":"toilets","name":"厳美公園便所"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.530256,39.332271]},"properties":{"id":3009889657,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.107604,39.685835]},"properties":{"id":3015677034,"element_type":"node","amenity":"toilets","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.105157,39.683069]},"properties":{"id":3015698233,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1557984,39.5568456]},"properties":{"id":3197240161,"element_type":"node","amenity":"toilets","name":"アクアボール"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1557378,39.5568167]},"properties":{"id":3197240261,"element_type":"node","amenity":"toilets","name":"アクアボール"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9475936,39.4665027]},"properties":{"id":3505051094,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9834391,39.4418235]},"properties":{"id":3505051100,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1377564,39.8030085]},"properties":{"id":3686483833,"element_type":"node","access":"public","amenity":"toilets","male":"yes","name":"岩手県立大学看護学部トイレ","toilets:disposal":"flush"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1378966,39.8025785]},"properties":{"id":3686483834,"element_type":"node","access":"public","amenity":"toilets","female":"yes","name":"岩手県立大学看護学部トイレ","toilets:disposal":"flush"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1381725,39.8020699]},"properties":{"id":3686485782,"element_type":"node","access":"public","amenity":"toilets","male":"yes","name":"岩手県立大学盛岡短期大学部トイレ","toilets:disposal":"flush"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1380575,39.802084]},"properties":{"id":3686485783,"element_type":"node","access":"public","amenity":"toilets","female":"yes","name":"岩手県立大学盛岡短期大学部トイレ","toilets:disposal":"flush"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.133637,39.8029635]},"properties":{"id":3686487613,"element_type":"node","amenity":"toilets","wheelchair":"no"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1370225,39.8028545]},"properties":{"id":3686488325,"element_type":"node","amenity":"toilets","building":"yes","building:levels":"4","indoor":"yes","level":"4","name":"handicap toilet","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1368524,39.8033321]},"properties":{"id":3686488327,"element_type":"node","amenity":"toilets","building":"yes","name":"handicap toilet","toilets:wheelchair":"yes","unisex":"yes","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1371606,39.8023963]},"properties":{"id":3686488328,"element_type":"node","amenity":"toilets","building":"yes","name":"handicap toilet","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1374613,39.801974]},"properties":{"id":3686488329,"element_type":"node","amenity":"toilets","building":"yes","name":"handicap toilet","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1364736,39.8027281]},"properties":{"id":3686497545,"element_type":"node","amenity":"toilets","level":"2;4","name":"トイレ","toilets:disposal":"flush","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1354514,39.803199]},"properties":{"id":3686499618,"element_type":"node","access":"public","amenity":"toilets","fee":"no","name":"handicap toilet","toilets:disposal":"flush","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1366962,39.8022541]},"properties":{"id":3686501589,"element_type":"node","amenity":"toilets","level":"1;3","name":"トイレ","toilets:disposal":"flush","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.13701,39.8018564]},"properties":{"id":3686503794,"element_type":"node","amenity":"toilets","level":"1;3","name":"トイレ","toilets:disposal":"flush","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.01979,39.754171]},"properties":{"id":3694532725,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7822789,39.253429]},"properties":{"id":3699763173,"element_type":"node","access":"public","amenity":"toilets","operator":"国土交通省","toilets:disposal":"flush","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.6230185,39.0275482]},"properties":{"id":4162269308,"element_type":"node","amenity":"toilets","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.8024007,40.1170658]},"properties":{"id":4186862217,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9710735,39.6387441]},"properties":{"id":4317626315,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[142.0500146,39.5327749]},"properties":{"id":4336225209,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.6294579,39.0167537]},"properties":{"id":4831900718,"element_type":"node","amenity":"toilets","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.6281515,39.0169943]},"properties":{"id":4831901132,"element_type":"node","access":"yes","amenity":"toilets","changing_table":"no","fee":"no","operator":"陸前高田市","toilets:disposal":"flush","unisex":"yes","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7207044,39.0631658]},"properties":{"id":4833618707,"element_type":"node","amenity":"toilets","wheelchair":"no"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7216239,39.0611023]},"properties":{"id":4838295032,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.2235319,38.827522]},"properties":{"id":4862998782,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.137575,39.803799]},"properties":{"id":4930656330,"element_type":"node","amenity":"toilets","name":"岩手県立大学メディア棟トイレ","toilets:wheelchair":"yes","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1293571,39.2796202]},"properties":{"id":5057509621,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1067008,38.9978774]},"properties":{"id":5091299964,"element_type":"node","amenity":"toilets","check_date":"2023-11-10"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.9444655,40.1394979]},"properties":{"id":5144300321,"element_type":"node","amenity":"toilets","operator":"Station"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.9984861,40.1378533]},"properties":{"id":5146318822,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1551834,39.7090738]},"properties":{"id":5237234027,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1008514,39.0014959]},"properties":{"id":5243617202,"element_type":"node","access":"yes","amenity":"toilets","level":"-1"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.8953957,39.3615718]},"properties":{"id":5589929655,"element_type":"node","amenity":"toilets","changing_table":"no","operator":"大槌町"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9023345,39.3596059]},"properties":{"id":5589937715,"element_type":"node","amenity":"toilets","operator":"大槌町"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7915704,39.8629683]},"properties":{"id":5599851044,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7961832,39.8604761]},"properties":{"id":5599851051,"element_type":"node","amenity":"toilets","female":"yes","male":"yes","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.2688943,38.8984641]},"properties":{"id":5633121351,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1705519,38.8339466]},"properties":{"id":5637583343,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.169156,38.8350682]},"properties":{"id":5637583344,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1437209,39.140107]},"properties":{"id":5744973225,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.3515355,38.8672393]},"properties":{"id":5901332602,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0058421,39.3871633]},"properties":{"id":5938012685,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1136137,39.3960516]},"properties":{"id":5938471789,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.5312269,39.3321995]},"properties":{"id":5942099485,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.566233,39.3727411]},"properties":{"id":5947885685,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.5633719,39.3692198]},"properties":{"id":5947929386,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9929459,39.348458]},"properties":{"id":5955945285,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1067544,39.3563041]},"properties":{"id":5960737893,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1658165,39.7424074]},"properties":{"id":6011625524,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1655013,39.754587]},"properties":{"id":6011975704,"element_type":"node","amenity":"toilets","source":"GSImaps/ort"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.164588,39.7547519]},"properties":{"id":6011975705,"element_type":"node","amenity":"toilets","source":"GSImaps/ort"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9797851,39.648619]},"properties":{"id":6349606013,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7645044,40.190167]},"properties":{"id":6349940727,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7670149,40.1884168]},"properties":{"id":6351640692,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.8877667,39.3269673]},"properties":{"id":6357425735,"element_type":"node","amenity":"toilets","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9603433,39.6304745]},"properties":{"id":6357824244,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9609797,39.6298189]},"properties":{"id":6357824247,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9463855,39.6466293]},"properties":{"id":6359336712,"element_type":"node","amenity":"toilets","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1739273,39.4067223]},"properties":{"id":6359734229,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9030243,39.3568497]},"properties":{"id":6362662713,"element_type":"node","amenity":"toilets","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7707904,40.1898165]},"properties":{"id":6362709463,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9507824,39.4640437]},"properties":{"id":6362765718,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.892266,39.3279178]},"properties":{"id":6366242645,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.8787785,39.2744211]},"properties":{"id":6370016990,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.8818027,39.272746]},"properties":{"id":6370017010,"element_type":"node","amenity":"toilets","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7730502,40.1954957]},"properties":{"id":6412081553,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9163715,39.6385391]},"properties":{"id":6837677576,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8411371,39.5448683]},"properties":{"id":6934916417,"element_type":"node","amenity":"toilets","fee":"no","female":"yes","male":"yes","name":"貝沢地区砂防公園トイレ","toilets:disposal":"flush","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.7988388,39.4814396]},"properties":{"id":6936566348,"element_type":"node","amenity":"toilets","changing_table":"no","fee":"no","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.821124,39.5464907]},"properties":{"id":6943094554,"element_type":"node","access":"no","amenity":"toilets","changing_table":"no","fee":"no","female":"yes","male":"yes","toilets:disposal":"flush","unisex":"no","wheelchair":"no"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.4484417,38.9311714]},"properties":{"id":7352745970,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.4526341,38.938114]},"properties":{"id":7363557752,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9302613,40.0040307]},"properties":{"id":7645739985,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1189602,38.9456896]},"properties":{"id":7777574953,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.7556892,39.4005083]},"properties":{"id":7828422108,"element_type":"node","amenity":"toilets","changing_table":"無し","fee":"無し","female":"有り","male":"有り","toilets:disposal":"水洗","wheelchair":"不可"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.7715263,39.3446914]},"properties":{"id":7835090041,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.759488,39.4436116]},"properties":{"id":7835904755,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1908899,39.6958295]},"properties":{"id":7836563907,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1942723,39.6972889]},"properties":{"id":7836563908,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1951048,39.6968268]},"properties":{"id":7836563909,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1468831,38.918147]},"properties":{"id":7877218885,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.6991673,40.4194508]},"properties":{"id":8485184517,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.7508814,39.434872]},"properties":{"id":8935386235,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.7485933,39.4333543]},"properties":{"id":9249564036,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1173774,38.9910277]},"properties":{"id":9711045154,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1116318,38.9879297]},"properties":{"id":9711045165,"element_type":"node","access":"yes","amenity":"toilets","fee":"no","name":"観自在王院さわやかトイレ","wheelchair":"designated"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1005558,39.0676741]},"properties":{"id":11101707971,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.102224,39.0677964]},"properties":{"id":11101708090,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.64034,39.007191]},"properties":{"id":11872819777,"element_type":"node","amenity":"toilets","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.6361473,39.0064648]},"properties":{"id":11873539516,"element_type":"node","amenity":"toilets","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1403214,39.7218719]},"properties":{"id":12041611957,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.5285671,39.3296548]},"properties":{"id":12099359992,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1086511,38.9869572]},"properties":{"id":12099438020,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7155784,40.4102829]},"properties":{"id":12277902501,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7199133,40.4019126]},"properties":{"id":12277921101,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7214159,40.4036801]},"properties":{"id":12277964601,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7197611,40.4003364]},"properties":{"id":12278048301,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.71996,40.4016066]},"properties":{"id":12278496101,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.898582,40.013874]},"properties":{"id":12284577601,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9065054,40.0091401]},"properties":{"id":12284604901,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9293475,40.0077928]},"properties":{"id":12284673801,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9324681,40.0027366]},"properties":{"id":12284918801,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9316577,40.0037642]},"properties":{"id":12284990501,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9518411,39.9791352]},"properties":{"id":12287410501,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9499596,39.977472]},"properties":{"id":12287435901,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9339609,39.9344261]},"properties":{"id":12289115501,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.957331,39.9520273]},"properties":{"id":12289148413,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.9341339,40.0051787]},"properties":{"id":12289649201,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.8856386,40.0025478]},"properties":{"id":12290976801,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1174931,38.9882164]},"properties":{"id":12446548183,"element_type":"node","access":"yes","amenity":"toilets","fee":"no","level":"0","wheelchair":"designated"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.137807,38.9259714]},"properties":{"id":12446548196,"element_type":"node","access":"customers","amenity":"toilets","fee":"no","level":"0","toilets:disposal":"flush","wheelchair":"designated"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1391416,38.9263352]},"properties":{"id":12446548200,"element_type":"node","access":"customers","amenity":"toilets","fee":"no","level":"1","toilets:disposal":"flush","toilets:handwashing":"yes","toilets:paper_supplied":"yes","toilets:position":"seated;urinal","wheelchair":"designated"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1109187,38.9909503]},"properties":{"id":12446589706,"element_type":"node","amenity":"toilets","fee":"no","wheelchair":"designated"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.3022766,40.2686761]},"properties":{"id":12709019853,"element_type":"node","amenity":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.59266288,39.029100140000004]},"properties":{"id":157964841,"element_type":"way","amenity":"toilets","building":"yes","source":"survey"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1116137,39.2945028]},"properties":{"id":175080999,"element_type":"way","amenity":"toilets","building":"yes","fee":"no","source":"image,Bing,2008-07-26"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.77578612,39.31445548]},"properties":{"id":175571472,"element_type":"way","access":"yes","amenity":"toilets","building":"hut","fee":"no","wheelchair":"designated"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.62580337999998,39.027407620000005]},"properties":{"id":179798116,"element_type":"way","amenity":"toilets","building":"yes","name":"移動式循環型水洗バイオトイレシステム","source":"survey"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.29122316000002,40.28513158]},"properties":{"id":238014864,"element_type":"way","amenity":"toilets","building":"yes","fee":"no","source":"image,2013-09;Bing","wheelchair":"no"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.79840506,39.62112887999999]},"properties":{"id":238171959,"element_type":"way","amenity":"toilets","building":"yes","drinking_water":"no","fee":"no","source":"image,2013-09;Bing,2008-04-21","wheelchair":"no"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.51374538000002,39.325716840000005]},"properties":{"id":249342524,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8440177846154,39.29886732307692]},"properties":{"id":268253382,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.78754429999998,39.31393296]},"properties":{"id":293700696,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.17782752,38.90851428]},"properties":{"id":309498233,"element_type":"way","amenity":"toilets","building":"yes","fee":"no","name":"真滝公衆トイレ","toilets:disposal":"flush"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.13357972,38.93173258]},"properties":{"id":361246640,"element_type":"way","amenity":"toilets","building":"yes","operator":"一関市","source":"GSImaps/std"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.15000836,39.1766969]},"properties":{"id":365466623,"element_type":"way","amenity":"toilets","building":"yes","note":"結構臭い","source":"image,2015-08;Bing","toilets:disposal":"pitlatrine","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.3820966,40.32245974]},"properties":{"id":370673122,"element_type":"way","access":"public","amenity":"toilets","building":"yes","toilets:disposal":"flush"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.14770040000002,39.72401678000001]},"properties":{"id":386621020,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.14568406666666,39.7275123]},"properties":{"id":390841549,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.14228022857142,39.69851871428572]},"properties":{"id":390842492,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.23753468,38.976516520000004]},"properties":{"id":397198863,"element_type":"way","amenity":"toilets","building":"yes","female":"yes","male":"yes","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.71050096,39.0859845]},"properties":{"id":397955821,"element_type":"way","access":"yes","amenity":"toilets","building":"yes","fee":"no","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.29293028181817,40.20068203636363]},"properties":{"id":426305032,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.28954868,40.19972466]},"properties":{"id":426533500,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.29807652,40.20513658]},"properties":{"id":426541399,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.58986729999998,39.64872908]},"properties":{"id":428729650,"element_type":"way","access":"customers","amenity":"toilets","building":"yes","fee":"no","female":"yes","male":"yes","unisex":"yes","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.85893093333334,39.952887044444445]},"properties":{"id":442339236,"element_type":"way","amenity":"toilets","building":"yes","name":"八幡沼園地公衆トイレ"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.85716815,39.95044681666666]},"properties":{"id":443016939,"element_type":"way","amenity":"toilets","name":"八幡平見返峠さわやかトイレ"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.04567838181816,39.91367025454545]},"properties":{"id":443134913,"element_type":"way","amenity":"toilets","building":"toilets","fee":"no"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.11222434,38.96311288]},"properties":{"id":443146071,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.13719052,38.925732319999995]},"properties":{"id":462446696,"element_type":"way","access":"public","amenity":"toilets","building":"public","fee":"no","source":"image,2013-09;Bing,2012-11-06","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.10214765999999,39.00155746]},"properties":{"id":513794158,"element_type":"way","access":"yes","amenity":"toilets","building":"yes","fee":"no","source":"Bing","wheelchair":"no"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.14970922,39.7006482]},"properties":{"id":514415305,"element_type":"way","amenity":"toilets","building":"yes","source":"Bing"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.29999432,40.265981260000004]},"properties":{"id":521109434,"element_type":"way","amenity":"toilets","building":"yes","source":"Bing"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.30406304,40.266266879999996]},"properties":{"id":521109494,"element_type":"way","amenity":"toilets","building":"yes","source":"Bing"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.00624741666667,39.844244249999996]},"properties":{"id":522163735,"element_type":"way","amenity":"toilets","building":"yes","building:levels":"1","name":"岩手山八合目トイレ","operator":"岩手県山岳協会"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.03930485,39.83414255]},"properties":{"id":522830433,"element_type":"way","amenity":"toilets","building":"yes","building:levels":"1","name":"岩手山登山口さわやかトイレ","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.15079011999998,39.699998719999996]},"properties":{"id":541661617,"element_type":"way","amenity":"toilets","building":"roof","source":"Bing"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.97518187999998,39.737947340000005]},"properties":{"id":542025049,"element_type":"way","amenity":"toilets","building":"yes","source":"Bing"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.15066442,39.7011793]},"properties":{"id":542025068,"element_type":"way","amenity":"toilets","building":"yes","source":"Bing"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.10570668,38.99949106]},"properties":{"id":542353321,"element_type":"way","access":"yes","amenity":"toilets","building":"service","building:levels":"1","fee":"no","name":"黑門トイレ","source":"Bing","toilets:disposal":"flush","toilets:handwashing":"yes","toilets:paper_supplied":"yes","toilets:position":"seated;urinal"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.30647162,40.198508700000005]},"properties":{"id":547543213,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.30758384,40.171001059999995]},"properties":{"id":559626874,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.30883488,40.154173879999995]},"properties":{"id":559626950,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.02466674,39.70985404]},"properties":{"id":583605227,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.01771552,39.75074936]},"properties":{"id":584810236,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0405819,39.83322763333333]},"properties":{"id":585657681,"element_type":"way","amenity":"toilets","building":"yes","building:levels":"1"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.29387390000002,38.8484817]},"properties":{"id":589463639,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.14600659090908,39.73224320909091]},"properties":{"id":591666714,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.79110179999998,39.846957399999994]},"properties":{"id":621347796,"element_type":"way","amenity":"toilets","building":"yes","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.35154956,38.86724683999999]},"properties":{"id":625015743,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.15432802,39.74947108]},"properties":{"id":638509196,"element_type":"way","amenity":"toilets","building":"yes","source":"GSImaps/ort"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.52830433999998,39.33091242]},"properties":{"id":638736507,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.55822404,39.33163856]},"properties":{"id":640887574,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.12827488,39.2733519]},"properties":{"id":641246678,"element_type":"way","amenity":"toilets","building":"toilets"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.56506102,39.33045162]},"properties":{"id":643069319,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.15976908,38.938507779999995]},"properties":{"id":652862166,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.76752616,40.189156139999994]},"properties":{"id":678035272,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.76278782,40.1913383]},"properties":{"id":682046827,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7700961,40.18797292000001]},"properties":{"id":682046867,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.7588570222222,40.18745594444445]},"properties":{"id":684802449,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.22207162,38.82573448000001]},"properties":{"id":685597889,"element_type":"way","amenity":"toilets","building":"yes","source":"GSI/KIBAN 2500"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.13170245999999,39.28349796]},"properties":{"id":689450012,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.40421518,38.793506539999996]},"properties":{"id":699156502,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.16155878,39.71381194000001]},"properties":{"id":708353605,"element_type":"way","amenity":"toilets","building":"yes","source":"GSImaps/std","unisex":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.93157223999998,39.94736338]},"properties":{"id":732376274,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.8411450222222,39.54486722222222]},"properties":{"id":741350721,"element_type":"way","amenity":"toilets","building":"yes","name":"貝沢地区砂防公園トイレ"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.75567342,39.400507100000006]},"properties":{"id":741799713,"element_type":"way","amenity":"toilets","building":"yes","changing_table":"no","fee":"no","female":"yes","male":"yes","note":"不衛生","toilets:disposal":"flush","wheelchair":"no"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.89809413999998,40.01546638000001]},"properties":{"id":750766349,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.8342708,39.14621168]},"properties":{"id":761193701,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.72371592000002,39.06250206]},"properties":{"id":775257214,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.21101784,38.982603239999996]},"properties":{"id":810376341,"element_type":"way","amenity":"toilets","building":"yes","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.21011614,38.98260296]},"properties":{"id":810377198,"element_type":"way","amenity":"toilets","building":"yes","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.75948346,39.443607879999995]},"properties":{"id":839018094,"element_type":"way","amenity":"toilets","building":"yes","name":"猿橋農村公園のトイレ"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.18949886000001,39.69725024]},"properties":{"id":839616250,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.18948947999996,39.6986251]},"properties":{"id":839616256,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.18961338,39.699463879999996]},"properties":{"id":839616266,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.19166672,39.697838620000006]},"properties":{"id":839616270,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.13823938000002,39.71341202]},"properties":{"id":868937013,"element_type":"way","amenity":"toilets","building":"yes","name":"岩手大学 生活協同組合 農学部食堂"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.97324635384615,39.43652005384615]},"properties":{"id":916879890,"element_type":"way","access":"customers","amenity":"toilets","building":"yes","fee":"no","source":"image,2013-09;Bing,2012-04-04","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.68306084000002,39.242463879999995]},"properties":{"id":926837466,"element_type":"way","amenity":"toilets","building":"yes","building:levels":"1","source":"Bing;survey"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.18278642,39.713093099999995]},"properties":{"id":948579044,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.17776836000002,39.71359298]},"properties":{"id":948579045,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.83146896,40.07788216]},"properties":{"id":971114846,"element_type":"way","amenity":"toilets","building":"yes","fee":"no","female":"yes","male":"yes","toilets:disposal":"flush"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.12979852,38.926984020000006]},"properties":{"id":1096854510,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.10077343999998,39.712921619999996]},"properties":{"id":1155150306,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.2334568,38.853987759999995]},"properties":{"id":1188064579,"element_type":"way","amenity":"toilets","building":"yes","source":"microsoft/BuildingFootprints"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.10772776000002,38.98136922]},"properties":{"id":1196378052,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.13977254000002,39.13572756]},"properties":{"id":1198194000,"element_type":"way","amenity":"toilets","building":"yes","source":"microsoft/BuildingFootprints"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.08812484,38.936502360000006]},"properties":{"id":1211160659,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.11034250000003,38.92343158]},"properties":{"id":1211162881,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.5713577,39.35473582]},"properties":{"id":1301527670,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.5416284,39.397082759999996]},"properties":{"id":1301754052,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.54216814,39.397461019999994]},"properties":{"id":1301754053,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.54282410000002,39.39780082]},"properties":{"id":1301754056,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.54405488333333,39.39766235]},"properties":{"id":1301754058,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.54417230000004,39.39639518]},"properties":{"id":1301754063,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[140.88760882,39.11510154]},"properties":{"id":1319366313,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.0952227,39.26053438]},"properties":{"id":1321827643,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.20578218,39.08871386]},"properties":{"id":1325526623,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.20660726,39.089799479999996]},"properties":{"id":1325526635,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.24958652000004,38.99529441999999]},"properties":{"id":1326152183,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.98150976000002,39.73518204]},"properties":{"id":1326385554,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[142.05210532,39.53342790000001]},"properties":{"id":1328003506,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.96714386,39.687337219999996]},"properties":{"id":1328695810,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.1392774,39.648497080000006]},"properties":{"id":1338932630,"element_type":"way","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.08541343999997,39.23853554]},"properties":{"id":1352479302,"element_type":"way","access":"yes","amenity":"toilets","building":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[141.09008532000001,39.24639168]},"properties":{"id":1360223132,"element_type":"way","amenity":"toilets","building":"yes"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [142.0710164, 39.5467191] },
+      "properties": {
+        "id": 662185860,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.0549706, 39.4323077] },
+      "properties": {
+        "id": 961619144,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.0564695, 39.4340442] },
+      "properties": {
+        "id": 961619274,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.0578748, 39.4323692] },
+      "properties": {
+        "id": 961620003,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.0551928, 39.4338189] },
+      "properties": {
+        "id": 961620254,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.0564877, 39.4370554] },
+      "properties": {
+        "id": 962454946,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.053279, 39.4329956] },
+      "properties": {
+        "id": 962454947,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.0557018, 39.4358856] },
+      "properties": {
+        "id": 962454955,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.0569831, 39.4330801] },
+      "properties": {
+        "id": 962454957,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.8755171, 39.3004139] },
+      "properties": {
+        "id": 968604580,
+        "element_type": "node",
+        "amenity": "toilets",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.0170926, 39.7505666] },
+      "properties": {
+        "id": 1121034115,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.880736, 39.27532] },
+      "properties": {
+        "id": 1683706195,
+        "element_type": "node",
+        "amenity": "toilets",
+        "name": "公共トイレ",
+        "source": "survey",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.7735946, 39.3591071] },
+      "properties": {
+        "id": 1794546288,
+        "element_type": "node",
+        "amenity": "toilets",
+        "source": "bing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1552004, 39.8352463] },
+      "properties": {
+        "id": 1853495659,
+        "element_type": "node",
+        "amenity": "toilets",
+        "source": "image;Bing,2011-11-17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.851864, 39.3402347] },
+      "properties": {
+        "id": 1853727274,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.8535185, 39.3388733] },
+      "properties": {
+        "id": 1853750378,
+        "element_type": "node",
+        "amenity": "toilets",
+        "source": "bing,survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1229959, 39.2957539] },
+      "properties": {
+        "id": 1855479640,
+        "element_type": "node",
+        "amenity": "toilets",
+        "source": "image,Bing,2008-07-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1211817, 39.2812285] },
+      "properties": {
+        "id": 1856299542,
+        "element_type": "node",
+        "amenity": "toilets",
+        "fee": "no",
+        "source": "image,Bing,2008-07-26",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.5832954, 39.0698124] },
+      "properties": {
+        "id": 1895715864,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9010642, 39.3661371] },
+      "properties": {
+        "id": 1897269156,
+        "element_type": "node",
+        "amenity": "toilets",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.659822, 39.01569] },
+      "properties": {
+        "id": 2364946964,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.879824, 39.273691] },
+      "properties": {
+        "id": 2365254703,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.873293, 39.272753] },
+      "properties": {
+        "id": 2365517160,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9470438, 39.640206] },
+      "properties": {
+        "id": 2463870747,
+        "element_type": "node",
+        "amenity": "toilets",
+        "drinking_water": "no",
+        "fee": "no",
+        "source": "image,2013-09;Bing,2012-02-15",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.8761682, 39.2725475] },
+      "properties": {
+        "id": 2474814768,
+        "element_type": "node",
+        "amenity": "toilets",
+        "source": "image,2013-09;Bing,2012-01-27"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1377657, 38.9265299] },
+      "properties": {
+        "id": 2481111349,
+        "element_type": "node",
+        "access": "public",
+        "amenity": "toilets",
+        "fee": "no",
+        "source": "image,2013-09;Bing,2012-11-06",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.5000932, 39.3306742] },
+      "properties": {
+        "id": 2600971977,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.8440211, 39.2988747] },
+      "properties": {
+        "id": 2736118487,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.6188077, 39.0305933] },
+      "properties": {
+        "id": 2983945956,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.6176067, 39.0307213] },
+      "properties": {
+        "id": 2983956173,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.5276257, 39.3277147] },
+      "properties": {
+        "id": 2985340556,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.5450859, 39.3425153] },
+      "properties": {
+        "id": 2985530948,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.0530283, 38.9458224] },
+      "properties": {
+        "id": 3009729040,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.0470282, 38.9437076] },
+      "properties": {
+        "id": 3009766734,
+        "element_type": "node",
+        "amenity": "toilets",
+        "name": "厳美公園便所"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.530256, 39.332271] },
+      "properties": {
+        "id": 3009889657,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.107604, 39.685835] },
+      "properties": {
+        "id": 3015677034,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.105157, 39.683069] },
+      "properties": {
+        "id": 3015698233,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1557984, 39.5568456] },
+      "properties": {
+        "id": 3197240161,
+        "element_type": "node",
+        "amenity": "toilets",
+        "name": "アクアボール"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1557378, 39.5568167] },
+      "properties": {
+        "id": 3197240261,
+        "element_type": "node",
+        "amenity": "toilets",
+        "name": "アクアボール"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9475936, 39.4665027] },
+      "properties": {
+        "id": 3505051094,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9834391, 39.4418235] },
+      "properties": {
+        "id": 3505051100,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1377564, 39.8030085] },
+      "properties": {
+        "id": 3686483833,
+        "element_type": "node",
+        "access": "public",
+        "amenity": "toilets",
+        "male": "yes",
+        "name": "岩手県立大学看護学部トイレ",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1378966, 39.8025785] },
+      "properties": {
+        "id": 3686483834,
+        "element_type": "node",
+        "access": "public",
+        "amenity": "toilets",
+        "female": "yes",
+        "name": "岩手県立大学看護学部トイレ",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1381725, 39.8020699] },
+      "properties": {
+        "id": 3686485782,
+        "element_type": "node",
+        "access": "public",
+        "amenity": "toilets",
+        "male": "yes",
+        "name": "岩手県立大学盛岡短期大学部トイレ",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1380575, 39.802084] },
+      "properties": {
+        "id": 3686485783,
+        "element_type": "node",
+        "access": "public",
+        "amenity": "toilets",
+        "female": "yes",
+        "name": "岩手県立大学盛岡短期大学部トイレ",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.133637, 39.8029635] },
+      "properties": {
+        "id": 3686487613,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1370225, 39.8028545] },
+      "properties": {
+        "id": 3686488325,
+        "element_type": "node",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "4",
+        "indoor": "yes",
+        "level": "4",
+        "name": "handicap toilet",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1368524, 39.8033321] },
+      "properties": {
+        "id": 3686488327,
+        "element_type": "node",
+        "amenity": "toilets",
+        "building": "yes",
+        "name": "handicap toilet",
+        "toilets:wheelchair": "yes",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1371606, 39.8023963] },
+      "properties": {
+        "id": 3686488328,
+        "element_type": "node",
+        "amenity": "toilets",
+        "building": "yes",
+        "name": "handicap toilet",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1374613, 39.801974] },
+      "properties": {
+        "id": 3686488329,
+        "element_type": "node",
+        "amenity": "toilets",
+        "building": "yes",
+        "name": "handicap toilet",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1364736, 39.8027281] },
+      "properties": {
+        "id": 3686497545,
+        "element_type": "node",
+        "amenity": "toilets",
+        "level": "2;4",
+        "name": "トイレ",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1354514, 39.803199] },
+      "properties": {
+        "id": 3686499618,
+        "element_type": "node",
+        "access": "public",
+        "amenity": "toilets",
+        "fee": "no",
+        "name": "handicap toilet",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1366962, 39.8022541] },
+      "properties": {
+        "id": 3686501589,
+        "element_type": "node",
+        "amenity": "toilets",
+        "level": "1;3",
+        "name": "トイレ",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.13701, 39.8018564] },
+      "properties": {
+        "id": 3686503794,
+        "element_type": "node",
+        "amenity": "toilets",
+        "level": "1;3",
+        "name": "トイレ",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.01979, 39.754171] },
+      "properties": {
+        "id": 3694532725,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.7822789, 39.253429] },
+      "properties": {
+        "id": 3699763173,
+        "element_type": "node",
+        "access": "public",
+        "amenity": "toilets",
+        "operator": "国土交通省",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.6230185, 39.0275482] },
+      "properties": {
+        "id": 4162269308,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.8024007, 40.1170658] },
+      "properties": {
+        "id": 4186862217,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9710735, 39.6387441] },
+      "properties": {
+        "id": 4317626315,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [142.0500146, 39.5327749] },
+      "properties": {
+        "id": 4336225209,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.6294579, 39.0167537] },
+      "properties": {
+        "id": 4831900718,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.6281515, 39.0169943] },
+      "properties": {
+        "id": 4831901132,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "no",
+        "operator": "陸前高田市",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.7207044, 39.0631658] },
+      "properties": {
+        "id": 4833618707,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.7216239, 39.0611023] },
+      "properties": {
+        "id": 4838295032,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.2235319, 38.827522] },
+      "properties": {
+        "id": 4862998782,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.137575, 39.803799] },
+      "properties": {
+        "id": 4930656330,
+        "element_type": "node",
+        "amenity": "toilets",
+        "name": "岩手県立大学メディア棟トイレ",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1293571, 39.2796202] },
+      "properties": {
+        "id": 5057509621,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1067008, 38.9978774] },
+      "properties": {
+        "id": 5091299964,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2023-11-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.9444655, 40.1394979] },
+      "properties": {
+        "id": 5144300321,
+        "element_type": "node",
+        "amenity": "toilets",
+        "operator": "Station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.9984861, 40.1378533] },
+      "properties": {
+        "id": 5146318822,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1551834, 39.7090738] },
+      "properties": {
+        "id": 5237234027,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1008514, 39.0014959] },
+      "properties": {
+        "id": 5243617202,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "level": "-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.8953957, 39.3615718] },
+      "properties": {
+        "id": 5589929655,
+        "element_type": "node",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "operator": "大槌町"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9023345, 39.3596059] },
+      "properties": {
+        "id": 5589937715,
+        "element_type": "node",
+        "amenity": "toilets",
+        "operator": "大槌町"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.7915704, 39.8629683] },
+      "properties": {
+        "id": 5599851044,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.7961832, 39.8604761] },
+      "properties": {
+        "id": 5599851051,
+        "element_type": "node",
+        "amenity": "toilets",
+        "female": "yes",
+        "male": "yes",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.2688943, 38.8984641] },
+      "properties": {
+        "id": 5633121351,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1705519, 38.8339466] },
+      "properties": {
+        "id": 5637583343,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.169156, 38.8350682] },
+      "properties": {
+        "id": 5637583344,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1437209, 39.140107] },
+      "properties": {
+        "id": 5744973225,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.3515355, 38.8672393] },
+      "properties": {
+        "id": 5901332602,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.0058421, 39.3871633] },
+      "properties": {
+        "id": 5938012685,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1136137, 39.3960516] },
+      "properties": {
+        "id": 5938471789,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.5312269, 39.3321995] },
+      "properties": {
+        "id": 5942099485,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.566233, 39.3727411] },
+      "properties": {
+        "id": 5947885685,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.5633719, 39.3692198] },
+      "properties": {
+        "id": 5947929386,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9929459, 39.348458] },
+      "properties": {
+        "id": 5955945285,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1067544, 39.3563041] },
+      "properties": {
+        "id": 5960737893,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1658165, 39.7424074] },
+      "properties": {
+        "id": 6011625524,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1655013, 39.754587] },
+      "properties": {
+        "id": 6011975704,
+        "element_type": "node",
+        "amenity": "toilets",
+        "source": "GSImaps/ort"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.164588, 39.7547519] },
+      "properties": {
+        "id": 6011975705,
+        "element_type": "node",
+        "amenity": "toilets",
+        "source": "GSImaps/ort"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9797851, 39.648619] },
+      "properties": {
+        "id": 6349606013,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.7645044, 40.190167] },
+      "properties": {
+        "id": 6349940727,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.7670149, 40.1884168] },
+      "properties": {
+        "id": 6351640692,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.8877667, 39.3269673] },
+      "properties": {
+        "id": 6357425735,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9603433, 39.6304745] },
+      "properties": {
+        "id": 6357824244,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9609797, 39.6298189] },
+      "properties": {
+        "id": 6357824247,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9463855, 39.6466293] },
+      "properties": {
+        "id": 6359336712,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1739273, 39.4067223] },
+      "properties": {
+        "id": 6359734229,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9030243, 39.3568497] },
+      "properties": {
+        "id": 6362662713,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.7707904, 40.1898165] },
+      "properties": {
+        "id": 6362709463,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9507824, 39.4640437] },
+      "properties": {
+        "id": 6362765718,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.892266, 39.3279178] },
+      "properties": {
+        "id": 6366242645,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.8787785, 39.2744211] },
+      "properties": {
+        "id": 6370016990,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.8818027, 39.272746] },
+      "properties": {
+        "id": 6370017010,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.7730502, 40.1954957] },
+      "properties": {
+        "id": 6412081553,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9163715, 39.6385391] },
+      "properties": {
+        "id": 6837677576,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.8411371, 39.5448683] },
+      "properties": {
+        "id": 6934916417,
+        "element_type": "node",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "name": "貝沢地区砂防公園トイレ",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.7988388, 39.4814396] },
+      "properties": {
+        "id": 6936566348,
+        "element_type": "node",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "no",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.821124, 39.5464907] },
+      "properties": {
+        "id": 6943094554,
+        "element_type": "node",
+        "access": "no",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "unisex": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.4484417, 38.9311714] },
+      "properties": {
+        "id": 7352745970,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.4526341, 38.938114] },
+      "properties": {
+        "id": 7363557752,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9302613, 40.0040307] },
+      "properties": {
+        "id": 7645739985,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1189602, 38.9456896] },
+      "properties": {
+        "id": 7777574953,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.7556892, 39.4005083] },
+      "properties": {
+        "id": 7828422108,
+        "element_type": "node",
+        "amenity": "toilets",
+        "changing_table": "無し",
+        "fee": "無し",
+        "female": "有り",
+        "male": "有り",
+        "toilets:disposal": "水洗",
+        "wheelchair": "不可"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.7715263, 39.3446914] },
+      "properties": {
+        "id": 7835090041,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.759488, 39.4436116] },
+      "properties": {
+        "id": 7835904755,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1908899, 39.6958295] },
+      "properties": {
+        "id": 7836563907,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1942723, 39.6972889] },
+      "properties": {
+        "id": 7836563908,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1951048, 39.6968268] },
+      "properties": {
+        "id": 7836563909,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1468831, 38.918147] },
+      "properties": {
+        "id": 7877218885,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.6991673, 40.4194508] },
+      "properties": {
+        "id": 8485184517,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.7508814, 39.434872] },
+      "properties": {
+        "id": 8935386235,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [140.7485933, 39.4333543] },
+      "properties": {
+        "id": 9249564036,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1173774, 38.9910277] },
+      "properties": {
+        "id": 9711045154,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1116318, 38.9879297] },
+      "properties": {
+        "id": 9711045165,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "name": "観自在王院さわやかトイレ",
+        "wheelchair": "designated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1005558, 39.0676741] },
+      "properties": {
+        "id": 11101707971,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.102224, 39.0677964] },
+      "properties": {
+        "id": 11101708090,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.64034, 39.007191] },
+      "properties": {
+        "id": 11872819777,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.6361473, 39.0064648] },
+      "properties": {
+        "id": 11873539516,
+        "element_type": "node",
+        "amenity": "toilets",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1403214, 39.7218719] },
+      "properties": {
+        "id": 12041611957,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.5285671, 39.3296548] },
+      "properties": {
+        "id": 12099359992,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1086511, 38.9869572] },
+      "properties": {
+        "id": 12099438020,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.7155784, 40.4102829] },
+      "properties": {
+        "id": 12277902501,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.7199133, 40.4019126] },
+      "properties": {
+        "id": 12277921101,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.7214159, 40.4036801] },
+      "properties": {
+        "id": 12277964601,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.7197611, 40.4003364] },
+      "properties": {
+        "id": 12278048301,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.71996, 40.4016066] },
+      "properties": {
+        "id": 12278496101,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.898582, 40.013874] },
+      "properties": {
+        "id": 12284577601,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9065054, 40.0091401] },
+      "properties": {
+        "id": 12284604901,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9293475, 40.0077928] },
+      "properties": {
+        "id": 12284673801,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9324681, 40.0027366] },
+      "properties": {
+        "id": 12284918801,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9316577, 40.0037642] },
+      "properties": {
+        "id": 12284990501,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9518411, 39.9791352] },
+      "properties": {
+        "id": 12287410501,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9499596, 39.977472] },
+      "properties": {
+        "id": 12287435901,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9339609, 39.9344261] },
+      "properties": {
+        "id": 12289115501,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.957331, 39.9520273] },
+      "properties": {
+        "id": 12289148413,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.9341339, 40.0051787] },
+      "properties": {
+        "id": 12289649201,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.8856386, 40.0025478] },
+      "properties": {
+        "id": 12290976801,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1174931, 38.9882164] },
+      "properties": {
+        "id": 12446548183,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "level": "0",
+        "wheelchair": "designated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.137807, 38.9259714] },
+      "properties": {
+        "id": 12446548196,
+        "element_type": "node",
+        "access": "customers",
+        "amenity": "toilets",
+        "fee": "no",
+        "level": "0",
+        "toilets:disposal": "flush",
+        "wheelchair": "designated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1391416, 38.9263352] },
+      "properties": {
+        "id": 12446548200,
+        "element_type": "node",
+        "access": "customers",
+        "amenity": "toilets",
+        "fee": "no",
+        "level": "1",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "designated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1109187, 38.9909503] },
+      "properties": {
+        "id": 12446589706,
+        "element_type": "node",
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "designated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.3022766, 40.2686761] },
+      "properties": {
+        "id": 12709019853,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.59266288, 39.029100140000004]
+      },
+      "properties": {
+        "id": 157964841,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [141.1116137, 39.2945028] },
+      "properties": {
+        "id": 175080999,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "source": "image,Bing,2008-07-26"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.77578612, 39.31445548]
+      },
+      "properties": {
+        "id": 175571472,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "hut",
+        "fee": "no",
+        "wheelchair": "designated"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.62580337999998, 39.027407620000005]
+      },
+      "properties": {
+        "id": 179798116,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "name": "移動式循環型水洗バイオトイレシステム",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.29122316000002, 40.28513158]
+      },
+      "properties": {
+        "id": 238014864,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "source": "image,2013-09;Bing",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.79840506, 39.62112887999999]
+      },
+      "properties": {
+        "id": 238171959,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "drinking_water": "no",
+        "fee": "no",
+        "source": "image,2013-09;Bing,2008-04-21",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.51374538000002, 39.325716840000005]
+      },
+      "properties": {
+        "id": 249342524,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.8440177846154, 39.29886732307692]
+      },
+      "properties": {
+        "id": 268253382,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.78754429999998, 39.31393296]
+      },
+      "properties": {
+        "id": 293700696,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.17782752, 38.90851428]
+      },
+      "properties": {
+        "id": 309498233,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "name": "真滝公衆トイレ",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.13357972, 38.93173258]
+      },
+      "properties": {
+        "id": 361246640,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "operator": "一関市",
+        "source": "GSImaps/std"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.15000836, 39.1766969]
+      },
+      "properties": {
+        "id": 365466623,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "note": "結構臭い",
+        "source": "image,2015-08;Bing",
+        "toilets:disposal": "pitlatrine",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.3820966, 40.32245974]
+      },
+      "properties": {
+        "id": 370673122,
+        "element_type": "way",
+        "access": "public",
+        "amenity": "toilets",
+        "building": "yes",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.14770040000002, 39.72401678000001]
+      },
+      "properties": {
+        "id": 386621020,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.14568406666666, 39.7275123]
+      },
+      "properties": {
+        "id": 390841549,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.14228022857142, 39.69851871428572]
+      },
+      "properties": {
+        "id": 390842492,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.23753468, 38.976516520000004]
+      },
+      "properties": {
+        "id": 397198863,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "female": "yes",
+        "male": "yes",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.71050096, 39.0859845]
+      },
+      "properties": {
+        "id": 397955821,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.29293028181817, 40.20068203636363]
+      },
+      "properties": {
+        "id": 426305032,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.28954868, 40.19972466]
+      },
+      "properties": {
+        "id": 426533500,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.29807652, 40.20513658]
+      },
+      "properties": {
+        "id": 426541399,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.58986729999998, 39.64872908]
+      },
+      "properties": {
+        "id": 428729650,
+        "element_type": "way",
+        "access": "customers",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.85893093333334, 39.952887044444445]
+      },
+      "properties": {
+        "id": 442339236,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "name": "八幡沼園地公衆トイレ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.85716815, 39.95044681666666]
+      },
+      "properties": {
+        "id": 443016939,
+        "element_type": "way",
+        "amenity": "toilets",
+        "name": "八幡平見返峠さわやかトイレ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.04567838181816, 39.91367025454545]
+      },
+      "properties": {
+        "id": 443134913,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "toilets",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.11222434, 38.96311288]
+      },
+      "properties": {
+        "id": 443146071,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.13719052, 38.925732319999995]
+      },
+      "properties": {
+        "id": 462446696,
+        "element_type": "way",
+        "access": "public",
+        "amenity": "toilets",
+        "building": "public",
+        "fee": "no",
+        "source": "image,2013-09;Bing,2012-11-06",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.10214765999999, 39.00155746]
+      },
+      "properties": {
+        "id": 513794158,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "source": "Bing",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.14970922, 39.7006482]
+      },
+      "properties": {
+        "id": 514415305,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.29999432, 40.265981260000004]
+      },
+      "properties": {
+        "id": 521109434,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.30406304, 40.266266879999996]
+      },
+      "properties": {
+        "id": 521109494,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.00624741666667, 39.844244249999996]
+      },
+      "properties": {
+        "id": 522163735,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "岩手山八合目トイレ",
+        "operator": "岩手県山岳協会"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.03930485, 39.83414255]
+      },
+      "properties": {
+        "id": 522830433,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "岩手山登山口さわやかトイレ",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.15079011999998, 39.699998719999996]
+      },
+      "properties": {
+        "id": 541661617,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "roof",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.97518187999998, 39.737947340000005]
+      },
+      "properties": {
+        "id": 542025049,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.15066442, 39.7011793]
+      },
+      "properties": {
+        "id": 542025068,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.10570668, 38.99949106]
+      },
+      "properties": {
+        "id": 542353321,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "service",
+        "building:levels": "1",
+        "fee": "no",
+        "name": "黑門トイレ",
+        "source": "Bing",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:paper_supplied": "yes",
+        "toilets:position": "seated;urinal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.30647162, 40.198508700000005]
+      },
+      "properties": {
+        "id": 547543213,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.30758384, 40.171001059999995]
+      },
+      "properties": {
+        "id": 559626874,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.30883488, 40.154173879999995]
+      },
+      "properties": {
+        "id": 559626950,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.02466674, 39.70985404]
+      },
+      "properties": {
+        "id": 583605227,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.01771552, 39.75074936]
+      },
+      "properties": {
+        "id": 584810236,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.0405819, 39.83322763333333]
+      },
+      "properties": {
+        "id": 585657681,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.29387390000002, 38.8484817]
+      },
+      "properties": {
+        "id": 589463639,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.14600659090908, 39.73224320909091]
+      },
+      "properties": {
+        "id": 591666714,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.79110179999998, 39.846957399999994]
+      },
+      "properties": {
+        "id": 621347796,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.35154956, 38.86724683999999]
+      },
+      "properties": {
+        "id": 625015743,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.15432802, 39.74947108]
+      },
+      "properties": {
+        "id": 638509196,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "GSImaps/ort"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.52830433999998, 39.33091242]
+      },
+      "properties": {
+        "id": 638736507,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.55822404, 39.33163856]
+      },
+      "properties": {
+        "id": 640887574,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.12827488, 39.2733519]
+      },
+      "properties": {
+        "id": 641246678,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.56506102, 39.33045162]
+      },
+      "properties": {
+        "id": 643069319,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.15976908, 38.938507779999995]
+      },
+      "properties": {
+        "id": 652862166,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.76752616, 40.189156139999994]
+      },
+      "properties": {
+        "id": 678035272,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.76278782, 40.1913383]
+      },
+      "properties": {
+        "id": 682046827,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.7700961, 40.18797292000001]
+      },
+      "properties": {
+        "id": 682046867,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.7588570222222, 40.18745594444445]
+      },
+      "properties": {
+        "id": 684802449,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.22207162, 38.82573448000001]
+      },
+      "properties": {
+        "id": 685597889,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "GSI/KIBAN 2500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.13170245999999, 39.28349796]
+      },
+      "properties": {
+        "id": 689450012,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.40421518, 38.793506539999996]
+      },
+      "properties": {
+        "id": 699156502,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.16155878, 39.71381194000001]
+      },
+      "properties": {
+        "id": 708353605,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "GSImaps/std",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.93157223999998, 39.94736338]
+      },
+      "properties": {
+        "id": 732376274,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.8411450222222, 39.54486722222222]
+      },
+      "properties": {
+        "id": 741350721,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "name": "貝沢地区砂防公園トイレ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.75567342, 39.400507100000006]
+      },
+      "properties": {
+        "id": 741799713,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "no",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "note": "不衛生",
+        "toilets:disposal": "flush",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.89809413999998, 40.01546638000001]
+      },
+      "properties": {
+        "id": 750766349,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.8342708, 39.14621168]
+      },
+      "properties": {
+        "id": 761193701,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.72371592000002, 39.06250206]
+      },
+      "properties": {
+        "id": 775257214,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.21101784, 38.982603239999996]
+      },
+      "properties": {
+        "id": 810376341,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.21011614, 38.98260296]
+      },
+      "properties": {
+        "id": 810377198,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.75948346, 39.443607879999995]
+      },
+      "properties": {
+        "id": 839018094,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "name": "猿橋農村公園のトイレ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.18949886000001, 39.69725024]
+      },
+      "properties": {
+        "id": 839616250,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.18948947999996, 39.6986251]
+      },
+      "properties": {
+        "id": 839616256,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.18961338, 39.699463879999996]
+      },
+      "properties": {
+        "id": 839616266,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.19166672, 39.697838620000006]
+      },
+      "properties": {
+        "id": 839616270,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.13823938000002, 39.71341202]
+      },
+      "properties": {
+        "id": 868937013,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "name": "岩手大学 生活協同組合 農学部食堂"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.97324635384615, 39.43652005384615]
+      },
+      "properties": {
+        "id": 916879890,
+        "element_type": "way",
+        "access": "customers",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "source": "image,2013-09;Bing,2012-04-04",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.68306084000002, 39.242463879999995]
+      },
+      "properties": {
+        "id": 926837466,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1",
+        "source": "Bing;survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.18278642, 39.713093099999995]
+      },
+      "properties": {
+        "id": 948579044,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.17776836000002, 39.71359298]
+      },
+      "properties": {
+        "id": 948579045,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.83146896, 40.07788216]
+      },
+      "properties": {
+        "id": 971114846,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.12979852, 38.926984020000006]
+      },
+      "properties": {
+        "id": 1096854510,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.10077343999998, 39.712921619999996]
+      },
+      "properties": {
+        "id": 1155150306,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.2334568, 38.853987759999995]
+      },
+      "properties": {
+        "id": 1188064579,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.10772776000002, 38.98136922]
+      },
+      "properties": {
+        "id": 1196378052,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.13977254000002, 39.13572756]
+      },
+      "properties": {
+        "id": 1198194000,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.08812484, 38.936502360000006]
+      },
+      "properties": {
+        "id": 1211160659,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.11034250000003, 38.92343158]
+      },
+      "properties": {
+        "id": 1211162881,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.5713577, 39.35473582]
+      },
+      "properties": {
+        "id": 1301527670,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.5416284, 39.397082759999996]
+      },
+      "properties": {
+        "id": 1301754052,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.54216814, 39.397461019999994]
+      },
+      "properties": {
+        "id": 1301754053,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.54282410000002, 39.39780082]
+      },
+      "properties": {
+        "id": 1301754056,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.54405488333333, 39.39766235]
+      },
+      "properties": {
+        "id": 1301754058,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.54417230000004, 39.39639518]
+      },
+      "properties": {
+        "id": 1301754063,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.88760882, 39.11510154]
+      },
+      "properties": {
+        "id": 1319366313,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.0952227, 39.26053438]
+      },
+      "properties": {
+        "id": 1321827643,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.20578218, 39.08871386]
+      },
+      "properties": {
+        "id": 1325526623,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.20660726, 39.089799479999996]
+      },
+      "properties": {
+        "id": 1325526635,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.24958652000004, 38.99529441999999]
+      },
+      "properties": {
+        "id": 1326152183,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.98150976000002, 39.73518204]
+      },
+      "properties": {
+        "id": 1326385554,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [142.05210532, 39.53342790000001]
+      },
+      "properties": {
+        "id": 1328003506,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.96714386, 39.687337219999996]
+      },
+      "properties": {
+        "id": 1328695810,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.1392774, 39.648497080000006]
+      },
+      "properties": {
+        "id": 1338932630,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.08541343999997, 39.23853554]
+      },
+      "properties": {
+        "id": 1352479302,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [141.09008532000001, 39.24639168]
+      },
+      "properties": {
+        "id": 1360223132,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    }
+  ]
+}

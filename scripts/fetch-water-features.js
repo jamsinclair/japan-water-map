@@ -66,14 +66,14 @@ async function fetchWithRetry(url, options, maxRetries = 3) {
       return response;
     } catch (error) {
       console.log(`Attempt ${attempt} failed:`, error.message);
-      
+
       if (attempt === maxRetries) {
         throw error;
       }
-      
+
       const delay = Math.pow(2, attempt - 1) * 5000;
       console.log(`Retrying in ${delay}ms...`);
-      await new Promise(resolve => setTimeout(resolve, delay));
+      await new Promise((resolve) => setTimeout(resolve, delay));
     }
   }
 }
@@ -160,14 +160,14 @@ async function fetchToiletsForPrefecture(prefecture) {
       features: data.elements
         .map((element) => {
           let coordinates;
-          
-          if (element.type === 'node' && element.lat && element.lon) {
+
+          if (element.type === "node" && element.lat && element.lon) {
             // Node with direct coordinates
             coordinates = [element.lon, element.lat];
-          } else if (element.type === 'way' && element.geometry) {
+          } else if (element.type === "way" && element.geometry) {
             // Way - calculate centroid from nodes
-            const lons = element.geometry.map(node => node.lon);
-            const lats = element.geometry.map(node => node.lat);
+            const lons = element.geometry.map((node) => node.lon);
+            const lats = element.geometry.map((node) => node.lat);
             const avgLon = lons.reduce((a, b) => a + b, 0) / lons.length;
             const avgLat = lats.reduce((a, b) => a + b, 0) / lats.length;
             coordinates = [avgLon, avgLat];
@@ -192,12 +192,10 @@ async function fetchToiletsForPrefecture(prefecture) {
             },
           };
         })
-        .filter(feature => feature !== null), // Remove null entries
+        .filter((feature) => feature !== null), // Remove null entries
     };
 
-    console.log(
-      `Found ${geoJson.features.length} toilets in ${prefecture}`,
-    );
+    console.log(`Found ${geoJson.features.length} toilets in ${prefecture}`);
     return geoJson;
   } catch (error) {
     console.error(`Error fetching toilet data for ${prefecture}:`, error);

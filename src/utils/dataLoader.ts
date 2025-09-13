@@ -181,7 +181,9 @@ export async function loadPrefectureData(
   const filename =
     DRINKING_WATER_FILES[prefecture as keyof typeof DRINKING_WATER_FILES];
   if (!filename) {
-    console.warn(`No drinking water data file found for prefecture: ${prefecture}`);
+    console.warn(
+      `No drinking water data file found for prefecture: ${prefecture}`,
+    );
     return null;
   }
 
@@ -201,7 +203,10 @@ export async function loadPrefectureData(
     );
     return data;
   } catch (error) {
-    console.error(`Error loading drinking water data for ${prefecture}:`, error);
+    console.error(
+      `Error loading drinking water data for ${prefecture}:`,
+      error,
+    );
     return null;
   }
 }
@@ -214,8 +219,7 @@ export async function loadToiletData(
     return toiletCache.get(prefecture)!;
   }
 
-  const filename =
-    TOILET_FILES[prefecture as keyof typeof TOILET_FILES];
+  const filename = TOILET_FILES[prefecture as keyof typeof TOILET_FILES];
   if (!filename) {
     console.warn(`No toilet data file found for prefecture: ${prefecture}`);
     return null;
@@ -266,9 +270,7 @@ export async function loadMultiplePrefectures(
 export async function loadMultipleToilets(
   prefectures: string[],
 ): Promise<ToiletPoint[]> {
-  const promises = prefectures.map((prefecture) =>
-    loadToiletData(prefecture),
-  );
+  const promises = prefectures.map((prefecture) => loadToiletData(prefecture));
   const results = await Promise.all(promises);
 
   // Combine all features from successful loads

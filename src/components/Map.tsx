@@ -48,24 +48,32 @@ interface MapProps {
   showToilets?: boolean;
 }
 
-export function Map({ 
-  center, 
-  zoom, 
-  onMapReady, 
-  locale = "en", 
-  showDrinkingWater = true, 
-  showToilets = true 
+export function Map({
+  center,
+  zoom,
+  onMapReady,
+  locale = "en",
+  showDrinkingWater = true,
+  showToilets = true,
 }: MapProps) {
   const mapContainer = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
-  const [loadedPrefectures, setLoadedPrefectures] = useState<Set<string>>(
-    new Set(),
-  );
+  const [loadedWaterPrefectures, setLoadedWaterPrefectures] = useState<
+    Set<string>
+  >(new Set());
+  const [loadedToiletPrefectures, setLoadedToiletPrefectures] = useState<
+    Set<string>
+  >(new Set());
+
+  // Refs to track currently loading prefectures to prevent duplicate loads
+  const loadingWaterPrefectures = useRef<Set<string>>(new Set());
+  const loadingToiletPrefectures = useRef<Set<string>>(new Set());
   const [drinkingWaterData, setDrinkingWaterData] = useState<
     DrinkingWaterPoint[]
   >([]);
   const [toiletData, setToiletData] = useState<ToiletPoint[]>([]);
   const popupRef = useRef<maplibregl.Popup | null>(null);
+  const loadDataTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   // Translations for UI elements
   const translations = {
@@ -274,25 +282,30 @@ export function Map({
       }
     };
 
-
     // Call onMapReady callback when map is loaded
     map.on("load", () => {
       // Load PNG icons
-      map.loadImage('/droplet.png').then((response) => {
-        if (response.data) {
-          map.addImage('droplet-icon', response.data);
-        }
-      }).catch((error) => {
-        console.error('Error loading droplet icon:', error);
-      });
-      
-      map.loadImage('/toilet.png').then((response) => {
-        if (response.data) {
-          map.addImage('toilet-icon', response.data);
-        }
-      }).catch((error) => {
-        console.error('Error loading toilet icon:', error);
-      });
+      map
+        .loadImage("/droplet.png")
+        .then((response) => {
+          if (response.data) {
+            map.addImage("droplet-icon", response.data);
+          }
+        })
+        .catch((error) => {
+          console.error("Error loading droplet icon:", error);
+        });
+
+      map
+        .loadImage("/toilet.png")
+        .then((response) => {
+          if (response.data) {
+            map.addImage("toilet-icon", response.data);
+          }
+        })
+        .catch((error) => {
+          console.error("Error loading toilet icon:", error);
+        });
       // Add drinking water data source with clustering enabled
       map.addSource("drinking-water", {
         type: "geojson",
@@ -344,12 +357,22 @@ export function Map({
         source: "drinking-water",
         filter: ["has", "point_count"],
         layout: {
-          "text-field": locale === "ja" ? [
-            "case",
-            [">=", ["get", "point_count"], 10000],
-            ["concat", ["to-string", ["round", ["/", ["get", "point_count"], 10000]]], "万"],
-            ["to-string", ["get", "point_count"]]
-          ] : "{point_count_abbreviated}",
+          "text-field":
+            locale === "ja"
+              ? [
+                  "case",
+                  [">=", ["get", "point_count"], 10000],
+                  [
+                    "concat",
+                    [
+                      "to-string",
+                      ["round", ["/", ["get", "point_count"], 10000]],
+                    ],
+                    "万",
+                  ],
+                  ["to-string", ["get", "point_count"]],
+                ]
+              : "{point_count_abbreviated}",
           "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
           "text-size": 12,
         },
@@ -398,12 +421,22 @@ export function Map({
         source: "toilets",
         filter: ["has", "point_count"],
         layout: {
-          "text-field": locale === "ja" ? [
-            "case",
-            [">=", ["get", "point_count"], 10000],
-            ["concat", ["to-string", ["round", ["/", ["get", "point_count"], 10000]]], "万"],
-            ["to-string", ["get", "point_count"]]
-          ] : "{point_count_abbreviated}",
+          "text-field":
+            locale === "ja"
+              ? [
+                  "case",
+                  [">=", ["get", "point_count"], 10000],
+                  [
+                    "concat",
+                    [
+                      "to-string",
+                      ["round", ["/", ["get", "point_count"], 10000]],
+                    ],
+                    "万",
+                  ],
+                  ["to-string", ["get", "point_count"]],
+                ]
+              : "{point_count_abbreviated}",
           "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
           "text-size": 12,
         },
@@ -552,7 +585,10 @@ export function Map({
               zoom: expansionZoom + 1,
             });
           } catch (error) {
-            console.error("Error getting toilet cluster expansion zoom:", error);
+            console.error(
+              "Error getting toilet cluster expansion zoom:",
+              error,
+            );
           }
         }
       });
@@ -578,8 +614,16 @@ export function Map({
       // Load data for current viewport
       loadDataForViewport();
 
-      // Load data when map moves
-      map.on("moveend", loadDataForViewport);
+      // Debounced data loading to prevent race conditions on rapid pan/zoom
+      const debouncedLoadDataForViewport = () => {
+        if (loadDataTimeoutRef.current) {
+          clearTimeout(loadDataTimeoutRef.current);
+        }
+        loadDataTimeoutRef.current = setTimeout(loadDataForViewport, 300); // 300ms debounce
+      };
+
+      // Load data when map moves (debounced)
+      map.on("moveend", debouncedLoadDataForViewport);
 
       // Update URL when map moves (debounced)
       map.on("moveend", () => {
@@ -600,59 +644,154 @@ export function Map({
       const bounds = mapRef.current.getBounds();
       const visiblePrefectures = getPrefecturesInViewport(bounds);
 
-      // Find prefectures we haven't loaded yet
-      const newPrefectures = visiblePrefectures.filter(
-        (prefecture) => !loadedPrefectures.has(prefecture),
+      // Find prefectures we haven't loaded yet for each amenity type (excluding currently loading ones)
+      const newWaterPrefectures = showDrinkingWater
+        ? visiblePrefectures.filter(
+            (prefecture) =>
+              !loadedWaterPrefectures.has(prefecture) &&
+              !loadingWaterPrefectures.current.has(prefecture),
+          )
+        : [];
+      const newToiletPrefectures = showToilets
+        ? visiblePrefectures.filter(
+            (prefecture) =>
+              !loadedToiletPrefectures.has(prefecture) &&
+              !loadingToiletPrefectures.current.has(prefecture),
+          )
+        : [];
+
+      // Mark prefectures as loading immediately
+      newWaterPrefectures.forEach((p) =>
+        loadingWaterPrefectures.current.add(p),
+      );
+      newToiletPrefectures.forEach((p) =>
+        loadingToiletPrefectures.current.add(p),
       );
 
-      if (newPrefectures.length === 0) return;
+      if (newWaterPrefectures.length === 0 && newToiletPrefectures.length === 0)
+        return;
 
       try {
-        const { drinkingWater: newWaterData, toilets: newToiletData } = await loadMultipleAmenities(newPrefectures);
+        // Load data only for prefectures that need it for each amenity type
+        const waterPromise =
+          newWaterPrefectures.length > 0
+            ? loadMultiplePrefectures(newWaterPrefectures)
+            : Promise.resolve([]);
+        const toiletPromise =
+          newToiletPrefectures.length > 0
+            ? loadMultipleToilets(newToiletPrefectures)
+            : Promise.resolve([]);
 
-        // Update loaded prefectures
-        setLoadedPrefectures((prev) => {
-          const updated = new Set(prev);
-          newPrefectures.forEach((p) => updated.add(p));
-          return updated;
-        });
+        const [newWaterData, newToiletData] = await Promise.all([
+          waterPromise,
+          toiletPromise,
+        ]);
 
-        // Add new drinking water data to existing data
-        setDrinkingWaterData((prev) => [...prev, ...newWaterData]);
-
-        // Add new toilet data to existing data
-        setToiletData((prev) => [...prev, ...newToiletData]);
-
-        // Update drinking water map source with all data
-        const updatedWaterData = [...drinkingWaterData, ...newWaterData];
-        const waterSource = mapRef.current!.getSource(
-          "drinking-water",
-        ) as maplibregl.GeoJSONSource;
-        if (waterSource) {
-          waterSource.setData({
-            type: "FeatureCollection",
-            features: updatedWaterData,
+        // Update loaded prefectures and clear loading flags for each amenity type
+        if (newWaterPrefectures.length > 0) {
+          setLoadedWaterPrefectures((prev) => {
+            const updated = new Set(prev);
+            newWaterPrefectures.forEach((p) => {
+              updated.add(p);
+              loadingWaterPrefectures.current.delete(p); // Clear loading flag
+            });
+            return updated;
           });
         }
 
-        // Update toilet map source with all data
-        const updatedToiletData = [...toiletData, ...newToiletData];
-        const toiletSource = mapRef.current!.getSource(
-          "toilets",
-        ) as maplibregl.GeoJSONSource;
-        if (toiletSource) {
-          toiletSource.setData({
-            type: "FeatureCollection",
-            features: updatedToiletData,
+        if (newToiletPrefectures.length > 0) {
+          setLoadedToiletPrefectures((prev) => {
+            const updated = new Set(prev);
+            newToiletPrefectures.forEach((p) => {
+              updated.add(p);
+              loadingToiletPrefectures.current.delete(p); // Clear loading flag
+            });
+            return updated;
+          });
+        }
+
+        // Add new drinking water data to existing data (only if enabled)
+        if (showDrinkingWater && newWaterData.length > 0) {
+          setDrinkingWaterData((prev) => {
+            // Create a Set of existing IDs for fast lookup - handle missing IDs gracefully
+            const existingIds = new Set(
+              prev
+                .map((point) => point.properties?.id)
+                .filter((id) => id !== undefined),
+            );
+
+            // Filter out points that already exist - only dedupe if ID exists
+            const uniqueNewData = newWaterData.filter((point) => {
+              const id = point.properties?.id;
+              return id === undefined || !existingIds.has(id);
+            });
+
+            const updatedData = [...prev, ...uniqueNewData];
+
+            // Update drinking water map source with the correct updated data
+            const waterSource = mapRef.current!.getSource(
+              "drinking-water",
+            ) as maplibregl.GeoJSONSource;
+            if (waterSource) {
+              waterSource.setData({
+                type: "FeatureCollection",
+                features: updatedData,
+              });
+            }
+
+            return updatedData;
+          });
+        }
+
+        // Add new toilet data to existing data (only if enabled)
+        if (showToilets && newToiletData.length > 0) {
+          setToiletData((prev) => {
+            // Create a Set of existing IDs for fast lookup - handle missing IDs gracefully
+            const existingIds = new Set(
+              prev
+                .map((point) => point.properties?.id)
+                .filter((id) => id !== undefined),
+            );
+
+            // Filter out points that already exist - only dedupe if ID exists
+            const uniqueNewData = newToiletData.filter((point) => {
+              const id = point.properties?.id;
+              return id === undefined || !existingIds.has(id);
+            });
+
+            const updatedData = [...prev, ...uniqueNewData];
+
+            // Update toilet map source with the correct updated data
+            const toiletSource = mapRef.current!.getSource(
+              "toilets",
+            ) as maplibregl.GeoJSONSource;
+            if (toiletSource) {
+              toiletSource.setData({
+                type: "FeatureCollection",
+                features: updatedData,
+              });
+            }
+
+            return updatedData;
           });
         }
       } catch (error) {
         console.error("Error loading prefecture data:", error);
+        // Clear loading flags on error
+        newWaterPrefectures.forEach((p) =>
+          loadingWaterPrefectures.current.delete(p),
+        );
+        newToiletPrefectures.forEach((p) =>
+          loadingToiletPrefectures.current.delete(p),
+        );
       }
     };
 
     // Cleanup on unmount
     return () => {
+      if (loadDataTimeoutRef.current) {
+        clearTimeout(loadDataTimeoutRef.current);
+      }
       if (popupRef.current) {
         popupRef.current.remove();
       }
@@ -675,52 +814,76 @@ export function Map({
     }
   }, [center, zoom]);
 
-  // Update map data when drinkingWaterData changes
-  useEffect(() => {
-    if (mapRef.current && mapRef.current.getSource("drinking-water")) {
-      const source = mapRef.current.getSource(
-        "drinking-water",
-      ) as maplibregl.GeoJSONSource;
-      source.setData({
-        type: "FeatureCollection",
-        features: drinkingWaterData,
-      });
-    }
-  }, [drinkingWaterData]);
-
-  // Update map data when toiletData changes
-  useEffect(() => {
-    if (mapRef.current && mapRef.current.getSource("toilets")) {
-      const source = mapRef.current.getSource(
-        "toilets",
-      ) as maplibregl.GeoJSONSource;
-      source.setData({
-        type: "FeatureCollection",
-        features: toiletData,
-      });
-    }
-  }, [toiletData]);
-
-  // Update layer visibility when props change
+  // Update layer visibility and clear data when props change
   useEffect(() => {
     if (mapRef.current) {
       const map = mapRef.current;
-      
+
       // Drinking water layers
-      const waterLayers = ['clusters', 'cluster-count', 'drinking-water-points'];
-      waterLayers.forEach(layerId => {
+      const waterLayers = [
+        "clusters",
+        "cluster-count",
+        "drinking-water-points",
+      ];
+      waterLayers.forEach((layerId) => {
         if (map.getLayer(layerId)) {
-          map.setLayoutProperty(layerId, 'visibility', showDrinkingWater ? 'visible' : 'none');
+          map.setLayoutProperty(
+            layerId,
+            "visibility",
+            showDrinkingWater ? "visible" : "none",
+          );
         }
       });
-      
+
+      // Clear drinking water data and reset source when disabled
+      if (!showDrinkingWater) {
+        setDrinkingWaterData([]);
+        const waterSource = map.getSource(
+          "drinking-water",
+        ) as maplibregl.GeoJSONSource;
+        if (waterSource) {
+          waterSource.setData({
+            type: "FeatureCollection",
+            features: [],
+          });
+        }
+        // Reset loaded water prefectures so data can be reloaded when re-enabled
+        setLoadedWaterPrefectures(new Set());
+        loadingWaterPrefectures.current.clear();
+      }
+
       // Toilet layers
-      const toiletLayers = ['toilet-clusters', 'toilet-cluster-count', 'toilet-points'];
-      toiletLayers.forEach(layerId => {
+      const toiletLayers = [
+        "toilet-clusters",
+        "toilet-cluster-count",
+        "toilet-points",
+      ];
+      toiletLayers.forEach((layerId) => {
         if (map.getLayer(layerId)) {
-          map.setLayoutProperty(layerId, 'visibility', showToilets ? 'visible' : 'none');
+          map.setLayoutProperty(
+            layerId,
+            "visibility",
+            showToilets ? "visible" : "none",
+          );
         }
       });
+
+      // Clear toilet data and reset source when disabled
+      if (!showToilets) {
+        setToiletData([]);
+        const toiletSource = map.getSource(
+          "toilets",
+        ) as maplibregl.GeoJSONSource;
+        if (toiletSource) {
+          toiletSource.setData({
+            type: "FeatureCollection",
+            features: [],
+          });
+        }
+        // Reset loaded toilet prefectures so data can be reloaded when re-enabled
+        setLoadedToiletPrefectures(new Set());
+        loadingToiletPrefectures.current.clear();
+      }
     }
   }, [showDrinkingWater, showToilets]);
 
@@ -731,11 +894,11 @@ export function Map({
   ): string => {
     const currentTranslations = translations[locale];
     const isToilet = properties.amenity === "toilets";
-    
-    const defaultName = isToilet 
-      ? currentTranslations.toilet 
+
+    const defaultName = isToilet
+      ? currentTranslations.toilet
       : currentTranslations.drinkingWater;
-    
+
     const name =
       properties["name:en"] ||
       properties["name:ja"] ||
@@ -786,7 +949,9 @@ export function Map({
     const fieldLabels = currentTranslations.fieldLabels;
 
     // Choose appropriate properties to show based on amenity type
-    const propertiesToShow = isToilet ? TOILET_PROPERTIES_TO_SHOW : WATER_PROPERTIES_TO_SHOW;
+    const propertiesToShow = isToilet
+      ? TOILET_PROPERTIES_TO_SHOW
+      : WATER_PROPERTIES_TO_SHOW;
 
     for (const property of propertiesToShow) {
       const value = properties[property];

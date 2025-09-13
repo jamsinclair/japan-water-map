@@ -5,11 +5,13 @@ An interactive map displaying drinking water fountains and public toilets across
 ## Development
 
 1. Install dependencies:
+
    ```bash
    npm install
    ```
 
 2. Start the development server:
+
    ```bash
    npm run dev
    ```
@@ -25,6 +27,7 @@ node scripts/fetch-water-features.js
 ```
 
 This script queries OpenStreetMap for:
+
 - `amenity=drinking_water` (water fountains)
 - `amenity=toilets` (public toilets)
 

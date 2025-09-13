@@ -1,1 +1,215 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9388061,33.9517184]},"properties":{"id":2749473482,"amenity":"drinking_water","building":"yes","fee":"no"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[131.0636133,34.4202447]},"properties":{"id":3713210601,"amenity":"drinking_water","source":"local knowledge","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9095955,34.0277643]},"properties":{"id":3918421575,"amenity":"drinking_water","source":"local knowledge"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9172705,34.0825167]},"properties":{"id":3921122942,"amenity":"drinking_water","source":"local knowledge"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9070491,34.0838846]},"properties":{"id":3924727884,"amenity":"drinking_water","source":"local knowledge"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[131.1895807,34.0314207]},"properties":{"id":4496393331,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[131.1912899,34.0311523]},"properties":{"id":4496400334,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8984952,34.073727]},"properties":{"id":4584783220,"amenity":"drinking_water","source":"local knowledge","source:g":"GSImaps/ort","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8985699,34.0730394]},"properties":{"id":4584783242,"amenity":"drinking_water","source":"local knowledge","source:g":"GSImaps/ort","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[131.4368323,34.1574498]},"properties":{"id":4748389877,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[131.8473586,33.9690222]},"properties":{"id":5049891284,"amenity":"drinking_water","source":"local knowledge","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[132.1793202,34.1673239]},"properties":{"id":5515609021,"amenity":"drinking_water","fountain":"bubbler"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[131.0836429,34.0397659]},"properties":{"id":5529827221,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[132.2206897,34.1697488]},"properties":{"id":6201024528,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[131.3842884,34.4195402]},"properties":{"id":6441775721,"amenity":"drinking_water","check_date":"2025-08-22"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8780623,34.3553344]},"properties":{"id":6444916061,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[131.6623311,34.6527129]},"properties":{"id":6476789781,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[131.3739711,34.0055373]},"properties":{"id":8401406817,"amenity":"drinking_water","name":"きらら","name:en":"Yamaguchi Kirara Haku Memorial Park","name:it":"Yamaguchi Kirara Haku Memorial Park"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[131.2717237,33.9951408]},"properties":{"id":9515314189,"access":"permissive","amenity":"drinking_water","operator":"宇部蒲鉾株式会社"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[131.2170188,33.9997328]},"properties":{"id":9515729526,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8410619,34.3519585]},"properties":{"id":11481798867,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[130.8409384,34.3529693]},"properties":{"id":11481843902,"amenity":"drinking_water","fee":"no","stroller":"yes","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[130.9266363,33.9511055]},"properties":{"id":11587645723,"amenity":"drinking_water","fee":"no","stroller":"yes","wheelchair":"yes"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[131.4770476,34.1795041]},"properties":{"id":11636782469,"amenity":"drinking_water"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[130.928082,33.9528486]},"properties":{"id":11691435809,"access":"yes","amenity":"drinking_water","bottle":"no","fee":"no"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[131.3810023,34.4173197]},"properties":{"id":13088493874,"amenity":"drinking_water","fountain":"bubbler"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.9388061, 33.9517184] },
+      "properties": {
+        "id": 2749473482,
+        "amenity": "drinking_water",
+        "building": "yes",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.0636133, 34.4202447] },
+      "properties": {
+        "id": 3713210601,
+        "amenity": "drinking_water",
+        "source": "local knowledge",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.9095955, 34.0277643] },
+      "properties": {
+        "id": 3918421575,
+        "amenity": "drinking_water",
+        "source": "local knowledge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.9172705, 34.0825167] },
+      "properties": {
+        "id": 3921122942,
+        "amenity": "drinking_water",
+        "source": "local knowledge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.9070491, 34.0838846] },
+      "properties": {
+        "id": 3924727884,
+        "amenity": "drinking_water",
+        "source": "local knowledge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.1895807, 34.0314207] },
+      "properties": { "id": 4496393331, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.1912899, 34.0311523] },
+      "properties": { "id": 4496400334, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.8984952, 34.073727] },
+      "properties": {
+        "id": 4584783220,
+        "amenity": "drinking_water",
+        "source": "local knowledge",
+        "source:g": "GSImaps/ort",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.8985699, 34.0730394] },
+      "properties": {
+        "id": 4584783242,
+        "amenity": "drinking_water",
+        "source": "local knowledge",
+        "source:g": "GSImaps/ort",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.4368323, 34.1574498] },
+      "properties": { "id": 4748389877, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.8473586, 33.9690222] },
+      "properties": {
+        "id": 5049891284,
+        "amenity": "drinking_water",
+        "source": "local knowledge",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.1793202, 34.1673239] },
+      "properties": {
+        "id": 5515609021,
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.0836429, 34.0397659] },
+      "properties": { "id": 5529827221, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [132.2206897, 34.1697488] },
+      "properties": { "id": 6201024528, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.3842884, 34.4195402] },
+      "properties": {
+        "id": 6441775721,
+        "amenity": "drinking_water",
+        "check_date": "2025-08-22"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.8780623, 34.3553344] },
+      "properties": { "id": 6444916061, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.6623311, 34.6527129] },
+      "properties": { "id": 6476789781, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.3739711, 34.0055373] },
+      "properties": {
+        "id": 8401406817,
+        "amenity": "drinking_water",
+        "name": "きらら",
+        "name:en": "Yamaguchi Kirara Haku Memorial Park",
+        "name:it": "Yamaguchi Kirara Haku Memorial Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.2717237, 33.9951408] },
+      "properties": {
+        "id": 9515314189,
+        "access": "permissive",
+        "amenity": "drinking_water",
+        "operator": "宇部蒲鉾株式会社"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.2170188, 33.9997328] },
+      "properties": { "id": 9515729526, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.8410619, 34.3519585] },
+      "properties": { "id": 11481798867, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.8409384, 34.3529693] },
+      "properties": {
+        "id": 11481843902,
+        "amenity": "drinking_water",
+        "fee": "no",
+        "stroller": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.9266363, 33.9511055] },
+      "properties": {
+        "id": 11587645723,
+        "amenity": "drinking_water",
+        "fee": "no",
+        "stroller": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.4770476, 34.1795041] },
+      "properties": { "id": 11636782469, "amenity": "drinking_water" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [130.928082, 33.9528486] },
+      "properties": {
+        "id": 11691435809,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [131.3810023, 34.4173197] },
+      "properties": {
+        "id": 13088493874,
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      }
+    }
+  ]
+}
