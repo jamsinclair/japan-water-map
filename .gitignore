@@ -23,4 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
+# AI Tooling - in case contributors use them
 .claude
+.cursor
+CLAUDE*
