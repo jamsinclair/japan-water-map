@@ -6,6 +6,7 @@ import {
   updateURLWithLocation,
   getDefaultLocation,
 } from "./utils/urlParams";
+import { registerServiceWorker } from "./utils/serviceWorker";
 
 export function App() {
   const [locale] = useState<"en" | "ja">(() => {
@@ -34,6 +35,11 @@ export function App() {
       }
       hasInitialized.current = true;
     }
+  }, []);
+
+  // Register service worker
+  useEffect(() => {
+    registerServiceWorker();
   }, []);
 
   const handleLocaleChange = (value: "en" | "ja") => {
