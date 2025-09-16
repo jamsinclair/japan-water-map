@@ -60,10 +60,44 @@ async function fetchWithRetry(url, options, maxRetries = 3) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
       const response = await fetch(url, options);
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+
+      if (response.ok) {
+        return response;
       }
-      return response;
+
+      // Handle 429 Too Many Requests specifically
+      if (response.status === 429) {
+        const retryAfter = response.headers.get("Retry-After");
+        let delay;
+
+        if (retryAfter) {
+          // Retry-After can be in seconds or HTTP date
+          const retryAfterSeconds = parseInt(retryAfter, 10);
+          if (!isNaN(retryAfterSeconds)) {
+            // It's a number of seconds
+            delay = retryAfterSeconds * 1000;
+          } else {
+            // It's an HTTP date, calculate the difference
+            const retryDate = new Date(retryAfter);
+            delay = Math.max(0, retryDate.getTime() - Date.now());
+          }
+        } else {
+          // No Retry-After header, use exponential backoff with longer delays for 429
+          delay = Math.pow(2, attempt - 1) * 10000; // Start at 10s, then 20s, 40s
+        }
+
+        console.log(
+          `Rate limited (429). Retrying in ${Math.round(delay / 1000)}s...`,
+        );
+
+        if (attempt < maxRetries) {
+          await new Promise((resolve) => setTimeout(resolve, delay + 1000)); // Add 1s buffer
+          continue;
+        }
+      }
+
+      // For other HTTP errors, throw immediately
+      throw new Error(`HTTP error! status: ${response.status}`);
     } catch (error) {
       console.log(`Attempt ${attempt} failed:`, error.message);
 
@@ -71,7 +105,8 @@ async function fetchWithRetry(url, options, maxRetries = 3) {
         throw error;
       }
 
-      const delay = Math.pow(2, attempt - 1) * 5000;
+      // For non-HTTP errors (network issues, etc.), use standard exponential backoff
+      const delay = Math.pow(2, attempt - 1) * 10000; // Start at 10s, then 20s, 40s
       console.log(`Retrying in ${delay}ms...`);
       await new Promise((resolve) => setTimeout(resolve, delay));
     }
@@ -208,21 +243,30 @@ async function main() {
   const dataDir = path.join(process.cwd(), "public/data");
   await fs.mkdir(dataDir, { recursive: true });
 
+  // Track failed prefectures
+  const failedWaterPrefectures = [];
+  const failedToiletPrefectures = [];
+
   // Process each prefecture
   for (const prefecture of PREFECTURES) {
     // Fetch drinking water data
-    // const drinkingWaterData = await fetchDrinkingWaterForPrefecture(prefecture);
+    const drinkingWaterData = await fetchDrinkingWaterForPrefecture(prefecture);
 
-    // if (drinkingWaterData) {
-    //   const filename = `${PREFECTURE_MAP[prefecture]}-drinking-water.json`;
-    //   const filepath = path.join(dataDir, filename);
+    if (drinkingWaterData) {
+      const filename = `${PREFECTURE_MAP[prefecture]}-drinking-water.json`;
+      const filepath = path.join(dataDir, filename);
 
-    //   await fs.writeFile(filepath, JSON.stringify(drinkingWaterData));
-    //   console.log(`Saved ${filename}`);
-    // }
+      await fs.writeFile(
+        filepath,
+        JSON.stringify(drinkingWaterData, null, 2) + "\n",
+      );
+      console.log(`Saved ${filename}`);
+    } else {
+      failedWaterPrefectures.push(prefecture);
+    }
 
-    // // Rate limiting - wait 2 seconds between requests
-    // await new Promise((resolve) => setTimeout(resolve, 8000));
+    // Rate limiting - wait 2 seconds between requests
+    await new Promise((resolve) => setTimeout(resolve, 2000));
 
     // Fetch toilet data
     const toiletData = await fetchToiletsForPrefecture(prefecture);
@@ -231,15 +275,39 @@ async function main() {
       const filename = `${PREFECTURE_MAP[prefecture]}-toilets.json`;
       const filepath = path.join(dataDir, filename);
 
-      await fs.writeFile(filepath, JSON.stringify(toiletData));
+      await fs.writeFile(filepath, JSON.stringify(toiletData, null, 2) + "\n");
       console.log(`Saved ${filename}`);
+    } else {
+      failedToiletPrefectures.push(prefecture);
     }
 
-    // Rate limiting - wait 5 seconds between requests
-    await new Promise((resolve) => setTimeout(resolve, 8000));
+    // Rate limiting - wait 2 seconds between requests
+    await new Promise((resolve) => setTimeout(resolve, 2000));
   }
 
   console.log("All prefectures processed!");
+
+  // Log failed prefectures
+  if (failedWaterPrefectures.length > 0) {
+    console.log(
+      `\nFailed to fetch drinking water data for ${failedWaterPrefectures.length} prefectures:`,
+    );
+    console.log(failedWaterPrefectures.join(", "));
+  }
+
+  if (failedToiletPrefectures.length > 0) {
+    console.log(
+      `\nFailed to fetch toilet data for ${failedToiletPrefectures.length} prefectures:`,
+    );
+    console.log(failedToiletPrefectures.join(", "));
+  }
+
+  if (
+    failedWaterPrefectures.length === 0 &&
+    failedToiletPrefectures.length === 0
+  ) {
+    console.log("\nAll data fetched successfully!");
+  }
 }
 
 main().catch(console.error);
