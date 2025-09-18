@@ -3,72 +3,195 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [140.1656369, 38.051099] },
-      "properties": { "id": 2972865557, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.1656369,
+          38.051099
+        ]
+      },
+      "properties": {
+        "id": 2972865557,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [140.2650496, 38.3639969] },
-      "properties": { "id": 3718261550, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.2650496,
+          38.3639969
+        ]
+      },
+      "properties": {
+        "id": 3718261550,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [140.2692445, 38.3624154] },
-      "properties": { "id": 3718261557, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.2692445,
+          38.3624154
+        ]
+      },
+      "properties": {
+        "id": 3718261557,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [140.2659079, 38.3629706] },
-      "properties": { "id": 3718261559, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.2659079,
+          38.3629706
+        ]
+      },
+      "properties": {
+        "id": 3718261559,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [140.2682253, 38.3625584] },
-      "properties": { "id": 3718261561, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.2682253,
+          38.3625584
+        ]
+      },
+      "properties": {
+        "id": 3718261561,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.8167584, 38.738525] },
-      "properties": { "id": 4172611846, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8167584,
+          38.738525
+        ]
+      },
+      "properties": {
+        "id": 4172611846,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.8232651, 38.7284643] },
-      "properties": { "id": 4172714936, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8232651,
+          38.7284643
+        ]
+      },
+      "properties": {
+        "id": 4172714936,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.825537, 38.7287193] },
-      "properties": { "id": 4183592254, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.825537,
+          38.7287193
+        ]
+      },
+      "properties": {
+        "id": 4183592254,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.8235716, 38.7290781] },
-      "properties": { "id": 4183592272, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8235716,
+          38.7290781
+        ]
+      },
+      "properties": {
+        "id": 4183592272,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.9039426, 38.7720163] },
-      "properties": { "id": 4210788598, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.9039426,
+          38.7720163
+        ]
+      },
+      "properties": {
+        "id": 4210788598,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.5466326, 39.1851459] },
-      "properties": { "id": 5923545234, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5466326,
+          39.1851459
+        ]
+      },
+      "properties": {
+        "id": 5923545234,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.8393984, 38.9164118] },
-      "properties": { "id": 5936582818, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8393984,
+          38.9164118
+        ]
+      },
+      "properties": {
+        "id": 5936582818,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [140.3266646, 38.2525109] },
-      "properties": { "id": 6343009460, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.3266646,
+          38.2525109
+        ]
+      },
+      "properties": {
+        "id": 6343009460,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.8388395, 38.7178509] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8388395,
+          38.7178509
+        ]
+      },
       "properties": {
         "id": 6502026623,
         "amenity": "drinking_water",
@@ -77,7 +200,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [140.1055027, 37.9089175] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.1055027,
+          37.9089175
+        ]
+      },
       "properties": {
         "id": 6815358218,
         "addr:street": "南堀端町大町線",
@@ -86,7 +215,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.8317256, 38.727739] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8317256,
+          38.727739
+        ]
+      },
       "properties": {
         "id": 7391496327,
         "amenity": "drinking_water",
@@ -95,7 +230,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.7751709, 38.7487948] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7751709,
+          38.7487948
+        ]
+      },
       "properties": {
         "id": 7521615066,
         "amenity": "drinking_water",
@@ -104,7 +245,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.7694186, 38.7454061] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7694186,
+          38.7454061
+        ]
+      },
       "properties": {
         "id": 7521615080,
         "amenity": "drinking_water",
@@ -113,7 +260,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.7663535, 38.7447631] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7663535,
+          38.7447631
+        ]
+      },
       "properties": {
         "id": 7521615092,
         "amenity": "drinking_water",
@@ -122,7 +275,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.8303232, 38.3662235] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8303232,
+          38.3662235
+        ]
+      },
       "properties": {
         "id": 7779855392,
         "amenity": "drinking_water",
@@ -131,12 +290,27 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.8927925, 38.7669654] },
-      "properties": { "id": 8374226974, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8927925,
+          38.7669654
+        ]
+      },
+      "properties": {
+        "id": 8374226974,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [140.1174065, 37.9091377] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.1174065,
+          37.9091377
+        ]
+      },
       "properties": {
         "id": 9921318809,
         "amenity": "drinking_water",
@@ -147,7 +321,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [140.1174136, 37.9091315] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.1174136,
+          37.9091315
+        ]
+      },
       "properties": {
         "id": 9921318810,
         "amenity": "drinking_water",
@@ -158,7 +338,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [140.1174054, 37.9091257] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.1174054,
+          37.9091257
+        ]
+      },
       "properties": {
         "id": 9921318811,
         "amenity": "drinking_water",
@@ -169,7 +355,13 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [140.1173983, 37.9091319] },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.1173983,
+          37.9091319
+        ]
+      },
       "properties": {
         "id": 9921318812,
         "amenity": "drinking_water",
@@ -180,13 +372,31 @@
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.9100069, 38.9627296] },
-      "properties": { "id": 9966892009, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.9100069,
+          38.9627296
+        ]
+      },
+      "properties": {
+        "id": 9966892009,
+        "amenity": "drinking_water"
+      }
     },
     {
       "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.9098134, 38.9641274] },
-      "properties": { "id": 9966902449, "amenity": "drinking_water" }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.9098134,
+          38.9641274
+        ]
+      },
+      "properties": {
+        "id": 9966902449,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }
