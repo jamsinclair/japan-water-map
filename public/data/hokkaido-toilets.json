@@ -15682,6 +15682,7 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
+        "fee": "no",
         "wheelchair": "yes"
       }
     },
@@ -16085,8 +16086,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          143.59600051111113,
-          44.18522615555556
+          143.5959549111111,
+          44.18523865555555
         ]
       },
       "properties": {
@@ -16094,7 +16095,7 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
-        "source": "Bing"
+        "source": "GSImaps/seamless"
       }
     },
     {
@@ -18327,7 +18328,8 @@
         "id": 617746843,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "fee": "no"
       }
     },
     {

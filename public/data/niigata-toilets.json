@@ -3595,6 +3595,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          138.8833474,
+          37.5464163
+        ]
+      },
+      "properties": {
+        "id": 13155291139,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.12971113999998,
           37.15217218
         ]
@@ -6075,6 +6093,22 @@
       },
       "properties": {
         "id": 1428285079,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.88146844,
+          37.544546659999995
+        ]
+      },
+      "properties": {
+        "id": 1431112377,
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"

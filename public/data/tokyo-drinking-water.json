@@ -19590,13 +19590,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.756705,
-          35.7244875
+          139.7567381,
+          35.7244431
         ]
       },
       "properties": {
         "id": 5791660392,
-        "amenity": "drinking_water"
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no"
       }
     },
     {
@@ -30779,6 +30781,22 @@
         "access": "yes",
         "amenity": "drinking_water",
         "check_date": "2025-09-07",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5280301,
+          35.7101733
+        ]
+      },
+      "properties": {
+        "id": 13152129233,
+        "access": "yes",
+        "amenity": "drinking_water",
         "fee": "no"
       }
     }

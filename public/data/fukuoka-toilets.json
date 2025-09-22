@@ -6561,6 +6561,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          130.841388,
+          33.310678
+        ]
+      },
+      "properties": {
+        "id": 13157166304,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           130.47150082,
           33.77709554
         ]
@@ -11522,6 +11537,26 @@
         "toilets:disposal": "flush",
         "unisex": "yes",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.29143704444448,
+          33.494096
+        ]
+      },
+      "properties": {
+        "id": 1383935709,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "public",
+        "building:levels": "2",
+        "ele": "263.1",
+        "height": "4.4",
+        "source": "MLIT_PLATEAU bldg_aca234a0-ccb8-4fa7-8c1d-49acdf67590c"
       }
     },
     {

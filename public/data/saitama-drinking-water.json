@@ -4416,6 +4416,20 @@
         "fee": "no",
         "wheelchair": "no"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.681484,
+          35.8826503
+        ]
+      },
+      "properties": {
+        "id": 13157243776,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }

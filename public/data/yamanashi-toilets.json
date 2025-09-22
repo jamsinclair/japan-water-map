@@ -3874,6 +3874,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          138.847559,
+          35.4272552
+        ]
+      },
+      "properties": {
+        "id": 13152118923,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2025-08-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           138.73347148888888,
           35.36503853333333
         ]

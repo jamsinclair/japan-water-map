@@ -533,6 +533,23 @@
         "id": 12251772250,
         "amenity": "drinking_water"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.8421713,
+          35.4494747
+        ]
+      },
+      "properties": {
+        "id": 13152125424,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
     }
   ]
 }

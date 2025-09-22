@@ -60482,6 +60482,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          139.80046408000004,
+          35.68829836
+        ]
+      },
+      "properties": {
+        "id": 301523477,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.83395426,
           35.6205686
         ]
