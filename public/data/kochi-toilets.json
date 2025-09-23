@@ -2508,6 +2508,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          133.7313472,
+          33.637073
+        ]
+      },
+      "properties": {
+        "id": 13161881302,
+        "element_type": "node",
+        "amenity": "toilets",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.6397891,
+          33.598214
+        ]
+      },
+      "properties": {
+        "id": 13161881701,
+        "element_type": "node",
+        "amenity": "toilets",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           133.5088668142857,
           33.558869771428576
         ]

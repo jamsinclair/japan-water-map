@@ -13276,6 +13276,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          139.5987584,
+          35.9332636
+        ]
+      },
+      "properties": {
+        "id": 13161427610,
+        "element_type": "node",
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6595433,
+          35.827747
+        ]
+      },
+      "properties": {
+        "id": 13163265212,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.31265309999998,
           35.8550797
         ]

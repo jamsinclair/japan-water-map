@@ -4430,6 +4430,21 @@
         "id": 13157243776,
         "amenity": "drinking_water"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5993174,
+          35.9335798
+        ]
+      },
+      "properties": {
+        "id": 13161426498,
+        "amenity": "drinking_water",
+        "man_made": "water_tap"
+      }
     }
   ]
 }

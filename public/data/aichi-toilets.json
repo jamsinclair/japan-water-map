@@ -16581,7 +16581,8 @@
         "id": 249376074,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
+        "building": "service",
+        "building:levels": "1",
         "source": "survey"
       }
     },
@@ -16598,7 +16599,8 @@
         "id": 249376075,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
+        "building": "service",
+        "building:levels": "1",
         "source": "GSI/KIBAN 2500; NARO; survey",
         "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN"
       }

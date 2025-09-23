@@ -2809,6 +2809,38 @@
         "amenity": "toilets",
         "building": "toilets"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.08727502,
+          37.91675102000001
+        ]
+      },
+      "properties": {
+        "id": 1431617851,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.05422700399998,
+          37.881293752
+        ]
+      },
+      "properties": {
+        "id": 1431898919,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "toilets"
+      }
     }
   ]
 }

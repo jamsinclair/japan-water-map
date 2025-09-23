@@ -4067,6 +4067,22 @@
         "toilets:disposal": "flush",
         "toilets:position": "squat;urinal"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.20711812,
+          35.431669539999994
+        ]
+      },
+      "properties": {
+        "id": 1432003681,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
     }
   ]
 }

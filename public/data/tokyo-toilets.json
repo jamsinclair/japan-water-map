@@ -70922,7 +70922,9 @@
         "access": "yes",
         "amenity": "toilets",
         "building": "yes",
-        "unisex": "yes"
+        "fee": "no",
+        "unisex": "yes",
+        "wheelchair": "yes"
       }
     },
     {

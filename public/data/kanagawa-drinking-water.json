@@ -22674,6 +22674,21 @@
         "id": 13042530906,
         "amenity": "drinking_water"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4950658,
+          35.4707774
+        ]
+      },
+      "properties": {
+        "id": 13162386208,
+        "access": "yes",
+        "amenity": "drinking_water"
+      }
     }
   ]
 }

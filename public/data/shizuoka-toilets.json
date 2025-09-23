@@ -21972,6 +21972,25 @@
         "amenity": "toilets",
         "building": "yes"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.73453784,
+          35.16048818
+        ]
+      },
+      "properties": {
+        "id": 1431927320,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "female": "yes",
+        "male": "yes"
+      }
     }
   ]
 }
