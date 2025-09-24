@@ -19827,6 +19827,25 @@
         "building": "yes",
         "wheelchair": "limited"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3303585142857,
+          36.174733485714285
+        ]
+      },
+      "properties": {
+        "id": 1432375004,
+        "element_type": "way",
+        "access": "customers",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "yes",
+        "wheelchair": "yes"
+      }
     }
   ]
 }

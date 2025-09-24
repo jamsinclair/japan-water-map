@@ -6695,6 +6695,27 @@
         "toilets:disposal": "flush",
         "unisex": "yes"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.54995184,
+          31.570094360000002
+        ]
+      },
+      "properties": {
+        "id": 1432260597,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
     }
   ]
 }
