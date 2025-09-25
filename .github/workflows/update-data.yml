@@ -4,7 +4,7 @@ on:
   schedule:
     # Run on the last Thursday of every month at 02:17 UTC
     # This uses a complex cron pattern to target the last Thursday
-    - cron: "17 2 22-31 * 4"
+    - cron: "17 2 25 * *"
   workflow_dispatch: # Allow manual triggering
 
 jobs:
