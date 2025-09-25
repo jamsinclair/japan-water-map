@@ -3627,8 +3627,8 @@
       "properties": {
         "id": 13166727190,
         "element_type": "node",
-        "access": "身障者用",
         "amenity": "toilets",
+        "disabled": "designated",
         "wheelchair": "yes"
       }
     },

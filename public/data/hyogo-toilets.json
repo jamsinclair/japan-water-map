@@ -2435,7 +2435,8 @@
       "properties": {
         "id": 3761080386,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no"
       }
     },
     {
@@ -4946,7 +4947,8 @@
       "properties": {
         "id": 5499222299,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no"
       }
     },
     {
@@ -10155,13 +10157,17 @@
         "access": "yes",
         "amenity": "toilets",
         "changing_table": "no",
-        "check_date": "2024-12-30",
+        "check_date": "2025-09-22",
+        "check_date:opening_hours": "2025-09-22",
+        "check_date:wheelchair": "2025-09-22",
         "fee": "no",
+        "opening_hours": "Mo-Su 09:00-21:00",
         "source": "survey",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "toilets:menstrual_products": "no",
-        "toilets:position": "seated"
+        "toilets:position": "seated",
+        "wheelchair": "yes"
       }
     },
     {
@@ -16612,8 +16618,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.30360677142858,
-          34.86603588571429
+          135.30360822857145,
+          34.866038242857144
         ]
       },
       "properties": {
@@ -16630,8 +16636,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.30344436666667,
-          34.867026491666664
+          135.303442025,
+          34.867024225
         ]
       },
       "properties": {
@@ -19216,7 +19222,8 @@
         "id": 864105537,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "toilets",
+        "fee": "no"
       }
     },
     {
