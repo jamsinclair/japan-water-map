@@ -8993,9 +8993,11 @@
         "access": "yes",
         "amenity": "toilets",
         "changing_table": "yes",
-        "check_date": "2025-06-06",
+        "check_date": "2025-10-05",
+        "check_date:opening_hours": "2025-10-05",
         "fee": "no",
         "level": "0",
+        "opening_hours": "Mo-Su,PH 09:30-24:00",
         "portable": "no",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
@@ -9157,9 +9159,11 @@
         "element_type": "node",
         "access": "yes",
         "amenity": "toilets",
-        "check_date": "2025-05-11",
+        "check_date": "2025-10-12",
+        "check_date:opening_hours": "2025-10-12",
         "fee": "no",
         "level": "0",
+        "opening_hours": "Mo-Su,PH 09:00-21:00",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "wheelchair": "yes"
@@ -9884,9 +9888,11 @@
         "element_type": "node",
         "access": "yes",
         "amenity": "toilets",
-        "check_date": "2025-03-08",
+        "check_date": "2025-10-12",
+        "check_date:opening_hours": "2025-10-12",
         "fee": "no",
         "level": "0",
+        "opening_hours": "Mo-Su,PH 09:00-21:00",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes"
       }
@@ -9982,8 +9988,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.3844099,
-          34.6500611
+          135.3844235,
+          34.6500586
         ]
       },
       "properties": {
@@ -10289,8 +10295,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.3862821,
-          34.6471247
+          135.3862685,
+          34.6471106
         ]
       },
       "properties": {
@@ -10316,8 +10322,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.3861642,
-          34.6510398
+          135.3862212,
+          34.650946
         ]
       },
       "properties": {
@@ -10343,8 +10349,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.381563,
-          34.6515859
+          135.3815637,
+          34.6515603
         ]
       },
       "properties": {
@@ -10392,8 +10398,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.3798535,
-          34.6490432
+          135.3798686,
+          34.64902
         ]
       },
       "properties": {
@@ -10414,8 +10420,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.379555,
-          34.6484097
+          135.3794879,
+          34.6484116
         ]
       },
       "properties": {
@@ -10424,27 +10430,6 @@
         "amenity": "toilets",
         "female": "yes",
         "male": "yes",
-        "unisex": "yes",
-        "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.3795418,
-          34.6486198
-        ]
-      },
-      "properties": {
-        "id": 12752013628,
-        "element_type": "node",
-        "amenity": "toilets",
-        "check_date": "2025-06-21",
-        "female": "yes",
-        "male": "yes",
-        "name": "トイレ3",
         "unisex": "yes",
         "wheelchair": "yes"
       }
@@ -11578,6 +11563,75 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.4935488,
+          34.8646315
+        ]
+      },
+      "properties": {
+        "id": 13191803969,
+        "element_type": "node",
+        "access": "yes",
+        "addr:street": "Ibaraki Nose Road",
+        "amenity": "toilets",
+        "created_by": "On Wheels: 3.0.3",
+        "toilets:wheelchair": "yes",
+        "toilets:wheelchair:accessible_via": "groundfloor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4986294,
+          34.6724901
+        ]
+      },
+      "properties": {
+        "id": 13232059830,
+        "element_type": "node",
+        "addr:floor": "B2",
+        "amenity": "toilets",
+        "check_date": "2025-10-14",
+        "level": "-2",
+        "male": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.2943644,
+          34.4133383
+        ]
+      },
+      "properties": {
+        "id": 13253102220,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.2943687,
+          34.4112396
+        ]
+      },
+      "properties": {
+        "id": 13253138289,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.64410644285712,
           34.818548414285715
         ]
@@ -11987,6 +12041,7 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
+        "fee": "no",
         "name": "トイレI",
         "ref": "I",
         "source": "GSI/KIBAN 2500;NARO",
@@ -14953,8 +15008,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.5805984111111,
-          34.70740627777778
+          135.58062461111112,
+          34.70740407777778
         ]
       },
       "properties": {
@@ -16477,7 +16532,8 @@
         "id": 556030486,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "fee": "no"
       }
     },
     {
@@ -17632,9 +17688,14 @@
       "properties": {
         "id": 640504905,
         "element_type": "way",
+        "access": "customers",
         "amenity": "toilets",
         "building": "yes",
-        "source": "Bing"
+        "changing_table": "yes",
+        "entrance:step_count": "0",
+        "entrance:width": "1",
+        "source": "Bing",
+        "toilets:wheelchair": "yes"
       }
     },
     {
@@ -17651,7 +17712,9 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "service",
-        "building:levels": "1"
+        "building:levels": "1",
+        "toilets:wheelchair": "yes",
+        "toilets:wheelchair:accessible_via": "groundfloor"
       }
     },
     {
@@ -21116,6 +21179,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.55117720746276,
+          34.8858026835821
+        ]
+      },
+      "properties": {
+        "id": 1039239840,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.48574256,
           34.55587508
         ]
@@ -23387,6 +23466,7 @@
         "id": 1358123667,
         "element_type": "way",
         "amenity": "toilets",
+        "fee": "no",
         "wheelchair": "yes"
       }
     },
@@ -23402,7 +23482,9 @@
       "properties": {
         "id": 1358123668,
         "element_type": "way",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -23591,6 +23673,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          135.379628175,
+          34.648601612499995
+        ]
+      },
+      "properties": {
+        "id": 1366025815,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2025-06-21",
+        "female": "yes",
+        "male": "yes",
+        "name": "トイレ3",
+        "roof:shape": "gabled",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.4741939428571,
           34.508662771428575
         ]
@@ -23661,6 +23767,7 @@
         "building": "yes",
         "female": "yes",
         "male": "yes",
+        "name": "トイレ7",
         "unisex": "no",
         "wheelchair": "yes"
       }
@@ -23681,6 +23788,7 @@
         "building": "yes",
         "female": "yes",
         "male": "yes",
+        "name": "トイレ8",
         "unisex": "no",
         "wheelchair": "yes"
       }
@@ -24278,6 +24386,22 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.54977688,
+          34.884989680000004
+        ]
+      },
+      "properties": {
+        "id": 1436360515,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
       }
     }
   ]

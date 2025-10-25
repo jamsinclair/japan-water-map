@@ -960,6 +960,7 @@
         "amenity": "toilets",
         "fee": "no",
         "female": "yes",
+        "level": "0",
         "male": "yes",
         "source": "survey"
       }
@@ -979,6 +980,7 @@
         "amenity": "toilets",
         "fee": "no",
         "female": "yes",
+        "level": "0",
         "male": "yes",
         "source": "survey"
       }
@@ -1536,6 +1538,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          131.3958148,
+          34.0942906
+        ]
+      },
+      "properties": {
+        "id": 13240105673,
+        "element_type": "node",
+        "amenity": "toilets",
+        "level": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.4011872,
+          34.393818
+        ]
+      },
+      "properties": {
+        "id": 13240121766,
+        "element_type": "node",
+        "amenity": "toilets",
+        "name": "萩駅構内トイレ",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           131.20339146,
           34.39440306
         ]
@@ -1584,6 +1619,23 @@
         "building": "yes",
         "source": "GSI/KIBAN 2500",
         "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.30449260000003,
+          34.23426748000001
+        ]
+      },
+      "properties": {
+        "id": 167425131,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "Bing"
       }
     },
     {
@@ -2090,7 +2142,9 @@
         "id": 473902830,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "changing_table": "yes",
+        "toilets:wheelchair": "yes"
       }
     },
     {

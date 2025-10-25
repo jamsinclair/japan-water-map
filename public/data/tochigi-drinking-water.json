@@ -532,7 +532,8 @@
         "id": 11974589134,
         "access": "yes",
         "amenity": "drinking_water",
-        "fee": "no"
+        "fee": "no",
+        "man_made": "water_tap"
       }
     },
     {
@@ -809,6 +810,22 @@
         "amenity": "drinking_water",
         "bottle": "yes",
         "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4419754,
+          36.3351812
+        ]
+      },
+      "properties": {
+        "id": 13190461108,
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "yes"
       }
     }
   ]

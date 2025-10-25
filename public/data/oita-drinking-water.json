@@ -657,6 +657,21 @@
         "amenity": "drinking_water",
         "man_made": "drinking_fountain"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.5943016,
+          33.2194516
+        ]
+      },
+      "properties": {
+        "id": 13229707434,
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      }
     }
   ]
 }

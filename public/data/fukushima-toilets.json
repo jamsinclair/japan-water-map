@@ -3078,7 +3078,6 @@
         "id": 3778410268,
         "element_type": "node",
         "amenity": "toilets",
-        "name": "会津大学短期大学部",
         "opening_hours": "Mo-Su 08:00-18:00; Dec 29-31 off; Jun 1-3 off",
         "source": "CC BY 2.1 JP http://www.data4citizen.jp/app/users/"
       }
@@ -8051,8 +8050,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.28460413846153,
-          37.311609238461536
+          139.28462303846155,
+          37.31160083846154
         ]
       },
       "properties": {

@@ -3772,6 +3772,97 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          138.7034001,
+          36.5574794
+        ]
+      },
+      "properties": {
+        "id": 13185797133,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.9861451,
+          36.3380332
+        ]
+      },
+      "properties": {
+        "id": 13190666601,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2025-10-04",
+        "opening_hours": "24/7",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.9870251,
+          36.3378816
+        ]
+      },
+      "properties": {
+        "id": 13190669001,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2025-10-04",
+        "opening_hours": "24/7",
+        "toilets:disposal": "chemical"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.9869509,
+          36.3387629
+        ]
+      },
+      "properties": {
+        "id": 13190712201,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-10-04",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.9782762,
+          36.3464172
+        ]
+      },
+      "properties": {
+        "id": 13192318544,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-10-04",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           138.73541612,
           36.56989114
         ]
@@ -8771,6 +8862,91 @@
         "access": "yes",
         "amenity": "toilets",
         "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.68267842,
+          36.54501186
+        ]
+      },
+      "properties": {
+        "id": 1434573754,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.70358358000001,
+          36.55893382000001
+        ]
+      },
+      "properties": {
+        "id": 1434573864,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.70198062000003,
+          36.559475680000006
+        ]
+      },
+      "properties": {
+        "id": 1434573870,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.09776654,
+          36.44044982
+        ]
+      },
+      "properties": {
+        "id": 1442992840,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.15154353333332,
+          36.52731165
+        ]
+      },
+      "properties": {
+        "id": 1442992889,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "drinking_water": "no"
       }
     }
   ]

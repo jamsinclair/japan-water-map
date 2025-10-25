@@ -1456,6 +1456,98 @@
         "fee": "no",
         "indoor": "yes"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6826328,
+          36.5449758
+        ]
+      },
+      "properties": {
+        "id": 13185796546,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "sinkhole": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6827263,
+          36.5449103
+        ]
+      },
+      "properties": {
+        "id": 13185796547,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.9861978,
+          36.3380075
+        ]
+      },
+      "properties": {
+        "id": 13190668001,
+        "amenity": "drinking_water",
+        "name": "飲料水",
+        "name:de": "Trinkwasser",
+        "name:en": "Drinking Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0006231,
+          36.3357326
+        ]
+      },
+      "properties": {
+        "id": 13201991838,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3509788,
+          36.3722698
+        ]
+      },
+      "properties": {
+        "id": 13207962760,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0977212,
+          36.4404581
+        ]
+      },
+      "properties": {
+        "id": 13240628610,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }

@@ -480,6 +480,22 @@
         "id": 12956008827,
         "amenity": "drinking_water"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.9325363,
+          35.4355325
+        ]
+      },
+      "properties": {
+        "id": 13243179641,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "name": "多賀の霊水"
+      }
     }
   ]
 }

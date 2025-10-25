@@ -6655,6 +6655,22 @@
         "building": "yes",
         "name": "あゆの森公園トイレ"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.56342560000002,
+          39.43585524
+        ]
+      },
+      "properties": {
+        "id": 1433192829,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
     }
   ]
 }

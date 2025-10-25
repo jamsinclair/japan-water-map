@@ -1109,8 +1109,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.4148791,
-          33.169913
+          130.4147705,
+          33.1699217
         ]
       },
       "properties": {
@@ -1527,21 +1527,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.3900364,
-          33.5733917
-        ]
-      },
-      "properties": {
-        "id": 4873101052,
-        "element_type": "node",
-        "amenity": "toilets"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           130.3898342,
           33.5739958
         ]
@@ -1557,8 +1542,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.3910709,
-          33.5738469
+          130.3911037,
+          33.5737393
         ]
       },
       "properties": {
@@ -6567,6 +6552,53 @@
       },
       "properties": {
         "id": 13157166304,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.3013568,
+          33.6601775
+        ]
+      },
+      "properties": {
+        "id": 13176225402,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2025-09-28",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.810486,
+          33.1548966
+        ]
+      },
+      "properties": {
+        "id": 13232230171,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.3885502,
+          33.5745558
+        ]
+      },
+      "properties": {
+        "id": 13252261199,
         "element_type": "node",
         "amenity": "toilets"
       }

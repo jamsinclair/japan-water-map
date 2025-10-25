@@ -14836,7 +14836,8 @@
       },
       "properties": {
         "id": 7877826135,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "man_made": "water_tap"
       }
     },
     {
@@ -22687,6 +22688,34 @@
       "properties": {
         "id": 13162386208,
         "access": "yes",
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5692658,
+          35.5884646
+        ]
+      },
+      "properties": {
+        "id": 13175226543,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7120728,
+          35.2245538
+        ]
+      },
+      "properties": {
+        "id": 13238342901,
         "amenity": "drinking_water"
       }
     }

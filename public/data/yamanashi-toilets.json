@@ -3890,6 +3890,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          138.769759,
+          35.5024075
+        ]
+      },
+      "properties": {
+        "id": 13226855731,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-10-12",
+        "toilets:disposal": "pitlatrine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           138.73347148888888,
           35.36503853333333
         ]

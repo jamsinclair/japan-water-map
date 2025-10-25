@@ -70,8 +70,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.4459695,
-          32.8545565
+          131.4459826,
+          32.8545459
         ]
       },
       "properties": {
@@ -2796,6 +2796,77 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          131.36644,
+          33.2680053
+        ]
+      },
+      "properties": {
+        "id": 13176069001,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.911016,
+          33.427629
+        ]
+      },
+      "properties": {
+        "id": 13240031758,
+        "element_type": "node",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "toilets:handwashing": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.9134181,
+          33.4272304
+        ]
+      },
+      "properties": {
+        "id": 13240070064,
+        "element_type": "node",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "toilets:handwashing": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0247528,
+          33.2550751
+        ]
+      },
+      "properties": {
+        "id": 13242221875,
+        "element_type": "node",
+        "amenity": "toilets",
+        "female": "yes",
+        "male": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           131.69389582,
           33.1113186
         ]
@@ -4530,15 +4601,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.8028648,
-          33.12486464444444
+          131.80288008888888,
+          33.12486545555555
         ]
       },
       "properties": {
         "id": 738931748,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
+        "building": "toilets",
+        "ele": "1.9",
+        "height": "3",
+        "source": "MLIT_PLATEAU 44206-bldg-10377",
         "toilets:disposal": "flush"
       }
     },
@@ -4618,15 +4692,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.79759686,
-          33.13560407999999
+          131.7976085,
+          33.1355874
         ]
       },
       "properties": {
         "id": 758018858,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
+        "building": "public",
+        "ele": "34.1",
+        "height": "3.4",
+        "source": "MLIT_PLATEAU 44206-bldg-13501",
         "toilets:disposal": "flush"
       }
     },
@@ -4722,15 +4799,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.79630866000002,
-          33.13448184
+          131.79632272857143,
+          33.13447417142857
         ]
       },
       "properties": {
         "id": 797386762,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
+        "building": "public",
+        "ele": "20.1",
+        "height": "3",
+        "source": "MLIT_PLATEAU 44206-bldg-13210",
         "toilets:disposal": "flush"
       }
     },
@@ -4739,15 +4819,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.79668754,
-          33.134132120000004
+          131.79670186,
+          33.134121400000005
         ]
       },
       "properties": {
         "id": 797386763,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
+        "building": "public",
+        "ele": "31.7",
+        "height": "3.7",
+        "source": "MLIT_PLATEAU 44206-bldg-13143",
         "toilets:disposal": "flush"
       }
     },

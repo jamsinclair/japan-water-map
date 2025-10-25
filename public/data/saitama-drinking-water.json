@@ -4445,6 +4445,20 @@
         "amenity": "drinking_water",
         "man_made": "water_tap"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4376892,
+          35.802194
+        ]
+      },
+      "properties": {
+        "id": 13204284156,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }

@@ -1116,7 +1116,8 @@
       "properties": {
         "id": 4553989177,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no"
       }
     },
     {
@@ -4296,6 +4297,36 @@
       },
       "properties": {
         "id": 13132363001,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7239408,
+          26.2576899
+        ]
+      },
+      "properties": {
+        "id": 13250941028,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7409744,
+          26.2480647
+        ]
+      },
+      "properties": {
+        "id": 13252379795,
         "element_type": "node",
         "amenity": "toilets"
       }

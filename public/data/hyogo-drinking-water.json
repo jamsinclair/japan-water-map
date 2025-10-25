@@ -461,6 +461,7 @@
       "properties": {
         "id": 3523126533,
         "amenity": "drinking_water",
+        "man_made": "water_tap",
         "source": "local knowledge",
         "wheelchair": "yes"
       }
@@ -2016,6 +2017,7 @@
       "properties": {
         "id": 5510109962,
         "amenity": "drinking_water",
+        "man_made": "water_tap",
         "source": "local knowledge",
         "wheelchair": "no"
       }
@@ -6738,6 +6740,108 @@
         "id": 13124393504,
         "access": "yes",
         "amenity": "drinking_water",
+        "covered": "no",
+        "fee": "no",
+        "indoor": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4304582,
+          34.7264384
+        ]
+      },
+      "properties": {
+        "id": 13186302529,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.3116204,
+          34.8586082
+        ]
+      },
+      "properties": {
+        "id": 13197074652,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.8472556,
+          34.7529461
+        ]
+      },
+      "properties": {
+        "id": 13229927384,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "covered": "no",
+        "fee": "no",
+        "indoor": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.8415572,
+          34.7845735
+        ]
+      },
+      "properties": {
+        "id": 13234023618,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "covered": "no",
+        "fee": "no",
+        "indoor": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.1828998,
+          34.6881279
+        ]
+      },
+      "properties": {
+        "id": 13245732639,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "fee": "no",
+        "indoor": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.3838997,
+          34.7702666
+        ]
+      },
+      "properties": {
+        "id": 13245743178,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
         "covered": "no",
         "fee": "no",
         "indoor": "no"

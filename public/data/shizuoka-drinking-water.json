@@ -5038,6 +5038,64 @@
         "id": 13165263715,
         "amenity": "drinking_water"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0776376,
+          35.101846
+        ]
+      },
+      "properties": {
+        "id": 13174816241,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.6525354,
+          34.7612155
+        ]
+      },
+      "properties": {
+        "id": 13208219169,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.5302745,
+          35.0124704
+        ]
+      },
+      "properties": {
+        "id": 13226399451,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.6529783,
+          34.7624412
+        ]
+      },
+      "properties": {
+        "id": 13245930250,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }

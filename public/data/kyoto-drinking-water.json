@@ -626,7 +626,9 @@
       },
       "properties": {
         "id": 3400033011,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2025-10-16",
+        "fountain": "drinking"
       }
     },
     {
@@ -948,7 +950,8 @@
       "properties": {
         "id": 4437168389,
         "amenity": "drinking_water",
-        "check_date": "2023-02-12"
+        "check_date": "2023-02-12",
+        "fountain": "bubbler"
       }
     },
     {
@@ -1088,7 +1091,9 @@
       },
       "properties": {
         "id": 5177632521,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2025-10-17",
+        "fountain": "bubbler"
       }
     },
     {
@@ -1173,7 +1178,9 @@
       },
       "properties": {
         "id": 5183451525,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2025-10-17",
+        "man_made": "water_tap"
       }
     },
     {
@@ -2388,7 +2395,9 @@
       },
       "properties": {
         "id": 12404341395,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "indoor": "no",
+        "man_made": "water_tap"
       }
     },
     {
@@ -2402,7 +2411,9 @@
       },
       "properties": {
         "id": 12404379007,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "indoor": "no",
+        "man_made": "water_tap"
       }
     },
     {
@@ -2558,6 +2569,20 @@
       },
       "properties": {
         "id": 13095781593,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.756505,
+          34.9710242
+        ]
+      },
+      "properties": {
+        "id": 13182734825,
         "amenity": "drinking_water"
       }
     }

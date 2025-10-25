@@ -15539,6 +15539,45 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          136.9719041,
+          34.7069639
+        ]
+      },
+      "properties": {
+        "id": 13197010604,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-10-06",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.4092229,
+          34.8310096
+        ]
+      },
+      "properties": {
+        "id": 13200007462,
+        "element_type": "node",
+        "access": "private",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "portable": "yes",
+        "toilets:disposal": "pitlatrine",
+        "unisex": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           136.990295,
           35.27199916
         ]
@@ -16011,8 +16050,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.7784813,
-          35.12698228000001
+          136.7784762,
+          35.12697802
         ]
       },
       "properties": {
@@ -22766,8 +22805,11 @@
       "properties": {
         "id": 695880786,
         "element_type": "way",
+        "access": "yes",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
       }
     },
     {
@@ -26009,6 +26051,60 @@
         "operator": "豊川市",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
+        "toilets:position": "inside",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.40820747,
+          34.82655338000001
+        ]
+      },
+      "properties": {
+        "id": 1433772211,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1",
+        "changing_table": "yes",
+        "fee": "no",
+        "opening_hours": "24/7",
+        "operator": "豊川市",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "inside",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.40966628,
+          34.83211278
+        ]
+      },
+      "properties": {
+        "id": 1441625342,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "yes",
+        "fee": "no",
+        "opening_hours": "24/7",
+        "operator": "豊川市",
+        "portable": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:menstrual_products": "no",
         "toilets:position": "inside",
         "unisex": "yes"
       }

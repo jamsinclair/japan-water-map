@@ -1166,6 +1166,40 @@
         "playground:theme": "elephant",
         "wikimedia_commons": "File:都鷹児童公園 水飲み場 01.jpg"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.055062,
+          31.7416507
+        ]
+      },
+      "properties": {
+        "id": 13227826498,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "playground:theme": "elephant",
+        "wikimedia_commons": "File:志比田街区公園 水飲み場 01.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.1533991,
+          31.7804913
+        ]
+      },
+      "properties": {
+        "id": 13227928663,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no"
+      }
     }
   ]
 }

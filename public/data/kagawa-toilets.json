@@ -2428,6 +2428,161 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          133.6880328,
+          34.137679
+        ]
+      },
+      "properties": {
+        "id": 13190126101,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.6444165,
+          34.1336883
+        ]
+      },
+      "properties": {
+        "id": 13190148801,
+        "element_type": "node",
+        "amenity": "toilets",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.5750428,
+          34.2579437
+        ]
+      },
+      "properties": {
+        "id": 13194869301,
+        "element_type": "node",
+        "amenity": "toilets",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.8650614,
+          34.164256
+        ]
+      },
+      "properties": {
+        "id": 13195304401,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.7660254,
+          34.2329144
+        ]
+      },
+      "properties": {
+        "id": 13197013001,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.9262987,
+          34.2536898
+        ]
+      },
+      "properties": {
+        "id": 13200007533,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.1003024,
+          34.3460405
+        ]
+      },
+      "properties": {
+        "id": 13204078701,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.1541393,
+          34.3394874
+        ]
+      },
+      "properties": {
+        "id": 13204263702,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.2128247,
+          34.3606174
+        ]
+      },
+      "properties": {
+        "id": 13204605701,
+        "element_type": "node",
+        "amenity": "toilets",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.5346958,
+          34.1273238
+        ]
+      },
+      "properties": {
+        "id": 13234345378,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "name": "トイレの家"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           133.8005287,
           34.28596042
         ]

@@ -5847,6 +5847,23 @@
         "amenity": "toilets",
         "building": "yes"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.9640222,
+          36.1873572
+        ]
+      },
+      "properties": {
+        "id": 1433747270,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes"
+      }
     }
   ]
 }

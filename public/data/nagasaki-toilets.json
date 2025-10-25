@@ -3410,6 +3410,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          129.6061177,
+          32.8882765
+        ]
+      },
+      "properties": {
+        "id": 13203878414,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.6388649,
+          32.9403625
+        ]
+      },
+      "properties": {
+        "id": 13227480778,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           129.73971572,
           32.62935134
         ]
@@ -3646,7 +3682,10 @@
         "id": 449551757,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "ele": "2.9",
+        "height": "3.04",
+        "source": "MLIT_PLATEAU 42208-bldg-3287"
       }
     },
     {
@@ -3672,8 +3711,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          129.69625374,
-          33.76089888
+          129.6962803,
+          33.760846580000006
         ]
       },
       "properties": {

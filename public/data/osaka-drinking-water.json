@@ -3662,7 +3662,8 @@
       "properties": {
         "id": 12769446853,
         "amenity": "drinking_water",
-        "bottle": "yes"
+        "bottle": "yes",
+        "fountain": "bottle_refill"
       }
     },
     {
@@ -3698,8 +3699,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.3868554,
-          34.6506669
+          135.3868205,
+          34.6506672
         ]
       },
       "properties": {
@@ -3728,8 +3729,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.3844104,
-          34.6499778
+          135.3844086,
+          34.6499795
         ]
       },
       "properties": {
@@ -3906,8 +3907,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.38677,
-          34.6474508
+          135.386754,
+          34.6474769
         ]
       },
       "properties": {
@@ -3980,8 +3981,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.3801376,
-          34.6499455
+          135.3801262,
+          34.6499632
         ]
       },
       "properties": {
@@ -4144,8 +4145,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.3797972,
-          34.6489861
+          135.3798307,
+          34.6489337
         ]
       },
       "properties": {
@@ -4298,8 +4299,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.3860949,
-          34.651137
+          135.3862518,
+          34.6508579
         ]
       },
       "properties": {
@@ -4316,8 +4317,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.3816149,
-          34.651598
+          135.3816673,
+          34.6515874
         ]
       },
       "properties": {
@@ -4467,12 +4468,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.3844491,
-          34.648232
+          135.3844821,
+          34.6482189
         ]
       },
       "properties": {
         "id": 13130841843,
+        "amenity": "drinking_water",
+        "bottle": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.3778521,
+          34.6511056
+        ]
+      },
+      "properties": {
+        "id": 13228887798,
         "amenity": "drinking_water",
         "bottle": "yes"
       }

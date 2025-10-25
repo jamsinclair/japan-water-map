@@ -5114,6 +5114,8 @@
         "id": 4643490595,
         "element_type": "node",
         "amenity": "toilets",
+        "check_date": "2025-10-11",
+        "fee": "no",
         "wheelchair": "yes"
       }
     },
@@ -5129,7 +5131,9 @@
       "properties": {
         "id": 4643490596,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2025-10-11",
+        "fee": "no"
       }
     },
     {
@@ -14734,6 +14738,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          138.5302958,
+          35.0126765
+        ]
+      },
+      "properties": {
+        "id": 13226399452,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-10-11",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           138.73347148888888,
           35.36503853333333
         ]
@@ -19120,8 +19143,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          137.6755711888889,
-          34.7126950111111
+          137.6755607888889,
+          34.712694411111116
         ]
       },
       "properties": {
@@ -21988,6 +22011,22 @@
         "building": "yes",
         "female": "yes",
         "male": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.65252352,
+          34.76130464
+        ]
+      },
+      "properties": {
+        "id": 1437066710,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "toilets"
       }
     }
   ]

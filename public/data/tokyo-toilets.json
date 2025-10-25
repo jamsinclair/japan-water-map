@@ -188,7 +188,8 @@
         "element_type": "node",
         "amenity": "toilets",
         "fee": "no",
-        "operator": "大田区"
+        "operator": "大田区",
+        "operator:wikidata": "Q217234"
       }
     },
     {
@@ -670,8 +671,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.6418682,
-          35.6660512
+          139.6418671,
+          35.6660229
         ]
       },
       "properties": {
@@ -1001,8 +1002,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.6431673,
-          35.6834405
+          139.6427657,
+          35.6834942
         ]
       },
       "properties": {
@@ -11528,6 +11529,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "no"
       }
@@ -12373,6 +12375,7 @@
         "amenity": "toilets",
         "fee": "no",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "yes"
       }
@@ -12602,7 +12605,11 @@
       "properties": {
         "id": 2320253314,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2025-10-14",
+        "check_date:wheelchair": "2025-10-14",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -15396,21 +15403,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.7076681,
-          35.6290615
-        ]
-      },
-      "properties": {
-        "id": 2466611843,
-        "element_type": "node",
-        "amenity": "toilets"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.7073464,
           35.6259339
         ]
@@ -15977,7 +15969,7 @@
       "properties": {
         "id": 2514927610,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "drinking_water": "no",
         "fee": "no",
@@ -16130,7 +16122,8 @@
       "properties": {
         "id": 2526078223,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2025-10-13"
       }
     },
     {
@@ -19111,6 +19104,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-06",
         "wheelchair": "no"
       }
@@ -19322,6 +19316,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-07",
         "wheelchair": "no"
       }
@@ -19340,6 +19335,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-07",
         "wheelchair": "no"
       }
@@ -19358,6 +19354,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-07",
         "wheelchair": "no"
       }
@@ -19376,6 +19373,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-07",
         "wheelchair": "no"
       }
@@ -19394,6 +19392,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-07",
         "wheelchair": "no"
       }
@@ -19412,6 +19411,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-07",
         "wheelchair": "no"
       }
@@ -19467,6 +19467,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-07",
         "wheelchair": "no"
       }
@@ -19502,6 +19503,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-07",
         "wheelchair": "no"
       }
@@ -19688,6 +19690,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-08",
         "wheelchair": "no"
       }
@@ -19723,6 +19726,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-08",
         "wheelchair": "no"
       }
@@ -21043,6 +21047,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2014-12",
         "wheelchair": "no"
       }
@@ -21062,6 +21067,7 @@
         "amenity": "toilets",
         "fee": "no",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2014-12",
         "wheelchair": "yes"
       }
@@ -21080,6 +21086,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2014-12",
         "wheelchair": "no"
       }
@@ -21098,6 +21105,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2014-12",
         "wheelchair": "no"
       }
@@ -21161,6 +21169,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2014-12",
         "wheelchair": "no"
       }
@@ -21179,6 +21188,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2014-12",
         "wheelchair": "no"
       }
@@ -21197,6 +21207,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2014-12",
         "wheelchair": "no"
       }
@@ -21313,6 +21324,7 @@
         "id": 3293769461,
         "element_type": "node",
         "amenity": "toilets",
+        "fee": "no",
         "wheelchair": "no"
       }
     },
@@ -21515,14 +21527,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.286907,
-          35.782254
+          139.2869181,
+          35.7822951
         ]
       },
       "properties": {
         "id": 3349360394,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "changing_table": "no",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "no"
       }
     },
     {
@@ -21789,6 +21805,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2011-02; survey,2015-02",
         "wheelchair": "no"
       }
@@ -21807,6 +21824,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2015-02",
         "wheelchair": "no"
       }
@@ -21825,6 +21843,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2012-04; survey,2015-03",
         "wheelchair": "no"
       }
@@ -21843,6 +21862,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2012-04; survey,2015-03",
         "wheelchair": "no"
       }
@@ -21947,6 +21967,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2015-03",
         "wheelchair": "no"
       }
@@ -21965,6 +21986,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2015-03",
         "wheelchair": "no"
       }
@@ -23150,6 +23172,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "wheelchair": "no"
       }
     },
@@ -23776,6 +23799,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "no"
       }
@@ -24137,6 +24161,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing; survey",
         "wheelchair": "yes"
       }
@@ -26173,6 +26198,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "no"
       }
@@ -26191,6 +26217,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "no"
       }
@@ -26209,6 +26236,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "no"
       }
@@ -26328,6 +26356,7 @@
         "amenity": "toilets",
         "fee": "no",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "no"
       }
@@ -26494,6 +26523,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "no"
       }
@@ -26512,6 +26542,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "no"
       }
@@ -26545,6 +26576,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "yes"
       }
@@ -27457,6 +27489,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "no"
       }
@@ -29619,6 +29652,7 @@
         "amenity": "toilets",
         "fee": "no",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "no"
       }
@@ -31126,6 +31160,7 @@
         "id": 5513597145,
         "element_type": "node",
         "amenity": "toilets",
+        "toilets:handwashing": "yes",
         "wheelchair": "limited"
       }
     },
@@ -31908,6 +31943,7 @@
         "amenity": "toilets",
         "fee": "no",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "yes"
       }
@@ -31946,6 +31982,7 @@
         "amenity": "toilets",
         "fee": "no",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "no"
       }
@@ -32027,6 +32064,7 @@
         "amenity": "toilets",
         "fee": "no",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "no"
       }
@@ -36845,6 +36883,7 @@
         "amenity": "toilets",
         "fee": "no",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "toilets:disposal": "flush",
         "unisex": "yes",
@@ -39264,7 +39303,8 @@
         "element_type": "node",
         "amenity": "toilets",
         "check_date": "2025-06-04",
-        "fee": "no"
+        "fee": "no",
+        "toilets:disposal": "flush"
       }
     },
     {
@@ -44018,14 +44058,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.6664719,
-          35.6609575
+          139.6665792,
+          35.6609602
         ]
       },
       "properties": {
         "id": 7678131310,
         "element_type": "node",
         "amenity": "toilets",
+        "level": "-2",
         "wheelchair": "limited"
       }
     },
@@ -44787,7 +44828,9 @@
       "properties": {
         "id": 7817216505,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -56805,6 +56848,137 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          139.7626383,
+          35.6746414
+        ]
+      },
+      "properties": {
+        "id": 13196564071,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7709825,
+          35.6923182
+        ]
+      },
+      "properties": {
+        "id": 13205550536,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7709774,
+          35.6923132
+        ]
+      },
+      "properties": {
+        "id": 13205550537,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7709676,
+          35.6922965
+        ]
+      },
+      "properties": {
+        "id": 13205550539,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.2882245,
+          35.77988
+        ]
+      },
+      "properties": {
+        "id": 13232088999,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7660375,
+          35.6901774
+        ]
+      },
+      "properties": {
+        "id": 13236021651,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7589672,
+          35.6871081
+        ]
+      },
+      "properties": {
+        "id": 13236032314,
+        "element_type": "node",
+        "amenity": "toilets",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7643554,
+          35.6765469
+        ]
+      },
+      "properties": {
+        "id": 13236032511,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.44439863999997,
           34.70203084
         ]
@@ -62354,25 +62528,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.71202939999998,
-          35.68073296
-        ]
-      },
-      "properties": {
-        "id": 495279389,
-        "element_type": "way",
-        "amenity": "toilets",
-        "building": "yes",
-        "name": "千駄ヶ谷駅前公衆便所",
-        "ostomate": "yes",
-        "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.69947278181817,
           35.69050751818182
         ]
@@ -65335,6 +65490,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          139.7085897,
+          35.627706079999996
+        ]
+      },
+      "properties": {
+        "id": 669681223,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.72416046,
           35.55995824
         ]
@@ -66743,8 +66914,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.54065102,
-          35.72755078
+          139.54070836666668,
+          35.72755156666667
         ]
       },
       "properties": {
@@ -71107,6 +71278,7 @@
         "amenity": "toilets",
         "building": "yes",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey",
         "wheelchair": "yes"
       }
@@ -72363,6 +72535,57 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.70767561111109,
+          35.629040322222224
+        ]
+      },
+      "properties": {
+        "id": 1441752012,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.64273106000002,
+          35.683465760000004
+        ]
+      },
+      "properties": {
+        "id": 1442507157,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.71208674,
+          35.68077024
+        ]
+      },
+      "properties": {
+        "id": 1442966270,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "name": "千駄ヶ谷駅前公衆便所",
+        "ostomate": "yes",
         "wheelchair": "yes"
       }
     }

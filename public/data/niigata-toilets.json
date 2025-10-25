@@ -3613,6 +3613,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          138.0867297,
+          37.1635139
+        ]
+      },
+      "properties": {
+        "id": 13228883799,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0608677,
+          37.9230371
+        ]
+      },
+      "properties": {
+        "id": 13230025449,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.12971113999998,
           37.15217218
         ]
@@ -5878,6 +5909,23 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56769932,
+          38.091767520000005
+        ]
+      },
+      "properties": {
+        "id": 1240368028,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "public",
+        "name": "道の駅 関川 公衆トイレ"
       }
     },
     {
