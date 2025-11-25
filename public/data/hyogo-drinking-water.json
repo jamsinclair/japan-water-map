@@ -1040,6 +1040,7 @@
       "properties": {
         "id": 3867552453,
         "amenity": "drinking_water",
+        "man_made": "water_tap",
         "source": "local knowledge",
         "wheelchair": "yes"
       }
@@ -2207,6 +2208,7 @@
         "amenity": "drinking_water",
         "check_date": "2024-11-15",
         "fee": "no",
+        "fountain": "bubbler",
         "name": "ねがいの泉"
       }
     },
@@ -6724,7 +6726,8 @@
         "bottle": "yes",
         "covered": "no",
         "fee": "no",
-        "indoor": "no"
+        "indoor": "no",
+        "man_made": "water_tap"
       }
     },
     {

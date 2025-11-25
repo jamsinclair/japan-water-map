@@ -1896,8 +1896,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.8116556,
-          35.1170671
+          136.8116945,
+          35.1170687
         ]
       },
       "properties": {
@@ -2563,8 +2563,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.814547,
-          35.123507
+          136.8145815,
+          35.1234916
         ]
       },
       "properties": {
@@ -15578,6 +15578,52 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          137.0143961,
+          35.027935
+        ]
+      },
+      "properties": {
+        "id": 13288027801,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.7971052,
+          35.1426791
+        ]
+      },
+      "properties": {
+        "id": 13308618665,
+        "element_type": "node",
+        "amenity": "toilets",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.7939692,
+          35.141893
+        ]
+      },
+      "properties": {
+        "id": 13308618672,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           136.990295,
           35.27199916
         ]
@@ -23359,7 +23405,9 @@
         "id": 830635601,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "fee": "no",
+        "wheelchair": "limited"
       }
     },
     {
@@ -26107,6 +26155,22 @@
         "toilets:menstrual_products": "no",
         "toilets:position": "inside",
         "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.96552278,
+          34.83141726
+        ]
+      },
+      "properties": {
+        "id": 1446827027,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
       }
     }
   ]

@@ -2402,21 +2402,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.5063162,
-          31.5134029
-        ]
-      },
-      "properties": {
-        "id": 9226934992,
-        "element_type": "node",
-        "amenity": "toilets"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           130.8471676,
           31.3774772
         ]
@@ -2944,7 +2929,9 @@
         "access": "yes",
         "amenity": "toilets",
         "building": "yes",
+        "building:levels": "1",
         "fee": "no",
+        "roof:shape": "flat",
         "source": "survey;local knowledge",
         "toilets:disposal": "flush",
         "unisex": "yes",
@@ -3579,6 +3566,128 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          130.5954103,
+          31.5904328
+        ]
+      },
+      "properties": {
+        "id": 13279652812,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.6085977,
+          31.6008436
+        ]
+      },
+      "properties": {
+        "id": 13281490991,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.725507,
+          31.453783
+        ]
+      },
+      "properties": {
+        "id": 13300855411,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0891227,
+          31.467631
+        ]
+      },
+      "properties": {
+        "id": 13300856171,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.6329676,
+          30.309916
+        ]
+      },
+      "properties": {
+        "id": 13300876858,
+        "element_type": "node",
+        "amenity": "toilets",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.6031279,
+          31.5773092
+        ]
+      },
+      "properties": {
+        "id": 13300883685,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0946993,
+          31.4645215
+        ]
+      },
+      "properties": {
+        "id": 13300892535,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.6331735,
+          30.3095369
+        ]
+      },
+      "properties": {
+        "id": 13300895751,
+        "element_type": "node",
+        "amenity": "toilets",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           130.54335492,
           31.58398606
         ]
@@ -3927,28 +4036,6 @@
         "toilets:disposal": "flush",
         "unisex": "yes",
         "wheelchair": "limited"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          130.55035188000002,
-          31.5637409
-        ]
-      },
-      "properties": {
-        "id": 306544039,
-        "element_type": "way",
-        "access": "yes",
-        "amenity": "toilets",
-        "building": "yes",
-        "drinking_water": "no",
-        "fee": "no",
-        "operator": "鹿児島市",
-        "source": "GSI/KIBAN 2500; NARO",
-        "toilets:disposal": "flush"
       }
     },
     {
@@ -4682,7 +4769,9 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "toilets",
+        "building:levels": "1",
         "fee": "no",
+        "roof:shape": "gabled",
         "source": "survey;local knowledge",
         "toilets:disposal": "flush",
         "unisex": "yes",
@@ -4851,7 +4940,9 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "toilets",
+        "building:levels": "1",
         "fee": "no",
+        "roof:shape": "gabled",
         "source": "survey;local knowledge",
         "toilets:disposal": "flush",
         "unisex": "yes",
@@ -5386,6 +5477,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          130.50631579999998,
+          31.513395759999998
+        ]
+      },
+      "properties": {
+        "id": 1193502952,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "toilets",
+        "building:levels": "1",
+        "fee": "yes",
+        "roof:orientation": "across",
+        "roof:shape": "round",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           130.66126888,
           31.740523239999998
         ]
@@ -5792,7 +5905,10 @@
         "access": "yes",
         "amenity": "toilets",
         "building": "toilets",
+        "building:levels": "1",
         "fee": "no",
+        "roof:orientation": "across",
+        "roof:shape": "gabled",
         "source": "survey;local knowledge",
         "unisex": "yes",
         "wheelchair": "no"
@@ -5813,7 +5929,9 @@
         "access": "yes",
         "amenity": "toilets",
         "building": "toilets",
+        "building:levels": "1",
         "fee": "no",
+        "roof:shape": "flat",
         "source": "survey;local knowledge",
         "toilets:disposal": "flush",
         "unisex": "yes",
@@ -6492,7 +6610,8 @@
         "amenity": "toilets",
         "building": "toilets",
         "fee": "no",
-        "unisex": "no"
+        "unisex": "yes",
+        "wheelchair": "yes"
       }
     },
     {
@@ -6785,6 +6904,95 @@
         "building": "toilets",
         "fee": "yes",
         "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.54146946,
+          31.573392300000002
+        ]
+      },
+      "properties": {
+        "id": 1444824964,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "toilets",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.55006484,
+          31.5637154
+        ]
+      },
+      "properties": {
+        "id": 1448608845,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "toilets",
+        "building:levels": "1",
+        "drinking_water": "no",
+        "fee": "no",
+        "roof:shape": "gabled",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5012705,
+          31.506377020000002
+        ]
+      },
+      "properties": {
+        "id": 1448640008,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "toilets",
+        "building:levels": "1",
+        "fee": "no",
+        "roof:orientation": "across",
+        "roof:shape": "gabled",
+        "toilets:disposal": "flush",
+        "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.83108102,
+          31.790913879999998
+        ]
+      },
+      "properties": {
+        "id": 1451713369,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "toilets",
+        "building:levels": "1",
+        "fee": "no",
+        "roof:orientation": "across",
+        "roof:shape": "gabled",
         "unisex": "yes",
         "wheelchair": "yes"
       }

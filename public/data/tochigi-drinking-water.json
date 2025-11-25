@@ -827,6 +827,68 @@
         "bottle": "yes",
         "covered": "yes"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6143946,
+          36.7506266
+        ]
+      },
+      "properties": {
+        "id": 13281939116,
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6144541,
+          36.7513074
+        ]
+      },
+      "properties": {
+        "id": 13281939118,
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6099998,
+          36.7491445
+        ]
+      },
+      "properties": {
+        "id": 13282224719,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5855438,
+          36.7512809
+        ]
+      },
+      "properties": {
+        "id": 13282536052,
+        "access": "customers",
+        "amenity": "drinking_water",
+        "operator": "Nikko Botanical Garden"
+      }
     }
   ]
 }

@@ -1548,6 +1548,70 @@
         "id": 13240628610,
         "amenity": "drinking_water"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0029052,
+          36.3204751
+        ]
+      },
+      "properties": {
+        "id": 13273806782,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0055408,
+          36.3221016
+        ]
+      },
+      "properties": {
+        "id": 13273806783,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0026955,
+          36.3199306
+        ]
+      },
+      "properties": {
+        "id": 13273806784,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1366608,
+          36.3971352
+        ]
+      },
+      "properties": {
+        "id": 13290049072,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }

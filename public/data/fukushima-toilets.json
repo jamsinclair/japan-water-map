@@ -7611,6 +7611,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          140.3265097,
+          37.6819721
+        ]
+      },
+      "properties": {
+        "id": 13260784160,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.3251097,
+          37.6825491
+        ]
+      },
+      "properties": {
+        "id": 13260810112,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           140.25632029230772,
           37.72401196153846
         ]
@@ -7827,7 +7859,7 @@
         "id": 223401958,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "service",
+        "building": "toilets",
         "building:levels": "1",
         "source": "https://www.mapillary.com/app/?focus=photo&pKey=ExiT7zM84jjLtpdJMBfnOA&lat=20&lng=0&z=1.5"
       }
@@ -9523,6 +9555,26 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3168447,
+          37.341985799999996
+        ]
+      },
+      "properties": {
+        "id": 1444821224,
+        "element_type": "way",
+        "access": "unknown",
+        "amenity": "toilets",
+        "building": "yes",
+        "female": "yes",
+        "male": "yes",
+        "toilets:disposal": "flush"
       }
     }
   ]

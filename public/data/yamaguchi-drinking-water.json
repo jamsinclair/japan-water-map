@@ -396,6 +396,76 @@
         "amenity": "drinking_water",
         "fountain": "bubbler"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.3043156,
+          34.2320158
+        ]
+      },
+      "properties": {
+        "id": 13323478571,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.7741805,
+          34.1699619
+        ]
+      },
+      "properties": {
+        "id": 13323514967,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.1751367,
+          34.1697677
+        ]
+      },
+      "properties": {
+        "id": 13323526116,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.1754642,
+          34.1709738
+        ]
+      },
+      "properties": {
+        "id": 13323526117,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.1762853,
+          34.1721473
+        ]
+      },
+      "properties": {
+        "id": 13323526119,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }

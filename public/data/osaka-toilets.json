@@ -11573,7 +11573,6 @@
         "access": "yes",
         "addr:street": "Ibaraki Nose Road",
         "amenity": "toilets",
-        "created_by": "On Wheels: 3.0.3",
         "toilets:wheelchair": "yes",
         "toilets:wheelchair:accessible_via": "groundfloor"
       }
@@ -11625,6 +11624,127 @@
         "id": 13253138289,
         "element_type": "node",
         "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4942798,
+          34.7054161
+        ]
+      },
+      "properties": {
+        "id": 13273475846,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-10-30",
+        "level": "2",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5345117,
+          34.5376268
+        ]
+      },
+      "properties": {
+        "id": 13284495123,
+        "element_type": "node",
+        "access": "customers",
+        "amenity": "toilets",
+        "indoor": "room",
+        "level": "0",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4913742,
+          34.6118506
+        ]
+      },
+      "properties": {
+        "id": 13290242014,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-11-09",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4919254,
+          34.6135899
+        ]
+      },
+      "properties": {
+        "id": 13316253928,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4324415,
+          34.6198175
+        ]
+      },
+      "properties": {
+        "id": 13321652450,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2025-11-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5936058,
+          34.6906983
+        ]
+      },
+      "properties": {
+        "id": 13323569971,
+        "element_type": "node",
+        "amenity": "toilets",
+        "level": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.593817,
+          34.6892132
+        ]
+      },
+      "properties": {
+        "id": 13323569972,
+        "element_type": "node",
+        "amenity": "toilets",
+        "level": "0"
       }
     },
     {
@@ -11946,8 +12066,9 @@
         "drinking_water": "no",
         "fee": "no",
         "female": "yes",
+        "image": "https://photos.app.goo.gl/m6rBS3PArbJk8MQm8",
         "male": "yes",
-        "source": "GSI/KIBAN 2500; NARO",
+        "source": "GSI/KIBAN 2500;NARO",
         "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN",
         "toilets:disposal": "flush",
         "toilets:position": "seated;urinal",
@@ -13798,6 +13919,7 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
+        "image": "https://photos.app.goo.gl/qmL1A3ppLPXeTKbE8",
         "opening_hours": "24/7",
         "wheelchair": "yes"
       }
@@ -16897,6 +17019,7 @@
         "building": "yes",
         "changing_table": "yes",
         "description": "ostomate=yes",
+        "fee": "no",
         "wheelchair": "yes"
       }
     },
@@ -17690,7 +17813,7 @@
         "element_type": "way",
         "access": "customers",
         "amenity": "toilets",
-        "building": "yes",
+        "building": "toilets",
         "changing_table": "yes",
         "entrance:step_count": "0",
         "entrance:width": "1",
@@ -17711,7 +17834,7 @@
         "id": 640710795,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "service",
+        "building": "toilets",
         "building:levels": "1",
         "toilets:wheelchair": "yes",
         "toilets:wheelchair:accessible_via": "groundfloor"
@@ -24036,7 +24159,9 @@
         "name": "トイレ5",
         "toilets:disposal": "flush",
         "unisex": "yes",
-        "wheelchair": "yes"
+        "wheelchair": "yes",
+        "wikidata": "Q134980252",
+        "wikipedia": "ja:2億円トイレ"
       }
     },
     {

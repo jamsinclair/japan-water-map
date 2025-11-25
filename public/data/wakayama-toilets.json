@@ -5998,6 +5998,22 @@
         "toilets:disposal": "flush",
         "wheelchair": "yes"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.17191362,
+          34.232649859999995
+        ]
+      },
+      "properties": {
+        "id": 1446003537,
+        "element_type": "way",
+        "amenity": "toilets",
+        "fee": "no"
+      }
     }
   ]
 }

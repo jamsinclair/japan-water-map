@@ -1571,6 +1571,51 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          131.4640064,
+          34.2109001
+        ]
+      },
+      "properties": {
+        "id": 13300726458,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.4861054,
+          34.186477
+        ]
+      },
+      "properties": {
+        "id": 13323486164,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.77421,
+          34.1695366
+        ]
+      },
+      "properties": {
+        "id": 13323514962,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           131.20339146,
           34.39440306
         ]
@@ -3294,6 +3339,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          131.3076628,
+          34.24038838333333
+        ]
+      },
+      "properties": {
+        "id": 705894807,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "GSImaps/ort"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           130.93717542,
           34.13930344
         ]
@@ -3714,6 +3776,23 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.3058213181818,
+          34.234915109090906
+        ]
+      },
+      "properties": {
+        "id": 1452788302,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "level": "0"
       }
     }
   ]

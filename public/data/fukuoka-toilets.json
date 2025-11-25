@@ -75,6 +75,7 @@
         "id": 1533562238,
         "element_type": "node",
         "amenity": "toilets",
+        "fee": "no",
         "wheelchair": "limited"
       }
     },
@@ -2915,8 +2916,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.8635045,
-          33.8714235
+          130.8635756,
+          33.8713723
         ]
       },
       "properties": {
@@ -3270,6 +3271,7 @@
         "element_type": "node",
         "access": "yes",
         "amenity": "toilets",
+        "check_date": "2025-11-22",
         "fee": "no"
       }
     },
@@ -6608,6 +6610,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          130.8382104,
+          33.8789087
+        ]
+      },
+      "properties": {
+        "id": 13323453301,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.8832151,
+          33.8845442
+        ]
+      },
+      "properties": {
+        "id": 13325496244,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2025-11-23",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           130.47150082,
           33.77709554
         ]
@@ -7498,6 +7532,44 @@
         "source": "GSI/KIBAN 2500;NARO",
         "toilets:disposal": "flush",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.29089826,
+          33.685208239999994
+        ]
+      },
+      "properties": {
+        "id": 503144642,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "male": "yes",
+        "source": "GSI/KIBAN 2500;NARO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.29077166000002,
+          33.685032740000004
+        ]
+      },
+      "properties": {
+        "id": 503144646,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "female": "yes",
+        "source": "GSI/KIBAN 2500;NARO"
       }
     },
     {
@@ -12027,6 +12099,57 @@
       },
       "properties": {
         "id": 1430486494,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.8150936,
+          33.640725159999995
+        ]
+      },
+      "properties": {
+        "id": 1444730785,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.72926431428573,
+          33.90633438571428
+        ]
+      },
+      "properties": {
+        "id": 1452778364,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.83846290000002,
+          33.8760516
+        ]
+      },
+      "properties": {
+        "id": 1452778845,
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"

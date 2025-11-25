@@ -897,6 +897,7 @@
         "id": 2504418931,
         "element_type": "node",
         "amenity": "toilets",
+        "check_date": "2025-11-18",
         "fee": "no",
         "source": "image,2013-09;Bing,2011-07-11",
         "wheelchair": "yes"
@@ -1852,7 +1853,11 @@
       "properties": {
         "id": 5812180053,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2025-11-18",
+        "check_date:wheelchair": "2025-11-18",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -2488,7 +2493,9 @@
       "properties": {
         "id": 8864944789,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {

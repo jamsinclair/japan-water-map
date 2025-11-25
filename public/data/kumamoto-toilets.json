@@ -2074,6 +2074,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          130.455468,
+          32.2892876
+        ]
+      },
+      "properties": {
+        "id": 13282327301,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.2030861,
+          32.4730871
+        ]
+      },
+      "properties": {
+        "id": 13300895510,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           131.05285108571428,
           32.88567904285714
         ]

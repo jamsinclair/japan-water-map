@@ -3166,6 +3166,22 @@
         "operator": "苫小牧市",
         "wheelchair": "yes"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.6876353,
+          43.007996
+        ]
+      },
+      "properties": {
+        "id": 13301743649,
+        "amenity": "drinking_water",
+        "fee": "no",
+        "man_made": "water_tap"
+      }
     }
   ]
 }

@@ -1383,6 +1383,34 @@
         "fountain": "drinking",
         "indoor": "no"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.1789115,
+          34.4131436
+        ]
+      },
+      "properties": {
+        "id": 13261878546,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.4511694,
+          34.3933819
+        ]
+      },
+      "properties": {
+        "id": 13323537286,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }

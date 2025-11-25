@@ -4576,15 +4576,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.65752572,
-          34.5197583
+          136.65754608,
+          34.51975126000001
         ]
       },
       "properties": {
         "id": 550422240,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "government",
+        "building:levels": "1",
+        "ele": "32.3",
+        "height": "4.6",
+        "source": "MLIT_PLATEAU 24203-bldg-80968",
+        "survey:date": "2018"
       }
     },
     {
@@ -4592,15 +4597,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.65983778,
-          34.51872486
+          136.65983056,
+          34.518716
         ]
       },
       "properties": {
         "id": 550422242,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "ele": "16.7",
+        "height": "3.2",
+        "source": "MLIT_PLATEAU 24203-bldg-80952"
       }
     },
     {
@@ -4784,15 +4792,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.7010151,
-          34.49576912
+          136.70102660000003,
+          34.495752960000004
         ]
       },
       "properties": {
         "id": 558654401,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "ele": "3.6",
+        "height": "2.5",
+        "source": "MLIT_PLATEAU 24203-bldg-44534"
       }
     },
     {

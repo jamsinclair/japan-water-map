@@ -430,8 +430,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          134.1281519,
-          34.1227654
+          134.128227,
+          34.1227637
         ]
       },
       "properties": {
@@ -890,21 +890,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          134.3706069,
-          34.1142843
-        ]
-      },
-      "properties": {
-        "id": 5968554717,
-        "element_type": "node",
-        "amenity": "toilets"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           134.5546684,
           34.0648801
         ]
@@ -1255,7 +1240,7 @@
         "type": "Point",
         "coordinates": [
           134.5289914,
-          34.1529653
+          34.1529942
         ]
       },
       "properties": {
@@ -1627,8 +1612,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          134.4988947,
-          34.1640012
+          134.4989323,
+          34.1641166
         ]
       },
       "properties": {
@@ -1681,6 +1666,22 @@
         "id": 13207817002,
         "element_type": "node",
         "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.753324,
+          33.937558
+        ]
+      },
+      "properties": {
+        "id": 13329557502,
+        "element_type": "node",
+        "amenity": "toilets",
+        "opening_hours": "24/7"
       }
     },
     {
@@ -2220,8 +2221,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          134.37064024,
-          34.11427152
+          134.37063754000002,
+          34.11426592
         ]
       },
       "properties": {
@@ -2715,6 +2716,22 @@
       },
       "properties": {
         "id": 1436612679,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.29644616,
+          34.10334104
+        ]
+      },
+      "properties": {
+        "id": 1450835025,
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"

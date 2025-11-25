@@ -3312,8 +3312,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.6020927,
-          36.7564294
+          139.6020497,
+          36.756407
         ]
       },
       "properties": {
@@ -3321,7 +3321,7 @@
         "element_type": "node",
         "access": "yes",
         "amenity": "toilets",
-        "check_date": "2025-04-28",
+        "check_date": "2025-11-05",
         "fee": "no",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
@@ -3373,8 +3373,14 @@
       "properties": {
         "id": 12311568151,
         "element_type": "node",
+        "access": "yes",
         "amenity": "toilets",
-        "fee": "no"
+        "changing_table": "yes",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
       }
     },
     {
@@ -3658,6 +3664,47 @@
         "element_type": "node",
         "access": "yes",
         "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4999424,
+          36.7388364
+        ]
+      },
+      "properties": {
+        "id": 13278792560,
+        "element_type": "node",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "opening_hours": "Mo-Su 07:30-19:00",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5854367,
+          36.751052
+        ]
+      },
+      "properties": {
+        "id": 13282536056,
+        "element_type": "node",
+        "access": "customers",
+        "amenity": "toilets",
+        "operator": "Nikko Botanical Garden",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes"
       }
     },
     {
@@ -6242,15 +6289,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.0113559,
-          36.56444818
+          140.01137386,
+          36.56447849999999
         ]
       },
       "properties": {
         "id": 1199795566,
         "element_type": "way",
+        "access": "yes",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "changing_table": "yes",
+        "female": "yes",
+        "male": "yes",
+        "operator": "芳賀町",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
       }
     },
     {
@@ -6394,6 +6448,23 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.59106007999998,
+          36.75337776
+        ]
+      },
+      "properties": {
+        "id": 1215538134,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "toilets",
+        "toilets:disposal": "flush"
       }
     },
     {
@@ -6716,8 +6787,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48564119999998,
-          36.72495456
+          139.48564674999997,
+          36.724957249999996
         ]
       },
       "properties": {
@@ -6726,8 +6797,10 @@
         "access": "yes",
         "amenity": "toilets",
         "building": "yes",
-        "check_date": "2025-04-27",
+        "check_date": "2025-11-04",
         "fee": "no",
+        "female": "yes",
+        "male": "yes",
         "name": "イタリア大使館別荘記念公園公衆トイレ",
         "operator": "栃木県今市林務事務所",
         "toilets:handwashing": "yes",
@@ -6918,6 +6991,115 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.03467923999997,
+          36.867604320000005
+        ]
+      },
+      "properties": {
+        "id": 1445692004,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "yes",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.93865722,
+          36.55491112
+        ]
+      },
+      "properties": {
+        "id": 1446927914,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "yes",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.93864836,
+          36.554870619999996
+        ]
+      },
+      "properties": {
+        "id": 1446927915,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "yes",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.96346368,
+          36.547945999999996
+        ]
+      },
+      "properties": {
+        "id": 1446940668,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "yes",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.96349928,
+          36.54792868
+        ]
+      },
+      "properties": {
+        "id": 1446940669,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "yes",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
       }
     }
   ]

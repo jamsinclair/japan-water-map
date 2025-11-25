@@ -7266,6 +7266,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          138.6212902,
+          36.2988538
+        ]
+      },
+      "properties": {
+        "id": 13278719483,
+        "element_type": "node",
+        "access": "customers",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.8151589,
+          35.9693104
+        ]
+      },
+      "properties": {
+        "id": 13293872745,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           137.59396142,
           35.93205594
         ]
@@ -7346,6 +7377,7 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
+        "fee": "no",
         "source": "Bing,2011-10"
       }
     },
@@ -15964,6 +15996,22 @@
       },
       "properties": {
         "id": 1437107612,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.75708636,
+          35.46829432
+        ]
+      },
+      "properties": {
+        "id": 1447344674,
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"
