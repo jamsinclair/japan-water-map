@@ -4321,6 +4321,7 @@
       "properties": {
         "id": 11279183100,
         "amenity": "drinking_water",
+        "fountain": "bubbler",
         "indoor": "no"
       }
     },
@@ -4934,8 +4935,7 @@
       },
       "properties": {
         "id": 12836335247,
-        "amenity": "drinking_water",
-        "name": "Drinking fountain"
+        "amenity": "drinking_water"
       }
     },
     {
@@ -4949,8 +4949,7 @@
       },
       "properties": {
         "id": 12836338286,
-        "amenity": "drinking_water",
-        "name": "Drinking fountain"
+        "amenity": "drinking_water"
       }
     },
     {
@@ -4964,8 +4963,7 @@
       },
       "properties": {
         "id": 12836338915,
-        "amenity": "drinking_water",
-        "name": "Drinking fountain"
+        "amenity": "drinking_water"
       }
     },
     {
@@ -4979,8 +4977,7 @@
       },
       "properties": {
         "id": 12836340198,
-        "amenity": "drinking_water",
-        "name": "Drinking fountain"
+        "amenity": "drinking_water"
       }
     },
     {
@@ -5108,6 +5105,34 @@
       },
       "properties": {
         "id": 13328227859,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.3935453,
+          34.9699957
+        ]
+      },
+      "properties": {
+        "id": 13339942535,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.7080681,
+          34.7064806
+        ]
+      },
+      "properties": {
+        "id": 13381292663,
         "amenity": "drinking_water"
       }
     }

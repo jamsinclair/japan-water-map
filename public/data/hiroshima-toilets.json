@@ -219,6 +219,8 @@
         "id": 1081555675,
         "element_type": "node",
         "amenity": "toilets",
+        "check_date": "2025-12-25",
+        "fee": "no",
         "wheelchair": "yes"
       }
     },
@@ -674,8 +676,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          132.3142815,
-          34.3209583
+          132.3142446,
+          34.3209409
         ]
       },
       "properties": {
@@ -4420,8 +4422,7 @@
         "start_date": "before 1945-08-06",
         "wheelchair": "no",
         "wikidata": "Q60988344",
-        "wikipedia": "ja:本川公衆便所",
-        "wikipedia:ja": "本川公衆便所"
+        "wikipedia": "ja:本川公衆便所"
       }
     },
     {
@@ -5344,9 +5345,17 @@
       "properties": {
         "id": 477483818,
         "element_type": "way",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
-        "source": "Bing"
+        "changing_table": "yes",
+        "check_date": "2025-12-25",
+        "fee": "no",
+        "source": "Bing",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5386,7 +5395,13 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
-        "source": "Bing"
+        "check_date": "2025-12-25",
+        "fee": "no",
+        "source": "Bing",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "no"
       }
     },
     {
@@ -5801,7 +5816,8 @@
         "id": 689333681,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "fee": "no"
       }
     },
     {
@@ -7488,6 +7504,110 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.36678806,
+          34.46535888
+        ]
+      },
+      "properties": {
+        "id": 1453531311,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.08367644,
+          34.360866040000005
+        ]
+      },
+      "properties": {
+        "id": 1454415628,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.35311018,
+          34.380239120000006
+        ]
+      },
+      "properties": {
+        "id": 1454829496,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "description": "千同川尻公園 公衆トイレ",
+        "female": "yes",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "unisex": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.43771303999998,
+          34.42021218
+        ]
+      },
+      "properties": {
+        "id": 1457462182,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.43941898,
+          34.42000536
+        ]
+      },
+      "properties": {
+        "id": 1457462184,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.42504506,
+          34.3975177
+        ]
+      },
+      "properties": {
+        "id": 1459345665,
+        "element_type": "way",
+        "access": "customers",
+        "amenity": "toilets",
+        "building": "toilets",
+        "building:levels": "1"
       }
     }
   ]

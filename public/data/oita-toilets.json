@@ -2898,6 +2898,84 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          131.4848628,
+          33.3022387
+        ]
+      },
+      "properties": {
+        "id": 13358732002,
+        "element_type": "node",
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.4539846,
+          33.2321672
+        ]
+      },
+      "properties": {
+        "id": 13368683501,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.1566742,
+          33.2818326
+        ]
+      },
+      "properties": {
+        "id": 13371436153,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.4831182,
+          33.3025653
+        ]
+      },
+      "properties": {
+        "id": 13372451488,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.5958152,
+          33.2416685
+        ]
+      },
+      "properties": {
+        "id": 13380020996,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           131.69389582,
           33.1113186
         ]
@@ -3399,6 +3477,55 @@
       },
       "properties": {
         "id": 425092246,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.2584835,
+          33.058888939999996
+        ]
+      },
+      "properties": {
+        "id": 447633202,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.25884430000002,
+          33.05980201999999
+        ]
+      },
+      "properties": {
+        "id": 447633983,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.25828026000002,
+          33.06013008
+        ]
+      },
+      "properties": {
+        "id": 447807421,
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"
@@ -4671,8 +4798,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.23009634,
-          33.11857046
+          131.23007176000002,
+          33.11851728
         ]
       },
       "properties": {
@@ -5021,6 +5148,25 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.89802543076922,
+          32.95278425384615
+        ]
+      },
+      "properties": {
+        "id": 915039423,
+        "element_type": "way",
+        "amenity": "toilets",
+        "height": "3",
+        "indoor": "room",
+        "level": "0",
+        "room": "toilet"
       }
     },
     {
@@ -6742,13 +6888,15 @@
         "building": "yes",
         "building:colour": "#f2e7c8",
         "building:levels": "1",
+        "fee": "no",
         "name": "公衆トイレ（別府市営実相寺球場）",
         "name:en": "Beppu Jissoji Stadium Public Toilets",
         "name:ja": "公衆トイレ（別府市営実相寺球場）",
         "name:ja-Latn": "Kōshū Toire (Beppu Shiei Jissōji Kyūjō)",
         "roof:colour": "#605658",
         "toilets": "yes",
-        "toilets:access": "public"
+        "toilets:access": "public",
+        "wheelchair": "no"
       }
     },
     {
@@ -6764,10 +6912,12 @@
         "id": 1411864628,
         "element_type": "way",
         "amenity": "toilets",
+        "fee": "no",
         "name": "実相寺多目的グラウンド 公衆トイレ",
         "name:en": "Jissoji Multipurpose Ground Public Toilet",
         "name:ja": "実相寺多目的グラウンド 公衆トイレ",
-        "name:ja-Latn": "Jissōji Tamokuteki Guraundo Kōshū Toire"
+        "name:ja-Latn": "Jissōji Tamokuteki Guraundo Kōshū Toire",
+        "wheelchair": "yes"
       }
     },
     {
@@ -6848,6 +6998,38 @@
         "building": "yes",
         "fee": "no",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.5653286,
+          33.679023640000004
+        ]
+      },
+      "properties": {
+        "id": 1456412625,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.6218798,
+          33.02816566
+        ]
+      },
+      "properties": {
+        "id": 1458019598,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
       }
     }
   ]

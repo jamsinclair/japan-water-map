@@ -663,6 +663,63 @@
         "fee": "no",
         "fountain": "drinking"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.2754416,
+          35.0084021
+        ]
+      },
+      "properties": {
+        "id": 13341676339,
+        "amenity": "drinking_water",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.9828395,
+          35.0389364
+        ]
+      },
+      "properties": {
+        "id": 13349053321,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.9851046,
+          35.0375075
+        ]
+      },
+      "properties": {
+        "id": 13349074009,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.2851871,
+          35.3759307
+        ]
+      },
+      "properties": {
+        "id": 13399146950,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }

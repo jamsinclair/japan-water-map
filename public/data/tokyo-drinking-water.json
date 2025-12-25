@@ -1177,6 +1177,7 @@
         "id": 2050892351,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey"
       }
     },
@@ -1192,6 +1193,7 @@
       "properties": {
         "id": 2054189237,
         "amenity": "drinking_water",
+        "check_date": "2025-11-28",
         "source": "Bing2011-2;survey"
       }
     },
@@ -1294,6 +1296,7 @@
         "id": 2067976702,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "knowledge"
       }
     },
@@ -2687,7 +2690,10 @@
       },
       "properties": {
         "id": 2264347380,
-        "amenity": "drinking_water"
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -2720,7 +2726,8 @@
       },
       "properties": {
         "id": 2264347792,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "wheelchair": "yes"
       }
     },
     {
@@ -2734,7 +2741,8 @@
       },
       "properties": {
         "id": 2264347861,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "wheelchair": "yes"
       }
     },
     {
@@ -8021,6 +8029,7 @@
         "id": 2803121920,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2014-04"
       }
     },
@@ -8200,6 +8209,7 @@
         "id": 2874177812,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-05"
       }
     },
@@ -8250,6 +8260,7 @@
         "id": 2894724272,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-06"
       }
     },
@@ -8266,6 +8277,7 @@
         "id": 2894739913,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-06"
       }
     },
@@ -8299,6 +8311,7 @@
         "id": 2894778922,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-06"
       }
     },
@@ -8400,6 +8413,7 @@
         "id": 2915606602,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-06"
       }
     },
@@ -8416,6 +8430,7 @@
         "id": 2915613621,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-06"
       }
     },
@@ -8432,6 +8447,7 @@
         "id": 2915613622,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-06"
       }
     },
@@ -8448,6 +8464,7 @@
         "id": 2915625950,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-06"
       }
     },
@@ -8639,6 +8656,7 @@
         "id": 2925469797,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2014-06"
       }
     },
@@ -9727,6 +9745,7 @@
         "id": 3039144366,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2007-04; survey,2014-08"
       }
     },
@@ -10955,6 +10974,7 @@
         "id": 3285723980,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2015-01"
       }
     },
@@ -11309,6 +11329,7 @@
         "id": 3371612882,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2015-02"
       }
     },
@@ -11325,6 +11346,7 @@
         "id": 3371648413,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Bing,2011-02; survey,2015-02"
       }
     },
@@ -11393,6 +11415,7 @@
         "id": 3374620385,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2015-02"
       }
     },
@@ -11409,6 +11432,7 @@
         "id": 3374620386,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2015-02"
       }
     },
@@ -11965,6 +11989,7 @@
         "id": 3431011436,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey,2015-04"
       }
     },
@@ -14395,6 +14420,7 @@
         "id": 4267487263,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey"
       }
     },
@@ -14411,6 +14437,7 @@
         "id": 4267487264,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey"
       }
     },
@@ -14768,6 +14795,7 @@
         "id": 4364380726,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey"
       }
     },
@@ -15298,6 +15326,7 @@
         "id": 4484824288,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey"
       }
     },
@@ -15792,6 +15821,7 @@
         "id": 4721929199,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey"
       }
     },
@@ -16697,7 +16727,8 @@
         "id": 4976386500,
         "amenity": "drinking_water",
         "check_date": "2025-11-10",
-        "fountain": "bubbler"
+        "fountain": "bubbler",
+        "wheelchair": "yes"
       }
     },
     {
@@ -18669,20 +18700,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.7543402,
-          35.7403627
-        ]
-      },
-      "properties": {
-        "id": 5583772112,
-        "amenity": "drinking_water"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.7122193,
           35.602306
         ]
@@ -18996,6 +19013,7 @@
         "id": 5624552871,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey"
       }
     },
@@ -19045,6 +19063,7 @@
         "id": 5630383156,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "Japan GSI ortho Imagery"
       }
     },
@@ -19721,6 +19740,7 @@
         "id": 5776910515,
         "amenity": "drinking_water",
         "operator": "大田区",
+        "operator:wikidata": "Q217234",
         "source": "survey"
       }
     },
@@ -31348,6 +31368,34 @@
       },
       "properties": {
         "id": 13308079159,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6313934,
+          35.7692668
+        ]
+      },
+      "properties": {
+        "id": 13384525311,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6294207,
+          35.7694093
+        ]
+      },
+      "properties": {
+        "id": 13384527764,
         "amenity": "drinking_water"
       }
     }

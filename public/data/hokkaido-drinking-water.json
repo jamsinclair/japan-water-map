@@ -552,7 +552,7 @@
       },
       "properties": {
         "id": 5044027723,
-        "access": "public",
+        "access": "yes",
         "amenity": "drinking_water",
         "fee": "no",
         "wheelchair": "no"
@@ -3178,6 +3178,22 @@
       },
       "properties": {
         "id": 13301743649,
+        "amenity": "drinking_water",
+        "fee": "no",
+        "man_made": "water_tap"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.3169068,
+          43.0570022
+        ]
+      },
+      "properties": {
+        "id": 13357590797,
         "amenity": "drinking_water",
         "fee": "no",
         "man_made": "water_tap"

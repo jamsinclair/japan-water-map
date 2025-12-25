@@ -2861,7 +2861,7 @@
       "properties": {
         "id": 3462769126,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "check_date": "2025-04-08",
         "check_date:wheelchair": "2025-04-08",
@@ -2966,7 +2966,7 @@
       "properties": {
         "id": 3493290060,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "fee": "no",
         "female": "yes",
@@ -3041,7 +3041,7 @@
       "properties": {
         "id": 3500580874,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "fee": "no",
         "female": "yes",
@@ -3065,7 +3065,7 @@
       "properties": {
         "id": 3502552623,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "fee": "no",
         "female": "yes",
@@ -7097,8 +7097,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.4790254,
-          42.7618493
+          140.4790697,
+          42.7618158
         ]
       },
       "properties": {
@@ -13080,6 +13080,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          140.73975884,
+          42.902648400000004
+        ]
+      },
+      "properties": {
+        "id": 195865315,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           141.7724389222222,
           45.10472845555555
         ]
@@ -13716,6 +13732,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          140.5157065,
+          42.98381432
+        ]
+      },
+      "properties": {
+        "id": 309920096,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           140.57650512,
           42.1021813
         ]
@@ -14279,7 +14311,7 @@
       "properties": {
         "id": 345431428,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes"
       }
@@ -14681,7 +14713,7 @@
       "properties": {
         "id": 380966440,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "source": "GSImaps/std",
@@ -14779,7 +14811,7 @@
       "properties": {
         "id": 383205404,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "wheelchair": "yes"
       }
@@ -17970,7 +18002,6 @@
         "amenity": "toilets",
         "building": "yes",
         "building:levels": "1",
-        "name": "トイレ",
         "unisex": "yes"
       }
     },
@@ -18249,7 +18280,7 @@
       "properties": {
         "id": 598224114,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes"
       }
@@ -19171,8 +19202,7 @@
         "id": 683465199,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -20597,6 +20627,29 @@
         "access": "no",
         "amenity": "toilets",
         "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.562876,
+          42.90299122307693
+        ]
+      },
+      "properties": {
+        "id": 914330360,
+        "element_type": "way",
+        "addr:block_number": "7",
+        "addr:city": "恵庭市",
+        "addr:neighbourhood": "2丁目",
+        "addr:postcode": "061-1433",
+        "addr:province": "北海道",
+        "addr:quarter": "北柏木町",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1"
       }
     },
     {

@@ -990,6 +990,46 @@
         "id": 13327355794,
         "amenity": "drinking_water"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.7740722,
+          34.5975525
+        ]
+      },
+      "properties": {
+        "id": 13399058118,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "fee": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.7716254,
+          34.5956429
+        ]
+      },
+      "properties": {
+        "id": 13399399874,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "fountain": "bottle_refill",
+        "indoor": "yes",
+        "level": "0",
+        "opening_hours": "09:00-18:00"
+      }
     }
   ]
 }

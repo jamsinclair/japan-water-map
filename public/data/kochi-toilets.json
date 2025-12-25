@@ -2709,6 +2709,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          133.7604095,
+          33.7612802
+        ]
+      },
+      "properties": {
+        "id": 13358795217,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           133.5088668142857,
           33.558869771428576
         ]
@@ -4422,8 +4437,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          133.75597684000002,
-          33.75901186
+          133.75597998,
+          33.75901021999999
         ]
       },
       "properties": {
@@ -5341,6 +5356,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          132.55073027999998,
+          32.714915839999996
+        ]
+      },
+      "properties": {
+        "id": 1082164483,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "name": "トイレ・シャワー"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           133.01511433333332,
           33.02158728888889
         ]
@@ -5514,7 +5546,6 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
-        "name": "厠",
         "toilets:disposal": "flush"
       }
     },
@@ -5715,6 +5746,87 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.76234694,
+          33.7700473
+        ]
+      },
+      "properties": {
+        "id": 1456418315,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.75592516,
+          33.75900076
+        ]
+      },
+      "properties": {
+        "id": 1456621112,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.92901051999996,
+          32.99838574
+        ]
+      },
+      "properties": {
+        "id": 1457701590,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.81830874,
+          33.12926194
+        ]
+      },
+      "properties": {
+        "id": 1457718708,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.54823856000002,
+          32.73865916
+        ]
+      },
+      "properties": {
+        "id": 1458404073,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "name": "母島公衆便所"
       }
     }
   ]

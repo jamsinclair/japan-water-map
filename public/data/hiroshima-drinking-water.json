@@ -1021,6 +1021,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          133.3607022,
+          34.4906669
+        ]
+      },
+      "properties": {
+        "id": 5046354777,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "fee": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           133.2401557,
           34.4471523
         ]

@@ -185,22 +185,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.2527307,
-          35.2752548
-        ]
-      },
-      "properties": {
-        "id": 582761730,
-        "element_type": "node",
-        "amenity": "toilets",
-        "fee": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           136.0830757,
           35.4814839
         ]
@@ -358,7 +342,7 @@
       "properties": {
         "id": 2499267360,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "name": "運動場屋外トイレ",
         "operator": "唐国町",
@@ -978,8 +962,7 @@
       "properties": {
         "id": 3469069818,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -994,8 +977,7 @@
       "properties": {
         "id": 3469069819,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -1010,8 +992,7 @@
       "properties": {
         "id": 3469069820,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -1041,8 +1022,7 @@
       "properties": {
         "id": 3469089402,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -1403,7 +1383,7 @@
       "properties": {
         "id": 4186784313,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "female": "no",
         "male": "no",
@@ -4764,8 +4744,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.2825167,
-          35.0133748
+          136.2823956,
+          35.0134145
         ]
       },
       "properties": {
@@ -4805,7 +4785,8 @@
         "id": 12811142239,
         "element_type": "node",
         "amenity": "toilets",
-        "check_date": "2025-05-05"
+        "changing_table": "yes",
+        "check_date": "2025-11-30"
       }
     },
     {
@@ -5108,8 +5089,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.2682261,
-          35.2707642
+          136.2681803,
+          35.270647
         ]
       },
       "properties": {
@@ -5168,6 +5149,39 @@
         "amenity": "toilets",
         "check_date": "2025-11-08",
         "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.2806012,
+          35.0128547
+        ]
+      },
+      "properties": {
+        "id": 13341843959,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2025-11-30",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.2465283,
+          35.2806741
+        ]
+      },
+      "properties": {
+        "id": 13394794831,
+        "element_type": "node",
+        "amenity": "toilets",
+        "level": "0"
       }
     },
     {
@@ -5330,7 +5344,7 @@
       "properties": {
         "id": 267417913,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes"
       }
@@ -5518,7 +5532,7 @@
       "properties": {
         "id": 304353744,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "toilets:disposal": "flush"
@@ -5573,7 +5587,7 @@
       "properties": {
         "id": 318032987,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "name": "運動場屋外トイレ",
@@ -5593,7 +5607,7 @@
       "properties": {
         "id": 318179944,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "fee": "no",
         "operator": "大津市公園管理課",
@@ -5705,7 +5719,7 @@
       "properties": {
         "id": 402074712,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "source": "GSImaps/std",
@@ -6635,8 +6649,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.9804032142857,
-          35.03755264285714
+          135.98042506666664,
+          35.037540416666666
         ]
       },
       "properties": {
@@ -8530,6 +8544,22 @@
         "id": 1453038102,
         "element_type": "way",
         "access": "yes",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.98269069999998,
+          35.03872298
+        ]
+      },
+      "properties": {
+        "id": 1455609713,
+        "element_type": "way",
         "amenity": "toilets",
         "building": "yes"
       }

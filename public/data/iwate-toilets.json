@@ -829,7 +829,6 @@
         "element_type": "node",
         "amenity": "toilets",
         "level": "2;4",
-        "name": "トイレ",
         "toilets:disposal": "flush",
         "unisex": "yes"
       }
@@ -868,7 +867,6 @@
         "element_type": "node",
         "amenity": "toilets",
         "level": "1;3",
-        "name": "トイレ",
         "toilets:disposal": "flush",
         "unisex": "yes"
       }
@@ -887,7 +885,6 @@
         "element_type": "node",
         "amenity": "toilets",
         "level": "1;3",
-        "name": "トイレ",
         "toilets:disposal": "flush",
         "unisex": "yes"
       }
@@ -983,6 +980,21 @@
       },
       "properties": {
         "id": 4336225209,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.903636,
+          39.240027
+        ]
+      },
+      "properties": {
+        "id": 4704634093,
         "element_type": "node",
         "amenity": "toilets"
       }
@@ -3964,6 +3976,23 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.26843988000002,
+          38.8220183
+        ]
+      },
+      "properties": {
+        "id": 1225461498,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       }
     },
     {

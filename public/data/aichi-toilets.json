@@ -4268,8 +4268,7 @@
       "properties": {
         "id": 2615820011,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -5238,7 +5237,6 @@
         "id": 4123590099,
         "element_type": "node",
         "amenity": "toilets",
-        "name": "トイレ",
         "toilets:wheelchair": "yes",
         "wheelchair": "yes"
       }
@@ -5271,7 +5269,6 @@
         "id": 4186493943,
         "element_type": "node",
         "amenity": "toilets",
-        "name": "トイレ",
         "source": "Survey",
         "wheelchair": "yes"
       }
@@ -5493,8 +5490,7 @@
       "properties": {
         "id": 4458505440,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -6524,8 +6520,7 @@
       "properties": {
         "id": 4851074562,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -6618,8 +6613,7 @@
       "properties": {
         "id": 4858667926,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -6664,8 +6658,7 @@
       "properties": {
         "id": 4859769269,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -6680,8 +6673,7 @@
       "properties": {
         "id": 4859769294,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -12358,8 +12350,7 @@
         "element_type": "node",
         "amenity": "toilets",
         "layer": "1",
-        "level": "1",
-        "name": "トイレ"
+        "level": "1"
       }
     },
     {
@@ -15624,6 +15615,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          136.8633861,
+          34.9934656
+        ]
+      },
+      "properties": {
+        "id": 13387953307,
+        "element_type": "node",
+        "access": "yes",
+        "addr:floor": "0",
+        "amenity": "toilets",
+        "check_date": "2025-12-19",
+        "level": "0",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           136.990295,
           35.27199916
         ]
@@ -16607,8 +16619,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.80192096000002,
-          35.304402599999996
+          136.80186076,
+          35.30429488
         ]
       },
       "properties": {
@@ -18495,8 +18507,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          137.27282786,
-          34.67227128
+          137.27284956,
+          34.67227534
         ]
       },
       "properties": {
@@ -18978,8 +18990,7 @@
         "id": 494046312,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -18995,8 +19006,7 @@
         "id": 494075008,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19029,8 +19039,7 @@
         "id": 494160581,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19046,8 +19055,7 @@
         "id": 494319856,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19063,8 +19071,7 @@
         "id": 494319858,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19080,8 +19087,7 @@
         "id": 494319859,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19097,8 +19103,7 @@
         "id": 494319861,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19194,8 +19199,7 @@
         "id": 495169663,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19211,8 +19215,7 @@
         "id": 495169666,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19228,8 +19231,7 @@
         "id": 495169673,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19245,8 +19247,7 @@
         "id": 495169677,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19262,8 +19263,7 @@
         "id": 495169682,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19279,8 +19279,7 @@
         "id": 495169684,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19296,8 +19295,7 @@
         "id": 495495058,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19313,8 +19311,7 @@
         "id": 495514480,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19330,8 +19327,7 @@
         "id": 495531301,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19347,8 +19343,7 @@
         "id": 495613717,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19364,8 +19359,7 @@
         "id": 495629740,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19381,8 +19375,7 @@
         "id": 495641379,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19398,8 +19391,7 @@
         "id": 495663883,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19415,8 +19407,7 @@
         "id": 495679296,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19432,8 +19423,7 @@
         "id": 495679302,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19449,8 +19439,7 @@
         "id": 495679307,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19466,8 +19455,7 @@
         "id": 496507945,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19483,8 +19471,7 @@
         "id": 496507968,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19500,8 +19487,7 @@
         "id": 496652273,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19517,8 +19503,7 @@
         "id": 496753676,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19534,8 +19519,7 @@
         "id": 496792288,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19551,8 +19535,7 @@
         "id": 496792303,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19568,8 +19551,7 @@
         "id": 496792308,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19585,8 +19567,7 @@
         "id": 496954274,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19602,8 +19583,7 @@
         "id": 496954279,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19619,8 +19599,7 @@
         "id": 497020199,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19638,7 +19617,6 @@
         "amenity": "toilets",
         "building": "yes",
         "fee": "no",
-        "name": "トイレ",
         "wheelchair": "yes"
       }
     },
@@ -19655,8 +19633,7 @@
         "id": 497318905,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19672,8 +19649,7 @@
         "id": 497318907,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -19802,8 +19778,7 @@
         "id": 498642663,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -21072,8 +21047,7 @@
         "id": 596013220,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -22709,6 +22683,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          136.97273278333333,
+          34.91836036666667
+        ]
+      },
+      "properties": {
+        "id": 678812558,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.96982004,
+          34.91640347
+        ]
+      },
+      "properties": {
+        "id": 678812566,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           136.949860175,
           34.8853024625
         ]
@@ -24071,7 +24077,6 @@
         "amenity": "toilets",
         "building": "yes",
         "changing_table": "no",
-        "name": "トイレ",
         "toilets:disposal": "flush",
         "unisex": "yes",
         "wheelchair": "yes"

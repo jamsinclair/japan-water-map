@@ -504,8 +504,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.7066861,
-          34.9580739
+          135.70667,
+          34.9581019
         ]
       },
       "properties": {
@@ -1581,13 +1581,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.7887487,
-          35.0001822
+          135.7887578,
+          35.0001521
         ]
       },
       "properties": {
         "id": 5646294789,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "url": "https://youtu.be/TG0MuQaPJv8"
       }
     },
     {
@@ -2601,6 +2602,34 @@
         "access": "yes",
         "amenity": "drinking_water",
         "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7152047,
+          35.0239858
+        ]
+      },
+      "properties": {
+        "id": 13339743663,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7758934,
+          34.9695025
+        ]
+      },
+      "properties": {
+        "id": 13375816901,
+        "amenity": "drinking_water"
       }
     }
   ]

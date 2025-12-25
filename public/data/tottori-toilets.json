@@ -126,7 +126,6 @@
         "element_type": "node",
         "amenity": "toilets",
         "description": "男子用、女子用が並んでいる",
-        "name": "トイレ",
         "note": "男子用トイレ 小便器4つ 大便器2つ 女子用トイレ確認できていない",
         "toilets:disposal": "flush"
       }
@@ -145,7 +144,6 @@
         "element_type": "node",
         "access": "yes",
         "amenity": "toilets",
-        "name": "トイレ",
         "wheelchair": "yes"
       }
     },
@@ -163,7 +161,6 @@
         "element_type": "node",
         "access": "yes",
         "amenity": "toilets",
-        "name": "トイレ",
         "wheelchair": "yes"
       }
     },
@@ -1539,6 +1536,51 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          133.3289822,
+          35.4194391
+        ]
+      },
+      "properties": {
+        "id": 13394354699,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-12-22",
+        "fee": "no",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;squat;urinal",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.3415564,
+          35.4314721
+        ]
+      },
+      "properties": {
+        "id": 13394453165,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2025-12-22",
+        "fee": "no",
+        "opening_hours": "Mo-Su,PH 09:00-17:00",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           134.2626648,
           35.447659683333335
         ]
@@ -1812,9 +1854,16 @@
       "properties": {
         "id": 415677357,
         "element_type": "way",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
-        "source": "GSI/KIBAN 2500;NARO"
+        "check_date": "2025-12-23",
+        "fee": "no",
+        "source": "GSI/KIBAN 2500;NARO",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;squat;urinal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -1829,9 +1878,17 @@
       "properties": {
         "id": 415677359,
         "element_type": "way",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
-        "source": "GSI/KIBAN 2500;NARO"
+        "changing_table": "yes",
+        "check_date": "2025-12-23",
+        "fee": "no",
+        "source": "GSI/KIBAN 2500;NARO",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -1846,9 +1903,17 @@
       "properties": {
         "id": 415677360,
         "element_type": "way",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
-        "source": "Bing"
+        "changing_table": "yes",
+        "check_date": "2025-12-23",
+        "fee": "no",
+        "source": "Bing",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;squat;urinal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -1866,6 +1931,22 @@
         "amenity": "toilets",
         "building": "yes",
         "source": "GSI/KIBAN 2500;NARO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.19698274,
+          35.355435480000004
+        ]
+      },
+      "properties": {
+        "id": 445139525,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
       }
     },
     {
@@ -2050,6 +2131,41 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.26081639999998,
+          35.44461946
+        ]
+      },
+      "properties": {
+        "id": 653025310,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.33343664,
+          35.423911759999996
+        ]
+      },
+      "properties": {
+        "id": 654324499,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "check_date": "2025-12-23",
         "fee": "no"
       }
     },

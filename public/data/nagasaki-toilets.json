@@ -4917,6 +4917,45 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          129.71565804,
+          32.83905384
+        ]
+      },
+      "properties": {
+        "id": 792742178,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "GSImaps/std",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.71583757999997,
+          32.83968076
+        ]
+      },
+      "properties": {
+        "id": 792742314,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "no",
+        "source": "GSImaps/std",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           129.87466258,
           32.72903662
         ]
@@ -6053,6 +6092,24 @@
         "changing_table:location": "wheelchair_toilet",
         "source": "Bing, survey",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.70087633333333,
+          32.84364826666667
+        ]
+      },
+      "properties": {
+        "id": 1458237807,
+        "element_type": "way",
+        "access": "customers",
+        "amenity": "toilets",
+        "building": "yes",
+        "toilets:disposal": "flush"
       }
     }
   ]

@@ -707,7 +707,6 @@
         "id": 3088373865,
         "element_type": "node",
         "amenity": "toilets",
-        "name": "トイレ",
         "unisex": "yes"
       }
     },
@@ -758,7 +757,7 @@
       "properties": {
         "id": 3244033995,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "toilets:disposal": "flush",
         "wheelchair": "yes"
@@ -909,7 +908,7 @@
       "properties": {
         "id": 3340986379,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "name": "男子トイレ",
         "name:en": "W.C. for men",
@@ -928,8 +927,7 @@
       "properties": {
         "id": 3340986803,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -944,8 +942,7 @@
       "properties": {
         "id": 3340987277,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -960,7 +957,7 @@
       "properties": {
         "id": 3340987279,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "female": "yes",
         "toilets:disposal": "flush"
@@ -978,7 +975,7 @@
       "properties": {
         "id": 3340987280,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "name": "多目的トイレ",
         "name:en": "multipurpose toilet",
@@ -997,7 +994,7 @@
       "properties": {
         "id": 3340989980,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "name": "男子トイレ",
         "name:en": "W.C. for men",
@@ -1016,7 +1013,7 @@
       "properties": {
         "id": 3340989981,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "name": "女子トイレ",
         "name:en": "W.C. for women",
@@ -1035,7 +1032,7 @@
       "properties": {
         "id": 3340989982,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "name": "多目的トイレ",
         "name:en": "multipurpose toilet",
@@ -1055,8 +1052,6 @@
         "id": 3340990800,
         "element_type": "node",
         "amenity": "toilets",
-        "name": "トイレ",
-        "name:en": "toilet",
         "toilets:disposal": "flush"
       }
     },
@@ -1828,7 +1823,6 @@
         "id": 4265591189,
         "element_type": "node",
         "amenity": "toilets",
-        "name": "トイレ",
         "toilets:wheelchair": "yes",
         "wheelchair": "yes"
       }
@@ -3319,7 +3313,6 @@
         "amenity": "toilets",
         "check_date": "2025-04-20",
         "fee": "no",
-        "name": "トイレ",
         "wheelchair": "limited"
       }
     },
@@ -4522,7 +4515,7 @@
       "properties": {
         "id": 10926124175,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "name": "男子トイレ",
         "name:en": "W.C. for men",
@@ -5048,7 +5041,6 @@
         "building": "yes",
         "description": "女子のみ洋式あり。車椅子トイレあり。",
         "fee": "no",
-        "name": "トイレ",
         "source": "survey"
       }
     },
@@ -5572,7 +5564,6 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
-        "name": "トイレ",
         "website": "https://osaka-midori.jp/mori/chihaya/bbqCamp.html"
       }
     },
@@ -5593,7 +5584,6 @@
         "building": "yes",
         "female": "yes",
         "male": "yes",
-        "name": "トイレ",
         "website": "https://osaka-midori.jp/mori/chihaya/bbqCamp.html"
       }
     },
@@ -5889,7 +5879,7 @@
         "id": 491596419,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "service",
+        "building": "toilets",
         "building:levels": "1",
         "source": "Bing"
       }
@@ -6325,8 +6315,7 @@
         "id": 708959447,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -6439,7 +6428,7 @@
         "id": 787792026,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "toilets"
       }
     },
     {

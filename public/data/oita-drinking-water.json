@@ -446,8 +446,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.4795698,
-          33.3012986
+          131.4795149,
+          33.3013815
         ]
       },
       "properties": {
@@ -684,6 +684,20 @@
       },
       "properties": {
         "id": 13261440603,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.6216543,
+          33.0284512
+        ]
+      },
+      "properties": {
+        "id": 13371519308,
         "amenity": "drinking_water"
       }
     }

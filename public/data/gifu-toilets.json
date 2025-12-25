@@ -1486,8 +1486,7 @@
       "properties": {
         "id": 5281643569,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -4020,6 +4019,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          137.5563965,
+          36.1812049
+        ]
+      },
+      "properties": {
+        "id": 13342689543,
+        "element_type": "node",
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           136.69629695999998,
           35.32706098
         ]
@@ -5137,6 +5153,22 @@
       },
       "properties": {
         "id": 712988602,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.0792849,
+          35.36267226
+        ]
+      },
+      "properties": {
+        "id": 715626264,
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"

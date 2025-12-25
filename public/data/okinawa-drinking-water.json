@@ -590,6 +590,34 @@
         "indoor": "yes",
         "level": "0"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.6863141,
+          26.2137394
+        ]
+      },
+      "properties": {
+        "id": 13399578001,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.6893293,
+          26.2157421
+        ]
+      },
+      "properties": {
+        "id": 13401367101,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }

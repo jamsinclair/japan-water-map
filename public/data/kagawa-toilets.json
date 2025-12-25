@@ -1269,8 +1269,7 @@
       "properties": {
         "id": 4836794480,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -1285,8 +1284,7 @@
       "properties": {
         "id": 4869931741,
         "element_type": "node",
-        "amenity": "toilets",
-        "name": "トイレ"
+        "amenity": "toilets"
       }
     },
     {
@@ -2629,6 +2627,25 @@
         "amenity": "toilets",
         "male": "yes",
         "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.7223308,
+          34.0350342
+        ]
+      },
+      "properties": {
+        "id": 13347352351,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-11-21",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
       }
     },
     {

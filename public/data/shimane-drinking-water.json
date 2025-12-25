@@ -252,7 +252,12 @@
       },
       "properties": {
         "id": 12724448526,
-        "amenity": "drinking_water"
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "dog": "no",
+        "fee": "no"
       }
     },
     {
@@ -267,6 +272,171 @@
       "properties": {
         "id": 12724468195,
         "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0576121,
+          35.470709
+        ]
+      },
+      "properties": {
+        "id": 13389802367,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0489055,
+          35.4780636
+        ]
+      },
+      "properties": {
+        "id": 13389951490,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "dog": "no",
+        "fee": "no",
+        "indoor": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0505664,
+          35.4744992
+        ]
+      },
+      "properties": {
+        "id": 13390006086,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0509546,
+          35.473975
+        ]
+      },
+      "properties": {
+        "id": 13390017385,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "covered": "yes",
+        "fee": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0507607,
+          35.47474
+        ]
+      },
+      "properties": {
+        "id": 13390062538,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "fee": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0138939,
+          35.4175742
+        ]
+      },
+      "properties": {
+        "id": 13392078829,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0121272,
+          35.417087
+        ]
+      },
+      "properties": {
+        "id": 13392135642,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "lit": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0115037,
+          35.4180261
+        ]
+      },
+      "properties": {
+        "id": 13392142838,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0736121,
+          35.4288781
+        ]
+      },
+      "properties": {
+        "id": 13394084419,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "fee": "no",
+        "name": "八重垣御神水"
       }
     }
   ]

@@ -1129,7 +1129,7 @@
       "properties": {
         "id": 3099419777,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets"
       }
     },
@@ -3915,7 +3915,7 @@
       "properties": {
         "id": 146162662,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "check_date": "2024-08-12",
@@ -4088,7 +4088,7 @@
       "properties": {
         "id": 266569079,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "fee": "no",
@@ -4339,7 +4339,7 @@
       "properties": {
         "id": 305817626,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "source": "GSI/KIBAN 2500; NARO",
         "toilets:disposal": "flush"
@@ -4458,10 +4458,26 @@
       "properties": {
         "id": 391169860,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.64869546,
+          35.796463040000006
+        ]
+      },
+      "properties": {
+        "id": 433218580,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
       }
     },
     {
@@ -5717,6 +5733,22 @@
       },
       "properties": {
         "id": 1429719907,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.47683476000003,
+          35.4239134
+        ]
+      },
+      "properties": {
+        "id": 1455350862,
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"

@@ -1074,7 +1074,6 @@
         "element_type": "node",
         "amenity": "toilets",
         "level": "-1",
-        "name": "トイレ",
         "toilets:wheelchair": "yes",
         "wheelchair": "yes"
       }
@@ -2344,7 +2343,8 @@
         "id": 7339767019,
         "element_type": "node",
         "access": "yes",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no"
       }
     },
     {
@@ -3395,7 +3395,8 @@
       "properties": {
         "id": 12323053201,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no"
       }
     },
     {
@@ -3622,6 +3623,37 @@
         "id": 13230025449,
         "element_type": "node",
         "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.2518407,
+          37.1074228
+        ]
+      },
+      "properties": {
+        "id": 13356926111,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.2146704,
+          37.1495496
+        ]
+      },
+      "properties": {
+        "id": 13368601994,
+        "element_type": "node",
+        "amenity": "toilets",
+        "fee": "no"
       }
     },
     {

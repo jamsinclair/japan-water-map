@@ -3303,6 +3303,88 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          136.645805,
+          35.0229836
+        ]
+      },
+      "properties": {
+        "id": 13339574748,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2025-11-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.6527375,
+          35.0224863
+        ]
+      },
+      "properties": {
+        "id": 13339605962,
+        "element_type": "node",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2025-11-29",
+        "toilets:disposal": "pitlatrine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.6507785,
+          35.0187431
+        ]
+      },
+      "properties": {
+        "id": 13339605963,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2025-11-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.6511676,
+          35.0148005
+        ]
+      },
+      "properties": {
+        "id": 13339616693,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2025-11-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.6501132,
+          35.0183992
+        ]
+      },
+      "properties": {
+        "id": 13339624774,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2025-11-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           136.53808434,
           34.84658019999999
         ]
@@ -4092,8 +4174,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.60438236000002,
-          34.95588164
+          136.60438152,
+          34.95588174
         ]
       },
       "properties": {
@@ -4101,8 +4183,12 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
+        "ele": "4.5",
         "female": "yes",
+        "height": "3.9",
         "male": "yes",
+        "source": "MLIT_PLATEAU 24202-bldg-121708",
+        "survey:date": "2018",
         "unisex": "yes"
       }
     },
@@ -5446,15 +5532,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.95341702000002,
-          33.894641060000005
+          135.95343400000002,
+          33.894640859999996
         ]
       },
       "properties": {
         "id": 795810793,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "ele": "206.4",
+        "height": "4.9",
+        "source": "MLIT_PLATEAU bldg_d397cb97-ff72-11ed-8a0b-088e90e0d0d1"
       }
     },
     {
@@ -5462,15 +5551,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.6202456,
-          35.00128612
+          136.6202447,
+          35.00127246
         ]
       },
       "properties": {
         "id": 809035331,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "ele": "34.7",
+        "height": "3.2",
+        "source": "MLIT_PLATEAU 24202-bldg-95507",
+        "survey:date": "2018"
       }
     },
     {
@@ -6030,16 +6123,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.59430627894736,
-          35.01832476315789
+          136.59432198,
+          35.018343779999995
         ]
       },
       "properties": {
         "id": 1128027709,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "source": "国土地理院 標準地図",
+        "building": "toilets",
+        "ele": "48.7",
+        "height": "7.3",
+        "source": "MLIT_PLATEAU 24202-bldg-97482",
+        "survey:date": "2018",
         "toilets:disposal": "flush"
       }
     },
@@ -6477,6 +6573,22 @@
       },
       "properties": {
         "id": 1410849667,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.4220859,
+          34.65546596
+        ]
+      },
+      "properties": {
+        "id": 1456602865,
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"

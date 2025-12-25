@@ -549,7 +549,7 @@
       "properties": {
         "id": 3884206459,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "addr:city": "橋本市",
         "addr:housenumber": "岸上106-3",
         "amenity": "toilets",
@@ -620,7 +620,7 @@
       "properties": {
         "id": 3884231291,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "toilets:disposal": "flush",
         "unisex": "yes"
@@ -638,7 +638,7 @@
       "properties": {
         "id": 3884232087,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "toilets:disposal": "flush",
         "unisex": "yes"
@@ -656,7 +656,7 @@
       "properties": {
         "id": 3884232088,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "operator": "橋本市",
         "toilets:disposal": "flush",
@@ -690,7 +690,7 @@
       "properties": {
         "id": 3884310178,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "toilets:disposal": "flush",
         "unisex": "yes"
@@ -708,7 +708,7 @@
       "properties": {
         "id": 3885552258,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "name": "神野々キャンプ場公衆トイレ"
       }
@@ -725,7 +725,7 @@
       "properties": {
         "id": 3902399748,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "toilets:disposal": "flush",
         "unisex": "yes"
@@ -828,21 +828,6 @@
       },
       "properties": {
         "id": 4459929439,
-        "element_type": "node",
-        "amenity": "toilets"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.8565238,
-          33.4685158
-        ]
-      },
-      "properties": {
-        "id": 4498354791,
         "element_type": "node",
         "amenity": "toilets"
       }
@@ -2867,7 +2852,6 @@
         "id": 9355057584,
         "element_type": "node",
         "amenity": "toilets",
-        "name": "トイレ",
         "unisex": "yes"
       }
     },
@@ -3210,7 +3194,7 @@
       "properties": {
         "id": 11762500716,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "fee": "no",
         "female": "yes",
@@ -4000,8 +3984,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.79425004,
-          33.488269439999996
+          135.7942513,
+          33.48825745999999
         ]
       },
       "properties": {
@@ -4018,8 +4002,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.7943158,
-          33.48835097999999
+          135.79432649999998,
+          33.48833807999999
         ]
       },
       "properties": {
@@ -5527,8 +5511,7 @@
         "id": 1106776095,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "name": "トイレ"
+        "building": "yes"
       }
     },
     {
@@ -5674,6 +5657,29 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.85647654,
+          33.4683605
+        ]
+      },
+      "properties": {
+        "id": 1251623444,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "yes",
+        "female": "yes",
+        "male": "yes",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
+        "wheelchair": "yes"
       }
     },
     {

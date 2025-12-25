@@ -4536,6 +4536,23 @@
         "amenity": "drinking_water",
         "fee": "no"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4528103,
+          34.8046189
+        ]
+      },
+      "properties": {
+        "id": 13383204915,
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "indoor": "yes",
+        "level": "0"
+      }
     }
   ]
 }

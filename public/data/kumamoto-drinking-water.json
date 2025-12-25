@@ -576,6 +576,48 @@
         "indoor": "no",
         "seasonal": "yes"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.382549,
+          32.1991799
+        ]
+      },
+      "properties": {
+        "id": 13335514504,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.3775946,
+          32.2026803
+        ]
+      },
+      "properties": {
+        "id": 13335514507,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.3732623,
+          32.1997563
+        ]
+      },
+      "properties": {
+        "id": 13335514508,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }
