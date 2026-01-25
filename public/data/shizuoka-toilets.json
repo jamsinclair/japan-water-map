@@ -1207,8 +1207,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          137.7405272,
-          34.710884
+          137.7405501,
+          34.7108881
         ]
       },
       "properties": {
@@ -2144,7 +2144,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "toilets:paper_supplied": "yes",
-        "toilets:position": "seated;urinal; squat",
+        "toilets:position": "seated;urinal;squat",
         "wheelchair": "yes"
       }
     },
@@ -2191,7 +2191,7 @@
       "properties": {
         "id": 2746945623,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "fee": "no",
         "female": "yes",
@@ -4200,7 +4200,11 @@
       "properties": {
         "id": 4213827231,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2026-01-08",
+        "check_date:wheelchair": "2026-01-08",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5217,8 +5221,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          137.74051,
-          34.71089
+          137.7405203,
+          34.7108728
         ]
       },
       "properties": {
@@ -8820,8 +8824,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.0977866,
-          34.907939
+          139.0977888,
+          34.9079266
         ]
       },
       "properties": {
@@ -9068,8 +9072,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          137.7489273,
-          34.7196477
+          137.7489315,
+          34.7195977
         ]
       },
       "properties": {
@@ -14764,7 +14768,59 @@
       "properties": {
         "id": 13368739401,
         "element_type": "node",
-        "amenity": "toilets"
+        "access": "yes",
+        "amenity": "toilets",
+        "toilets:access": "yes",
+        "toilets:handwashing": "yes",
+        "toilets:wheelchair": "partial"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.686468,
+          35.1663552
+        ]
+      },
+      "properties": {
+        "id": 13415100594,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2025-12-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6868753,
+          35.1862692
+        ]
+      },
+      "properties": {
+        "id": 13417434203,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2025-12-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6875773,
+          35.1862825
+        ]
+      },
+      "properties": {
+        "id": 13417434213,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2025-12-30"
       }
     },
     {
@@ -14942,8 +14998,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          137.7405127,
-          34.71086624
+          137.74052658,
+          34.710877440000004
         ]
       },
       "properties": {
@@ -15109,7 +15165,7 @@
       "properties": {
         "id": 266776765,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "toilets:disposal": "flush",
         "wheelchair": "yes"
@@ -16076,7 +16132,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "toilets:paper_supplied": "yes",
-        "toilets:position": "seated;urinal; squat",
+        "toilets:position": "seated;urinal;squat",
         "wheelchair": "designated"
       }
     },
@@ -20245,7 +20301,7 @@
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
         "toilets:paper_supplied": "yes",
-        "toilets:position": "seated;urinal; squat",
+        "toilets:position": "seated;urinal;squat",
         "wheelchair": "designated"
       }
     },
@@ -20661,22 +20717,6 @@
         "amenity": "toilets",
         "building": "toilets",
         "building:levels": "1"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.85737798,
-          35.084198840000006
-        ]
-      },
-      "properties": {
-        "id": 1030589190,
-        "element_type": "way",
-        "amenity": "toilets",
-        "building": "yes"
       }
     },
     {

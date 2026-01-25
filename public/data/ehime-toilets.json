@@ -2182,7 +2182,8 @@
       "properties": {
         "id": 10752128437,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no"
       }
     },
     {
@@ -2197,7 +2198,8 @@
       "properties": {
         "id": 10752132030,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no"
       }
     },
     {
@@ -2496,21 +2498,6 @@
       },
       "properties": {
         "id": 11404766169,
-        "element_type": "node",
-        "amenity": "toilets"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          133.0986139,
-          33.8886965
-        ]
-      },
-      "properties": {
-        "id": 11406505269,
         "element_type": "node",
         "amenity": "toilets"
       }
@@ -2910,7 +2897,9 @@
       "properties": {
         "id": 12747753234,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "no"
       }
     },
     {
@@ -3562,7 +3551,7 @@
       "properties": {
         "id": 354720227,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "toilets:disposal": "pitlatrine",
@@ -5904,6 +5893,23 @@
         "amenity": "toilets",
         "fee": "no",
         "toilets:position": "seated;urinal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.09871446000002,
+          33.88858938
+        ]
+      },
+      "properties": {
+        "id": 1461681102,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes"
       }
     }
   ]

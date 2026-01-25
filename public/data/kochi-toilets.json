@@ -173,21 +173,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          133.0269494,
-          33.0347744
-        ]
-      },
-      "properties": {
-        "id": 769897252,
-        "element_type": "node",
-        "amenity": "toilets"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           133.0188759,
           32.7252432
         ]
@@ -2749,6 +2734,7 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
+        "fee": "no",
         "wheelchair": "yes"
       }
     },
@@ -3882,7 +3868,7 @@
       "properties": {
         "id": 573030974,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes"
       }
@@ -5827,6 +5813,38 @@
         "amenity": "toilets",
         "building": "yes",
         "name": "母島公衆便所"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.42253754615388,
+          33.78982376153846
+        ]
+      },
+      "properties": {
+        "id": 1461679405,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.02697646,
+          33.03454598
+        ]
+      },
+      "properties": {
+        "id": 1462718979,
+        "element_type": "way",
+        "amenity": "toilets"
       }
     }
   ]

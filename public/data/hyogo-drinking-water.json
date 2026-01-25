@@ -3260,8 +3260,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.4046207,
-          34.7447252
+          135.4045362,
+          34.7446932
         ]
       },
       "properties": {
@@ -6847,6 +6847,64 @@
         "amenity": "drinking_water",
         "bottle": "yes",
         "covered": "no",
+        "fee": "no",
+        "indoor": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.6938002,
+          34.8423142
+        ]
+      },
+      "properties": {
+        "id": 13422799169,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "yes",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.8748708,
+          34.7392793
+        ]
+      },
+      "properties": {
+        "id": 13461586744,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "dog": "no",
+        "fee": "no",
+        "indoor": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.8751824,
+          34.7389758
+        ]
+      },
+      "properties": {
+        "id": 13461624231,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "dog": "no",
         "fee": "no",
         "indoor": "no"
       }

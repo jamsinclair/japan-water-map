@@ -280,7 +280,7 @@
       "properties": {
         "id": 3371148359,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "name": "二俣橋公園公衆トイレ",
         "operator": "美里町",
@@ -448,8 +448,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.8148366,
-          32.985086
+          130.8146987,
+          32.9856752
         ]
       },
       "properties": {

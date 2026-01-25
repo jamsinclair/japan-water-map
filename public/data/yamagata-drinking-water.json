@@ -209,7 +209,6 @@
       },
       "properties": {
         "id": 6815358218,
-        "addr:street": "南堀端町大町線",
         "amenity": "drinking_water"
       }
     },
@@ -615,6 +614,22 @@
       "properties": {
         "id": 13339799421,
         "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8278694,
+          38.7424457
+        ]
+      },
+      "properties": {
+        "id": 13428112173,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no"
       }
     }
   ]

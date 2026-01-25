@@ -2412,7 +2412,7 @@
       "properties": {
         "id": 357298676,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "fee": "no",
@@ -2506,8 +2506,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.45854678,
-          40.695687379999995
+          140.45849964,
+          40.69566744
         ]
       },
       "properties": {
@@ -4118,7 +4118,7 @@
         "opening_hours": "24/7",
         "toilets:disposal": "flush",
         "toilets:handwashing": "yes",
-        "toilets:position": "Seated;Urinal;Squat",
+        "toilets:position": "seated;urinal;squat",
         "wheelchair": "yes"
       }
     },
@@ -4848,6 +4848,22 @@
       },
       "properties": {
         "id": 1448093602,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.45613896,
+          40.69241756
+        ]
+      },
+      "properties": {
+        "id": 1469368695,
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"

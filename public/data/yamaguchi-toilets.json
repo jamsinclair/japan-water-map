@@ -239,7 +239,7 @@
       "properties": {
         "id": 3714463123,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "fee": "no",
         "male": "yes",
@@ -260,7 +260,7 @@
       "properties": {
         "id": 3714463124,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "fee": "no",
         "female": "yes",
@@ -1808,7 +1808,7 @@
       "properties": {
         "id": 367194681,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "fee": "no",
@@ -1829,7 +1829,7 @@
       "properties": {
         "id": 367395966,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "fee": "no",
@@ -1851,7 +1851,7 @@
       "properties": {
         "id": 367552027,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "fee": "no",
@@ -1890,7 +1890,7 @@
       "properties": {
         "id": 388672594,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "fee": "no",
@@ -1952,7 +1952,7 @@
       "properties": {
         "id": 389079374,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "fee": "no",
@@ -1996,7 +1996,7 @@
       "properties": {
         "id": 389321093,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "fee": "no",
@@ -2059,7 +2059,7 @@
       "properties": {
         "id": 389323922,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "fee": "no",
@@ -2081,7 +2081,7 @@
       "properties": {
         "id": 389323928,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "fee": "no",

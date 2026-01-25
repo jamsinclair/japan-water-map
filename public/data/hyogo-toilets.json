@@ -431,7 +431,14 @@
         "element_type": "node",
         "access": "yes",
         "amenity": "toilets",
-        "source": "Survey"
+        "changing_table": "no",
+        "check_date": "2025-12-31",
+        "fee": "no",
+        "source": "Survey",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "no"
       }
     },
     {
@@ -3296,21 +3303,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.2097682,
-          34.742087
-        ]
-      },
-      "properties": {
-        "id": 4278233771,
-        "element_type": "node",
-        "amenity": "toilets"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.3847066,
           34.7176448
         ]
@@ -3860,9 +3852,15 @@
       "properties": {
         "id": 4571552849,
         "element_type": "node",
+        "access": "customers",
         "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2025-12-31",
         "fee": "no",
-        "wheelchair": "no"
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -3877,9 +3875,14 @@
       "properties": {
         "id": 4571552850,
         "element_type": "node",
+        "access": "customers",
         "amenity": "toilets",
-        "check_date": "2023-02-08",
+        "changing_table": "yes",
+        "check_date": "2025-12-31",
         "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
         "wheelchair": "yes"
       }
     },
@@ -8888,7 +8891,7 @@
         "id": 11752967648,
         "element_type": "node",
         "amenity": "toilets",
-        "check_date": "2025-07-27",
+        "check_date": "2026-01-16",
         "check_date:opening_hours": "2025-07-27",
         "check_date:wheelchair": "2024-12-13",
         "fee": "no",
@@ -10281,7 +10284,7 @@
         "access": "yes",
         "amenity": "toilets",
         "changing_table": "yes",
-        "check_date": "2025-10-29",
+        "check_date": "2026-01-13",
         "check_date:wheelchair": "2025-07-31",
         "fee": "no",
         "level": "0",
@@ -11731,6 +11734,129 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          134.6890568,
+          34.8282715
+        ]
+      },
+      "properties": {
+        "id": 13417065313,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-12-30",
+        "fee": "no",
+        "level": "0",
+        "operator": "キャスパビル",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.8324647,
+          34.9292654
+        ]
+      },
+      "properties": {
+        "id": 13417148643,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2025-12-30",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.6938254,
+          34.8423265
+        ]
+      },
+      "properties": {
+        "id": 13422745047,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2026-01-01",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "squat;urinal",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.6977586,
+          34.8405024
+        ]
+      },
+      "properties": {
+        "id": 13423016646,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2026-01-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.1152581,
+          34.7077054
+        ]
+      },
+      "properties": {
+        "id": 13427690021,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2026-01-03",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.8856911,
+          34.7574574
+        ]
+      },
+      "properties": {
+        "id": 13444657031,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2026-01-10",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.1820818,
           34.677602879999995
         ]
@@ -11860,11 +11986,16 @@
       "properties": {
         "id": 236787764,
         "element_type": "way",
+        "access": "customers",
         "amenity": "toilets",
         "building": "yes",
+        "check_date": "2025-12-31",
         "fee": "no",
         "source": "GSI/KIBAN 2500; NARO",
-        "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN"
+        "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "no"
       }
     },
     {
@@ -11935,10 +12066,18 @@
       "properties": {
         "id": 237175665,
         "element_type": "way",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
+        "changing_table": "yes",
+        "check_date": "2026-01-01",
+        "fee": "no",
         "source": "GSI/KIBAN 2500; NARO",
-        "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN"
+        "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;squat;urinal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -12066,6 +12205,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          134.68657688000002,
+          34.83008542
+        ]
+      },
+      "properties": {
+        "id": 250704442,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "toilets",
+        "changing_table": "no",
+        "check_date": "2026-01-01",
+        "fee": "no",
+        "source": "GSI/KIBAN 2500; NARO",
+        "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           134.57469852000003,
           34.83762850000001
         ]
@@ -12165,10 +12330,18 @@
       "properties": {
         "id": 279502230,
         "element_type": "way",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
+        "changing_table": "no",
+        "check_date": "2025-12-31",
+        "fee": "no",
         "source": "GSI/KIBAN 2500; NARO",
-        "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN"
+        "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "no"
       }
     },
     {
@@ -12183,11 +12356,17 @@
       "properties": {
         "id": 279502231,
         "element_type": "way",
+        "access": "customers",
         "amenity": "toilets",
         "building": "yes",
+        "changing_table": "no",
+        "check_date": "2025-12-31",
         "fee": "no",
         "source": "GSI/KIBAN 2500; NARO",
-        "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN"
+        "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "no"
       }
     },
     {
@@ -12202,8 +12381,16 @@
       "properties": {
         "id": 283958605,
         "element_type": "way",
+        "access": "customers",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "changing_table": "no",
+        "check_date": "2025-12-30",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;squat;urinal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -14725,6 +14912,30 @@
         "source:geometry": "GSImaps/std",
         "toilets:disposal": "flush",
         "unisex": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.3536009,
+          34.86625796
+        ]
+      },
+      "properties": {
+        "id": 399241775,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "check_date": "2025-12-30",
+        "fee": "no",
+        "source": "GSI/KIBAN 2500;NARO",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -18841,8 +19052,14 @@
       "properties": {
         "id": 801853843,
         "element_type": "way",
+        "access": "yes",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "check_date": "2025-12-30",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal"
       }
     },
     {
@@ -21569,7 +21786,7 @@
         "building": "shed",
         "building:material": "concrete",
         "changing_table": "no",
-        "check_date": "2025-07-29",
+        "check_date": "2025-12-24",
         "check_date:opening_hours": "2025-07-29",
         "fee": "no",
         "opening_hours": "24/7",

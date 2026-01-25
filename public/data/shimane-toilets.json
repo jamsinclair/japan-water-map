@@ -1357,7 +1357,7 @@
       "properties": {
         "id": 348503597,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "civic",
         "toilets:disposal": "flush",
@@ -1376,7 +1376,7 @@
       "properties": {
         "id": 348505562,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "civic",
         "toilets:disposal": "flush",

@@ -4581,7 +4581,7 @@
       "properties": {
         "id": 3283415286,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "toilets:disposal": "flush"
       }
@@ -4629,7 +4629,7 @@
       "properties": {
         "id": 3480571593,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "source": "bing"
       }
@@ -4661,7 +4661,7 @@
       "properties": {
         "id": 3488293809,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "source": "bing"
       }
@@ -4726,7 +4726,7 @@
       "properties": {
         "id": 3599997851,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "check_date": "2023-11-23",
         "fee": "no",
@@ -13289,28 +13289,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.9622806,
-          35.140213
-        ]
-      },
-      "properties": {
-        "id": 10869942589,
-        "element_type": "node",
-        "access": "yes",
-        "amenity": "toilets",
-        "changing_table": "no",
-        "check_date": "2023-05-05",
-        "fee": "no",
-        "toilets:disposal": "flush",
-        "toilets:handwashing": "yes",
-        "wheelchair": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           136.9081567,
           35.176788
         ]
@@ -16678,7 +16656,7 @@
         "id": 249376074,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "service",
+        "building": "toilets",
         "building:levels": "1",
         "source": "survey"
       }
@@ -16696,7 +16674,7 @@
         "id": 249376075,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "service",
+        "building": "toilets",
         "building:levels": "1",
         "source": "GSI/KIBAN 2500; NARO; survey",
         "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN"
@@ -16891,7 +16869,7 @@
       "properties": {
         "id": 354223996,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "drinking_water": "yes",
         "fee": "no",
@@ -17819,8 +17797,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.88181016250002,
-          35.2707717125
+          136.88181114444444,
+          35.27074843333334
         ]
       },
       "properties": {
@@ -25431,6 +25409,33 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.96229424,
+          35.14021624
+        ]
+      },
+      "properties": {
+        "id": 1304061986,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "toilets",
+        "building:levels": "1",
+        "changing_table": "no",
+        "check_date": "2023-05-05",
+        "ele": "37.5",
+        "fee": "no",
+        "height": "14.5",
+        "source": "MLIT_PLATEAU bldg_74c9ea35-e696-4f6d-9b76-828cc2889ffa",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "wheelchair": "no"
       }
     },
     {

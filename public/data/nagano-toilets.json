@@ -1355,7 +1355,7 @@
       "properties": {
         "id": 3757006406,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "drinking_water": "no",
         "fee": "no",
@@ -4017,21 +4017,6 @@
         "access": "yes",
         "amenity": "toilets",
         "name": "駅前広場公衆トイレ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.5478631,
-          36.3407463
-        ]
-      },
-      "properties": {
-        "id": 7005551014,
-        "element_type": "node",
-        "amenity": "toilets"
       }
     },
     {
@@ -6917,8 +6902,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.6416402,
-          36.3275814
+          138.6416414,
+          36.3275735
         ]
       },
       "properties": {
@@ -10749,8 +10734,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.59472829999999,
-          36.34079286000001
+          138.5947342,
+          36.34080676000001
         ]
       },
       "properties": {
@@ -10936,7 +10921,8 @@
         "id": 722440175,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "name": "大西公園公衆トイレ"
       }
     },
     {
@@ -13404,7 +13390,9 @@
         "id": 1091132252,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -16232,6 +16220,23 @@
       "properties": {
         "id": 1458488411,
         "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.54784106,
+          36.34076956
+        ]
+      },
+      "properties": {
+        "id": 1465374330,
+        "element_type": "way",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes"
       }

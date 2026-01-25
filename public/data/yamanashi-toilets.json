@@ -3081,21 +3081,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          138.7548409,
-          35.5115555
-        ]
-      },
-      "properties": {
-        "id": 9941503722,
-        "element_type": "node",
-        "amenity": "toilets"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           138.6716216,
           35.4939936
         ]
@@ -3581,9 +3566,9 @@
         "charge": "300 JPY",
         "check_date": "2024-08-11",
         "fee": "yes",
+        "location": "outdoor",
         "payment:cash": "yes",
-        "toilets:handwashing": "yes",
-        "toilets:position": "outside"
+        "toilets:handwashing": "yes"
       }
     },
     {
@@ -4101,6 +4086,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          138.75548438,
+          35.44759032
+        ]
+      },
+      "properties": {
+        "id": 267164004,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "GSI/KIBAN 2500; NARO",
+        "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           138.79281276,
           35.471835539999994
         ]
@@ -4126,6 +4129,24 @@
       },
       "properties": {
         "id": 269927077,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "GSI/KIBAN 2500; NARO",
+        "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.75483058,
+          35.511564379999996
+        ]
+      },
+      "properties": {
+        "id": 273892913,
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
@@ -4221,22 +4242,6 @@
         "check_date": "2024-08-12",
         "fee": "yes",
         "wheelchair": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          138.69260828,
-          35.37439558
-        ]
-      },
-      "properties": {
-        "id": 300720245,
-        "element_type": "way",
-        "amenity": "toilets",
-        "building": "yes"
       }
     },
     {

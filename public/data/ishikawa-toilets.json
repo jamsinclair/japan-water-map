@@ -266,7 +266,7 @@
       "properties": {
         "id": 2884821857,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "drinking_water": "yes",
         "fee": "yes",
@@ -2029,6 +2029,39 @@
         "id": 13336463177,
         "element_type": "node",
         "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.6545559,
+          36.5736372
+        ]
+      },
+      "properties": {
+        "id": 13457236203,
+        "element_type": "node",
+        "amenity": "toilets",
+        "level": "-1",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.6339523,
+          36.6335665
+        ]
+      },
+      "properties": {
+        "id": 13457236238,
+        "element_type": "node",
+        "amenity": "toilets",
+        "toilets:disposal": "flush"
       }
     },
     {

@@ -638,7 +638,7 @@
       "properties": {
         "id": 3474468444,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "dog": "designated",
         "human": "no",
@@ -659,7 +659,7 @@
       "properties": {
         "id": 3595912527,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "dog": "designated",
         "human": "no",
@@ -680,7 +680,7 @@
       "properties": {
         "id": 3595918168,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "dog": "designated",
         "human": "no",
@@ -3661,6 +3661,56 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          138.7742726,
+          36.9496194
+        ]
+      },
+      "properties": {
+        "id": 13429781912,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0051228,
+          37.910159
+        ]
+      },
+      "properties": {
+        "id": 13459396000,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0156478,
+          37.916795
+        ]
+      },
+      "properties": {
+        "id": 13475552122,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           139.12971113999998,
           37.15217218
         ]
@@ -5992,7 +6042,8 @@
         "id": 1244832677,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "fee": "no"
       }
     },
     {

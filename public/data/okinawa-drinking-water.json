@@ -300,7 +300,8 @@
       },
       "properties": {
         "id": 8649647817,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
       }
     },
     {
@@ -415,6 +416,20 @@
       },
       "properties": {
         "id": 9964986451,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7225081,
+          26.2180086
+        ]
+      },
+      "properties": {
+        "id": 10833630644,
         "amenity": "drinking_water"
       }
     },
@@ -596,8 +611,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          127.6863141,
-          26.2137394
+          127.6862924,
+          26.2137146
         ]
       },
       "properties": {

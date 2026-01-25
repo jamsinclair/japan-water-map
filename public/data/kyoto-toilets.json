@@ -142,21 +142,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.6976816,
-          34.9448334
-        ]
-      },
-      "properties": {
-        "id": 615138730,
-        "element_type": "node",
-        "amenity": "toilets"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.6464671,
           34.9377934
         ]
@@ -3100,8 +3085,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.8135918,
-          34.8924719
+          135.8137008,
+          34.8925405
         ]
       },
       "properties": {
@@ -3115,8 +3100,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.8135676,
-          34.8924653
+          135.8136766,
+          34.8925339
         ]
       },
       "properties": {
@@ -6397,7 +6382,8 @@
       "properties": {
         "id": 10698527405,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no"
       }
     },
     {
@@ -8222,6 +8208,22 @@
         "id": 13375795223,
         "element_type": "node",
         "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7718307,
+          35.0345638
+        ]
+      },
+      "properties": {
+        "id": 13413473801,
+        "element_type": "node",
+        "amenity": "toilets",
+        "name": "河合神社トイレ(社務所内)"
       }
     },
     {
@@ -16538,7 +16540,8 @@
         "id": 1268171395,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "toilets"
+        "building": "toilets",
+        "fee": "no"
       }
     },
     {
@@ -17131,6 +17134,13 @@
         "id": 1451294779,
         "element_type": "way",
         "access": "private",
+        "addr:block_number": "640",
+        "addr:city": "京都市",
+        "addr:neighbourhood": "菱川町",
+        "addr:postcode": "612-8487",
+        "addr:province": "京都府",
+        "addr:quarter": "羽束師",
+        "addr:suburb": "伏見区",
         "amenity": "toilets",
         "building": "school",
         "female": "yes",
@@ -17240,6 +17250,45 @@
         "male": "yes",
         "operator": "京都市",
         "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.76089227999998,
+          34.94296816
+        ]
+      },
+      "properties": {
+        "id": 1467988885,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1",
+        "drinking_water": "yes",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6977811,
+          34.94475962
+        ]
+      },
+      "properties": {
+        "id": 1468617761,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
       }
     }
   ]

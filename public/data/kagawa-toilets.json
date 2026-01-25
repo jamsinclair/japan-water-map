@@ -648,7 +648,9 @@
       "properties": {
         "id": 1529111056,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2026-01-15",
+        "fee": "no"
       }
     },
     {
@@ -2289,7 +2291,8 @@
         "id": 12642044317,
         "element_type": "node",
         "amenity": "toilets",
-        "check_date": "2025-03-07"
+        "check_date": "2025-03-07",
+        "fee": "no"
       }
     },
     {
@@ -2662,6 +2665,7 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
+        "fee": "no",
         "source": "GSI/KIBAN 2500; NARO",
         "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN"
       }
@@ -2678,7 +2682,7 @@
       "properties": {
         "id": 330453660,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "drinking_water": "no",
@@ -3050,6 +3054,7 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
+        "fee": "no",
         "source": "Bing",
         "wheelchair": "no"
       }
@@ -3760,7 +3765,8 @@
         "id": 704404945,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "fee": "no"
       }
     },
     {

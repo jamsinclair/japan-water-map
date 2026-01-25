@@ -670,21 +670,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.6938295,
-          37.7554449
-        ]
-      },
-      "properties": {
-        "id": 945658710,
-        "element_type": "node",
-        "amenity": "toilets"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           141.0123541,
           37.681614
         ]
@@ -1737,7 +1722,7 @@
       "properties": {
         "id": 2839816242,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "toilets:disposal": "flush",
         "toilets:wheelchair": "yes",
@@ -2193,8 +2178,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.8619469,
-          37.5569121
+          139.8619623,
+          37.5569323
         ]
       },
       "properties": {
@@ -2254,7 +2239,7 @@
       "properties": {
         "id": 3175856613,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "name": "公衆トイレ",
         "wheelchair": "yes"
@@ -4985,7 +4970,7 @@
       "properties": {
         "id": 3840277858,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "fee": "no",
         "toilets:disposal": "flush",
@@ -5004,7 +4989,7 @@
       "properties": {
         "id": 3840280268,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "fee": "no",
         "toilets:disposal": "flush",
@@ -7460,8 +7445,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.546622,
-          37.8725898
+          140.5465912,
+          37.8725591
         ]
       },
       "properties": {
@@ -8454,6 +8439,23 @@
         "name:en": "Miharashi Public Toilet",
         "name:ja-Hira": "みはらしこうしゅうといれ",
         "website": "https://oze-fnd.or.jp/ozb/wc/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.86579108,
+          37.65434858
+        ]
+      },
+      "properties": {
+        "id": 428845055,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "source": "GSImaps/std"
       }
     },
     {
@@ -9575,6 +9577,38 @@
         "female": "yes",
         "male": "yes",
         "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.69377043076923,
+          37.75554554615384
+        ]
+      },
+      "properties": {
+        "id": 1464093460,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.85596462,
+          37.652025560000006
+        ]
+      },
+      "properties": {
+        "id": 1466898314,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
       }
     }
   ]

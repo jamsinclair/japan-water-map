@@ -1321,7 +1321,13 @@
       "properties": {
         "id": 6203263641,
         "element_type": "node",
+        "access": "yes",
         "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2025-12-27",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated;squat;urinal",
         "wheelchair": "yes"
       }
     },
@@ -2180,7 +2186,16 @@
       "properties": {
         "id": 7027954987,
         "element_type": "node",
-        "amenity": "toilets"
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2025-12-28",
+        "fee": "no",
+        "operator": "吉備津彦神社",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "yes"
       }
     },
     {
@@ -2798,8 +2813,13 @@
         "access": "yes",
         "amenity": "toilets",
         "changing_table": "no",
+        "check_date": "2025-12-27",
+        "fee": "no",
+        "level": "0",
         "operator": "嫁いらず観音院",
         "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "squat;urinal",
         "wheelchair": "no"
       }
     },
@@ -3767,6 +3787,152 @@
         "element_type": "node",
         "amenity": "toilets",
         "check_date": "2025-12-24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.8640175,
+          34.6789886
+        ]
+      },
+      "properties": {
+        "id": 13412706111,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2025-12-28",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "squat;urinal",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.9443603,
+          34.6558678
+        ]
+      },
+      "properties": {
+        "id": 13414789071,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2025-12-29",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "squat;urinal",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.9538639,
+          34.6573743
+        ]
+      },
+      "properties": {
+        "id": 13414833813,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2025-12-29",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "squat;urinal",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.9701238,
+          34.6628221
+        ]
+      },
+      "properties": {
+        "id": 13415042659,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2025-12-29",
+        "fee": "no",
+        "toilets:disposal": "pitlatrine",
+        "toilets:handwashing": "no",
+        "toilets:position": "squat",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.9732146,
+          34.6589619
+        ]
+      },
+      "properties": {
+        "id": 13415079054,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-12-29",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.9304106,
+          34.6657956
+        ]
+      },
+      "properties": {
+        "id": 13455343455,
+        "element_type": "node",
+        "amenity": "toilets",
+        "level": "-1",
+        "location": "approximate",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.9406498,
+          34.6736801
+        ]
+      },
+      "properties": {
+        "id": 13469771374,
+        "element_type": "node",
+        "amenity": "toilets"
       }
     },
     {
@@ -5503,6 +5669,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          133.85128631999999,
+          34.670841839999994
+        ]
+      },
+      "properties": {
+        "id": 690955373,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "changing_table": "no",
+        "check_date": "2025-12-28",
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           133.84956798000002,
           34.6695337
         ]
@@ -6153,7 +6343,12 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
+        "check_date": "2025-12-28",
         "fee": "no",
+        "operator": "吉備津神社",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:position": "seated",
         "wheelchair": "yes"
       }
     },
@@ -6774,7 +6969,8 @@
         "id": 1120012069,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "check_date": "2026-01-10"
       }
     },
     {
@@ -8238,6 +8434,54 @@
       },
       "properties": {
         "id": 1458026430,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.5268814,
+          34.456154119999994
+        ]
+      },
+      "properties": {
+        "id": 1462841374,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.5097526,
+          34.48782708
+        ]
+      },
+      "properties": {
+        "id": 1462847658,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.46267086,
+          34.59098282
+        ]
+      },
+      "properties": {
+        "id": 1465311105,
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes"

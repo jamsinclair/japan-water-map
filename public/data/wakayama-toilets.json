@@ -341,7 +341,7 @@
       "properties": {
         "id": 3207115281,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "check_date": "2023-10-07",
         "fee": "no"
@@ -395,7 +395,7 @@
       "properties": {
         "id": 3208986605,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "name": "Mikoshi-toge Pass rest area"
       }
@@ -412,7 +412,7 @@
       "properties": {
         "id": 3209076958,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets"
       }
     },
@@ -428,7 +428,7 @@
       "properties": {
         "id": 3210797196,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "drinking_water": "no"
       }
@@ -517,7 +517,7 @@
       "properties": {
         "id": 3780418661,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets"
       }
     },
@@ -533,7 +533,7 @@
       "properties": {
         "id": 3780423058,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets"
       }
     },

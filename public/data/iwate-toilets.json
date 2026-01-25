@@ -407,7 +407,7 @@
       "properties": {
         "id": 2481111349,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "fee": "no",
         "source": "image,2013-09;Bing,2012-11-06",
@@ -658,7 +658,7 @@
       "properties": {
         "id": 3686483833,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "male": "yes",
         "name": "岩手県立大学看護学部トイレ",
@@ -677,7 +677,7 @@
       "properties": {
         "id": 3686483834,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "female": "yes",
         "name": "岩手県立大学看護学部トイレ",
@@ -696,7 +696,7 @@
       "properties": {
         "id": 3686485782,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "male": "yes",
         "name": "岩手県立大学盛岡短期大学部トイレ",
@@ -715,7 +715,7 @@
       "properties": {
         "id": 3686485783,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "female": "yes",
         "name": "岩手県立大学盛岡短期大学部トイレ",
@@ -845,7 +845,7 @@
       "properties": {
         "id": 3686499618,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "fee": "no",
         "name": "handicap toilet",
@@ -916,7 +916,7 @@
       "properties": {
         "id": 3699763173,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "operator": "国土交通省",
         "toilets:disposal": "flush",
@@ -2492,6 +2492,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          141.5402757,
+          39.3961321
+        ]
+      },
+      "properties": {
+        "id": 13439557488,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           141.59266288,
           39.029100140000004
         ]
@@ -2715,7 +2730,7 @@
       "properties": {
         "id": 370673122,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "toilets:disposal": "flush"
@@ -2955,7 +2970,7 @@
       "properties": {
         "id": 462446696,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "public",
         "fee": "no",
@@ -2977,7 +2992,8 @@
         "element_type": "way",
         "access": "yes",
         "amenity": "toilets",
-        "building": "yes",
+        "building": "toilets",
+        "building:levels": "1",
         "fee": "no",
         "source": "Bing",
         "wheelchair": "no"
@@ -3137,7 +3153,7 @@
         "element_type": "way",
         "access": "yes",
         "amenity": "toilets",
-        "building": "service",
+        "building": "toilets",
         "building:levels": "1",
         "fee": "no",
         "name": "黑門トイレ",
@@ -4024,7 +4040,8 @@
         "id": 1301754052,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "toilets",
+        "building:levels": "1"
       }
     },
     {
@@ -4040,7 +4057,8 @@
         "id": 1301754053,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "toilets",
+        "building:levels": "1"
       }
     },
     {
@@ -4056,7 +4074,8 @@
         "id": 1301754056,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "toilets",
+        "building:levels": "1"
       }
     },
     {
@@ -4072,7 +4091,8 @@
         "id": 1301754058,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "toilets",
+        "building:levels": "1"
       }
     },
     {
@@ -4088,7 +4108,8 @@
         "id": 1301754063,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "toilets",
+        "building:levels": "1"
       }
     },
     {

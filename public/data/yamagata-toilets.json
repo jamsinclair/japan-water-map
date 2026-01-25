@@ -363,7 +363,7 @@
       "properties": {
         "id": 4132209862,
         "element_type": "node",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets"
       }
     },
@@ -2991,6 +2991,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          139.9774195,
+          38.7931809
+        ]
+      },
+      "properties": {
+        "id": 13410448920,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "check_date": "2025-12-27"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.0207431,
+          38.7903433
+        ]
+      },
+      "properties": {
+        "id": 13410457916,
+        "element_type": "node",
+        "amenity": "toilets",
+        "check_date": "2025-12-27"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8401518,
+          38.9111697
+        ]
+      },
+      "properties": {
+        "id": 13415232746,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8277947,
+          38.7423742
+        ]
+      },
+      "properties": {
+        "id": 13428112167,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           140.10732588000002,
           37.9270217
         ]
@@ -3204,7 +3268,7 @@
       "properties": {
         "id": 413360616,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "source": "Bing; survey"
       }
@@ -3221,7 +3285,7 @@
       "properties": {
         "id": 413360617,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "source": "Bing; survey"
       }
@@ -3255,7 +3319,7 @@
       "properties": {
         "id": 413360622,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "source": "Bing; survey"
       }

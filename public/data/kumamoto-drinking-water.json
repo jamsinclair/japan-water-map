@@ -618,6 +618,23 @@
         "id": 13335514508,
         "amenity": "drinking_water"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.7881844,
+          32.9494069
+        ]
+      },
+      "properties": {
+        "id": 13470287651,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "seasonal": "no"
+      }
     }
   ]
 }

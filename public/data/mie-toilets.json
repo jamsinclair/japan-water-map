@@ -3385,6 +3385,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          136.8286705,
+          34.3644675
+        ]
+      },
+      "properties": {
+        "id": 13416238884,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.860579,
+          34.3687175
+        ]
+      },
+      "properties": {
+        "id": 13416238974,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           136.53808434,
           34.84658019999999
         ]
@@ -3580,8 +3610,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.10460884,
-          33.96008818
+          136.10460275555556,
+          33.96013167777778
         ]
       },
       "properties": {
@@ -3589,7 +3619,9 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",
-        "source": "survey"
+        "ele": "323.4",
+        "height": "5.8",
+        "source": "survey; MLIT_PLATEAU bldg_e0e2cf8b-ff72-11ed-8ff7-088e90e0d0d1"
       }
     },
     {
@@ -3854,7 +3886,7 @@
       "properties": {
         "id": 364632508,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "building": "yes",
         "toilets:disposal": "flush"
@@ -3958,7 +3990,7 @@
       "properties": {
         "id": 413877251,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "drinking_water": "no",
         "fee": "no",
@@ -3982,7 +4014,7 @@
       "properties": {
         "id": 413877256,
         "element_type": "way",
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "drinking_water": "no",
         "fee": "no",
