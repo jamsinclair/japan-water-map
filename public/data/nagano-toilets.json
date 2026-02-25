@@ -10188,8 +10188,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          137.69681799999998,
-          35.78336872
+          137.6967639,
+          35.78338522
         ]
       },
       "properties": {
@@ -14967,7 +14967,11 @@
       "properties": {
         "id": 1259611126,
         "element_type": "way",
-        "addr:full": "長野県佐久市野沢110-5",
+        "addr:block_number": "110",
+        "addr:city": "佐久市",
+        "addr:housenumber": "5",
+        "addr:neighbourhood": "野沢",
+        "addr:province": "長野県",
         "amenity": "toilets",
         "building:part": "public",
         "ele": "676.2",
@@ -15227,7 +15231,11 @@
       "properties": {
         "id": 1306998869,
         "element_type": "way",
-        "addr:full": "長野県佐久市佐久平駅南4-3",
+        "addr:block_number": "4",
+        "addr:city": "佐久市",
+        "addr:housenumber": "3",
+        "addr:neighbourhood": "佐久平駅南",
+        "addr:province": "長野県",
         "amenity": "toilets",
         "building": "public",
         "ele": "697.3",
@@ -15247,7 +15255,11 @@
       "properties": {
         "id": 1307020752,
         "element_type": "way",
-        "addr:full": "長野県佐久市佐久平駅南1-1",
+        "addr:block_number": "1",
+        "addr:city": "佐久市",
+        "addr:housenumber": "1",
+        "addr:neighbourhood": "佐久平駅南",
+        "addr:province": "長野県",
         "amenity": "toilets",
         "building": "public",
         "ele": "700.7",
@@ -15267,7 +15279,10 @@
       "properties": {
         "id": 1307021027,
         "element_type": "way",
-        "addr:full": "長野県佐久市佐久平駅北34",
+        "addr:block_number": "34",
+        "addr:city": "佐久市",
+        "addr:neighbourhood": "佐久平駅北",
+        "addr:province": "長野県",
         "amenity": "toilets",
         "building": "warehouse",
         "ele": "702.4",

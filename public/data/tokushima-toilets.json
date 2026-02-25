@@ -340,8 +340,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          134.5027471,
-          33.8532104
+          134.5026887,
+          33.853218
         ]
       },
       "properties": {
@@ -355,8 +355,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          134.4945265,
-          33.8526379
+          134.4945316,
+          33.8527155
         ]
       },
       "properties": {
@@ -1724,6 +1724,22 @@
         "amenity": "toilets",
         "building": "yes",
         "name": "トイレ棟"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.44639906,
+          33.79790906
+        ]
+      },
+      "properties": {
+        "id": 313320174,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
       }
     },
     {

@@ -5758,6 +5758,48 @@
         "amenity": "toilets",
         "building": "yes"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.80225604000003,
+          35.497382540000004
+        ]
+      },
+      "properties": {
+        "id": 1482226285,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "female": "yes",
+        "image": "https://web.archive.org/web/20260223134824/https://streetcomplete.app/p/328650.jpg",
+        "portable": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.80227684,
+          35.4973217
+        ]
+      },
+      "properties": {
+        "id": 1482226286,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "image": "https://web.archive.org/web/20260223134824/https://streetcomplete.app/p/328650.jpg",
+        "male": "yes",
+        "portable": "yes",
+        "wheelchair": "no"
+      }
     }
   ]
 }

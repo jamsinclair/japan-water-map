@@ -3524,15 +3524,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.22422038,
-          36.20773906
+          136.22422656,
+          36.20773627999999
         ]
       },
       "properties": {
         "id": 1250100010,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "building:colour": "#CEC0AC",
+        "building:levels": "1",
+        "height": "2",
+        "roof:colour": "#819B90"
       }
     },
     {

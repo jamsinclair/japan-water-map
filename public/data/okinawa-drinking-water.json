@@ -633,6 +633,24 @@
         "id": 13401367101,
         "amenity": "drinking_water"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8299611,
+          26.464577
+        ]
+      },
+      "properties": {
+        "id": 13589627584,
+        "amenity": "drinking_water",
+        "check_date": "2026-02-22",
+        "covered": "no",
+        "fee": "no",
+        "indoor": "no"
+      }
     }
   ]
 }

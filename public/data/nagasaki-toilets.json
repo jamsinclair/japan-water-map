@@ -3566,8 +3566,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          129.35068722,
-          34.30909818
+          129.35071046000002,
+          34.309108419999994
         ]
       },
       "properties": {
@@ -3598,8 +3598,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          129.27977556,
-          34.4646481
+          129.27973014000003,
+          34.46470282
         ]
       },
       "properties": {
@@ -6110,6 +6110,22 @@
         "amenity": "toilets",
         "building": "yes",
         "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.87196738,
+          32.73325382
+        ]
+      },
+      "properties": {
+        "id": 1481704902,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
       }
     }
   ]

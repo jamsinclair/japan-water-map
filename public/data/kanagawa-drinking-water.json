@@ -23133,6 +23133,117 @@
         "id": 13472762020,
         "amenity": "drinking_water"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3774475,
+          35.3204869
+        ]
+      },
+      "properties": {
+        "id": 13514161722,
+        "amenity": "drinking_water",
+        "indoor": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5198222,
+          35.5856065
+        ]
+      },
+      "properties": {
+        "id": 13516369356,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5181719,
+          35.58632
+        ]
+      },
+      "properties": {
+        "id": 13516369357,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5612847,
+          35.6169078
+        ]
+      },
+      "properties": {
+        "id": 13516369358,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5779236,
+          35.6165971
+        ]
+      },
+      "properties": {
+        "id": 13516369359,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5225127,
+          35.6041779
+        ]
+      },
+      "properties": {
+        "id": 13516597562,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5773939,
+          35.6068789
+        ]
+      },
+      "properties": {
+        "id": 13566044189,
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "cold_water": "no",
+        "fee": "no",
+        "fountain": "bottle_refill;bubbler;water_tap",
+        "hot_water": "no",
+        "iced_water": "no",
+        "not:tourism:artwork": "yes",
+        "opening_hours": "24/7",
+        "panoramax": "a0c35491-d726-4601-8c17-2c27646e9864",
+        "room_temperature_water": "yes",
+        "seasonal": "no",
+        "warm_water": "no"
+      }
     }
   ]
 }

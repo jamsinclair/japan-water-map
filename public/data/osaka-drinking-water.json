@@ -2575,7 +2575,8 @@
       "properties": {
         "id": 10742679355,
         "amenity": "drinking_water",
-        "fee": "no"
+        "fee": "no",
+        "fountain": "bubbler"
       }
     },
     {
@@ -3820,6 +3821,66 @@
       },
       "properties": {
         "id": 13429973473,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5460969,
+          34.7836501
+        ]
+      },
+      "properties": {
+        "id": 13519498563,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6898892,
+          34.7690774
+        ]
+      },
+      "properties": {
+        "id": 13530687333,
+        "amenity": "drinking_water",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5318066,
+          34.8083347
+        ]
+      },
+      "properties": {
+        "id": 13588822213,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5371145,
+          34.811584
+        ]
+      },
+      "properties": {
+        "id": 13588828243,
         "amenity": "drinking_water"
       }
     }

@@ -8723,6 +8723,22 @@
         "amenity": "toilets",
         "level": "1"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.25442971428572,
+          35.29134371428571
+        ]
+      },
+      "properties": {
+        "id": 1482087614,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
     }
   ]
 }

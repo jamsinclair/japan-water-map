@@ -12490,8 +12490,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.0620651,
-          35.4050823
+          140.0620629,
+          35.4050769
         ]
       },
       "properties": {
@@ -14756,6 +14756,23 @@
         "roof:colour": "#df7163",
         "roof:shape": "hipped",
         "source": "GSImaps/seamlessphoto;survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.0836544,
+          35.22291288
+        ]
+      },
+      "properties": {
+        "id": 728702677,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1"
       }
     },
     {
@@ -17344,6 +17361,23 @@
       },
       "properties": {
         "id": 1462377911,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.08296908,
+          35.22556032
+        ]
+      },
+      "properties": {
+        "id": 1481161195,
         "element_type": "way",
         "amenity": "toilets",
         "building": "yes",

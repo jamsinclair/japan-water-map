@@ -22,8 +22,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.7149441,
-          31.8024359
+          130.7148943,
+          31.8024769
         ]
       },
       "properties": {
@@ -45,7 +45,9 @@
       "properties": {
         "id": 928680933,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -551,7 +553,11 @@
       "properties": {
         "id": 2915436101,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2026-01-30",
+        "check_date:wheelchair": "2026-01-30",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -713,6 +719,8 @@
         "addr:postcode": "893-2504",
         "addr:street": "鹿児島県肝属郡南大隅町根占山本",
         "amenity": "toilets",
+        "check_date": "2026-01-29",
+        "fee": "no",
         "name": "大浜海浜公園",
         "phone": "0994-24-5113",
         "wheelchair": "yes"
@@ -749,6 +757,8 @@
         "id": 3358852893,
         "element_type": "node",
         "amenity": "toilets",
+        "check_date": "2026-01-30",
+        "fee": "no",
         "name": "南大隅町ねじめ温泉・ネッピー館",
         "toilets:wheelchair": "yes",
         "wheelchair": "yes"
@@ -1635,8 +1645,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.3491593,
-          31.5802973
+          130.3492176,
+          31.5802868
         ]
       },
       "properties": {
@@ -1934,7 +1944,11 @@
       "properties": {
         "id": 6438111490,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2026-01-29",
+        "check_date:wheelchair": "2026-01-29",
+        "fee": "no",
+        "wheelchair": "no"
       }
     },
     {
@@ -3309,7 +3323,9 @@
       "properties": {
         "id": 12880351567,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5224,8 +5240,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.59840644000002,
-          31.72782474
+          130.59842828333333,
+          31.727832983333332
         ]
       },
       "properties": {
@@ -6522,8 +6538,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.32271563999998,
-          31.416487699999998
+          130.32271406,
+          31.41649928
         ]
       },
       "properties": {
@@ -6532,7 +6548,10 @@
         "access": "yes",
         "amenity": "toilets",
         "building": "toilets",
+        "ele": "11.1",
         "fee": "no",
+        "height": "3.9",
+        "source": "MLIT_PLATEAU 46220-bldg-69",
         "toilets:disposal": "flush",
         "unisex": "yes",
         "wheelchair": "yes"
@@ -6573,7 +6592,9 @@
         "access": "yes",
         "amenity": "toilets",
         "building": "yes",
-        "toilets:disposal": "flush"
+        "fee": "no",
+        "toilets:disposal": "flush",
+        "wheelchair": "no"
       }
     },
     {
@@ -6832,7 +6853,9 @@
         "access": "yes",
         "amenity": "toilets",
         "building": "toilets",
+        "building:levels": "1",
         "fee": "no",
+        "roof:shape": "flat",
         "wheelchair": "no"
       }
     },
@@ -7223,6 +7246,122 @@
         "amenity": "toilets",
         "building": "toilets",
         "building:levels": "1",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.70891613999999,
+          31.802642180000003
+        ]
+      },
+      "properties": {
+        "id": 1473844010,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.72881235999998,
+          31.79654572
+        ]
+      },
+      "properties": {
+        "id": 1474088979,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.31119428,
+          31.83109086
+        ]
+      },
+      "properties": {
+        "id": 1474986214,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5596454875,
+          31.553242281250007
+        ]
+      },
+      "properties": {
+        "id": 1478572933,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.32211562,
+          31.826058759999995
+        ]
+      },
+      "properties": {
+        "id": 1479193063,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.31920221111113,
+          31.824765711111112
+        ]
+      },
+      "properties": {
+        "id": 1479456039,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.64594670000002,
+          31.2303897
+        ]
+      },
+      "properties": {
+        "id": 1479520673,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "toilets",
+        "toilets:disposal": "flush",
+        "unisex": "yes",
         "wheelchair": "yes"
       }
     }

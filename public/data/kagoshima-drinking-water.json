@@ -70,7 +70,8 @@
       },
       "properties": {
         "id": 2915436302,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
       }
     },
     {
@@ -1629,6 +1630,22 @@
       },
       "properties": {
         "id": 13403884030,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.5731271,
+          31.6671691
+        ]
+      },
+      "properties": {
+        "id": 13483304483,
         "access": "yes",
         "amenity": "drinking_water",
         "fee": "no"

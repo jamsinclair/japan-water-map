@@ -2485,7 +2485,8 @@
         "element_type": "node",
         "amenity": "toilets",
         "female": "yes",
-        "male": "yes"
+        "male": "yes",
+        "wheelchair": "yes"
       }
     },
     {
@@ -3219,7 +3220,8 @@
       "properties": {
         "id": 5326513982,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5164,9 +5166,14 @@
         "element_type": "way",
         "access": "yes",
         "amenity": "toilets",
-        "building": "yes",
+        "building": "toilets",
+        "building:levels": "1",
         "fee": "no",
         "name": "一の鳥居",
+        "name:en": "First Torii Gate",
+        "name:fr": "Première porte Torii",
+        "name:ja-Hira": "いちのとりい",
+        "name:ja-Latn": "Ichi no torii",
         "source": "survay",
         "toilets:disposal": "flush",
         "wheelchair": "yes"
@@ -5414,7 +5421,8 @@
         "id": 360731142,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "toilets",
+        "building:levels": "1"
       }
     },
     {
@@ -7182,7 +7190,8 @@
         "amenity": "toilets",
         "building": "yes",
         "female": "yes",
-        "male": "yes"
+        "male": "yes",
+        "wheelchair": "yes"
       }
     },
     {

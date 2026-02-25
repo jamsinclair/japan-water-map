@@ -2651,7 +2651,11 @@
       "properties": {
         "id": 6094439648,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2026-02-14",
+        "check_date:wheelchair": "2026-02-14",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5328,7 +5332,8 @@
       "properties": {
         "id": 10661662594,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no"
       }
     },
     {
@@ -6671,6 +6676,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          130.5775585,
+          33.2972246
+        ]
+      },
+      "properties": {
+        "id": 13535647059,
+        "element_type": "node",
+        "amenity": "toilets",
+        "name": "Toilet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           130.47150082,
           33.77709554
         ]
@@ -6767,7 +6788,8 @@
         "id": 206081153,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "fee": "no"
       }
     },
     {
@@ -11453,9 +11475,12 @@
         "access": "yes",
         "amenity": "toilets",
         "building": "toilets",
+        "building:levels": "1",
         "building:levels:underground": "0",
+        "check_date": "2026-02-13",
         "ele": "32.1",
         "height": "3",
+        "roof:shape": "gabled",
         "toilets:disposal": "flush",
         "unisex": "yes"
       }
@@ -12043,6 +12068,29 @@
         "building": "yes",
         "toilets:disposal": "flush",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.4292622857143,
+          33.550136957142854
+        ]
+      },
+      "properties": {
+        "id": 1413433653,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "public",
+        "building:levels": "1",
+        "ele": "11.4",
+        "height": "2.8",
+        "source": "MLIT_PLATEAU bldg_7608f124-bbab-431c-8b0c-6cb48010006f",
+        "start_date": "2008",
+        "unisex": "yes"
       }
     },
     {

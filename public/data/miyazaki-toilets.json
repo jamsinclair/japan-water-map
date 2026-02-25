@@ -13,7 +13,11 @@
       "properties": {
         "id": 951223536,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2026-01-26",
+        "check_date:wheelchair": "2026-01-26",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -349,7 +353,11 @@
       "properties": {
         "id": 4570628185,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2026-01-28",
+        "check_date:wheelchair": "2026-01-28",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -364,7 +372,11 @@
       "properties": {
         "id": 4570628187,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2026-01-28",
+        "check_date:wheelchair": "2026-01-28",
+        "fee": "no",
+        "wheelchair": "no"
       }
     },
     {
@@ -409,7 +421,11 @@
       "properties": {
         "id": 4570633590,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2026-01-28",
+        "check_date:wheelchair": "2026-01-28",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -635,7 +651,11 @@
       "properties": {
         "id": 5224050321,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2026-01-28",
+        "check_date:wheelchair": "2026-01-28",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -784,14 +804,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          131.46686,
-          31.6481347
+          131.4667012,
+          31.6480276
         ]
       },
       "properties": {
         "id": 5801396853,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -870,6 +892,8 @@
         "id": 5919790767,
         "element_type": "node",
         "amenity": "toilets",
+        "check_date": "2026-01-26",
+        "fee": "no",
         "wheelchair": "no"
       }
     },
@@ -902,6 +926,8 @@
         "id": 5919877215,
         "element_type": "node",
         "amenity": "toilets",
+        "check_date": "2026-01-26",
+        "fee": "no",
         "wheelchair": "no"
       }
     },
@@ -933,7 +959,11 @@
       "properties": {
         "id": 5923617941,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2026-01-31",
+        "check_date:wheelchair": "2026-01-31",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -949,6 +979,8 @@
         "id": 5923617942,
         "element_type": "node",
         "amenity": "toilets",
+        "check_date": "2026-01-31",
+        "fee": "no",
         "level": "2",
         "wheelchair": "yes"
       }
@@ -2062,6 +2094,7 @@
         "amenity": "toilets",
         "building": "yes",
         "changing_table": "yes",
+        "fee": "no",
         "wheelchair": "yes"
       }
     },
@@ -2078,7 +2111,9 @@
         "id": 399448845,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "fee": "no",
+        "wheelchair": "no"
       }
     },
     {
@@ -3127,7 +3162,9 @@
         "id": 707159577,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -3143,7 +3180,9 @@
         "id": 707170730,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -3159,7 +3198,9 @@
         "id": 707180925,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -3175,7 +3216,9 @@
         "id": 707200030,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {

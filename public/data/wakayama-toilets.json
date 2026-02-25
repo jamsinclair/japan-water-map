@@ -61,7 +61,8 @@
       "properties": {
         "id": 1154156990,
         "element_type": "node",
-        "amenity": "toilets"
+        "amenity": "toilets",
+        "check_date": "2026-02-05"
       }
     },
     {
@@ -2057,8 +2058,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.1525251,
-          34.2690728
+          135.1526132,
+          34.2690671
         ]
       },
       "properties": {

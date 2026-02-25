@@ -2096,7 +2096,17 @@
       },
       "properties": {
         "id": 6564562570,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "cold_water": "no",
+        "fee": "no",
+        "fountain": "bubbler;water_tap",
+        "hot_water": "no",
+        "iced_water": "no",
+        "room_temperature_water": "yes",
+        "seasonal": "no",
+        "tourism": "artwork",
+        "warm_water": "no"
       }
     },
     {
@@ -4644,6 +4654,66 @@
         "access": "yes",
         "amenity": "drinking_water",
         "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5281467,
+          35.82843
+        ]
+      },
+      "properties": {
+        "id": 13591946462,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "fee": "no",
+        "indoor": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5265483,
+          35.8271566
+        ]
+      },
+      "properties": {
+        "id": 13591951289,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "fee": "no",
+        "indoor": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5286902,
+          35.82765
+        ]
+      },
+      "properties": {
+        "id": 13591984004,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "fee": "no",
+        "indoor": "no",
+        "wheelchair": "no"
       }
     }
   ]
