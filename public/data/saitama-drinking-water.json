@@ -3245,6 +3245,7 @@
       },
       "properties": {
         "id": 10100606906,
+        "access": "yes",
         "amenity": "drinking_water",
         "fee": "no"
       }
@@ -4714,6 +4715,34 @@
         "fee": "no",
         "indoor": "no",
         "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.2906356,
+          35.8695896
+        ]
+      },
+      "properties": {
+        "id": 13622830318,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3986743,
+          35.8468852
+        ]
+      },
+      "properties": {
+        "id": 13665919941,
+        "amenity": "drinking_water"
       }
     }
   ]

@@ -3198,6 +3198,34 @@
         "fee": "no",
         "man_made": "water_tap"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.6218611,
+          42.8165849
+        ]
+      },
+      "properties": {
+        "id": 13615635201,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.5756814,
+          42.8095239
+        ]
+      },
+      "properties": {
+        "id": 13615635301,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }

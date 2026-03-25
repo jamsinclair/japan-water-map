@@ -98,6 +98,23 @@
         "id": 13406751134,
         "amenity": "drinking_water"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.3549522,
+          34.0543035
+        ]
+      },
+      "properties": {
+        "id": 13626742101,
+        "amenity": "drinking_water",
+        "name": "水",
+        "name:en": "Water",
+        "name:fr": "Eau"
+      }
     }
   ]
 }

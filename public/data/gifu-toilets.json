@@ -4083,6 +4083,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          137.1705334,
+          35.3400311
+        ]
+      },
+      "properties": {
+        "id": 13676522558,
+        "element_type": "node",
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           136.69629695999998,
           35.32706098
         ]
@@ -4188,7 +4205,10 @@
         "id": 363719557,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "service"
+        "building": "toilets",
+        "ele": "318.5",
+        "height": "19.1",
+        "source": "MLIT_PLATEAU bldg_f44ad121-a599-4b07-a5b5-1582501fcd3b"
       }
     },
     {
@@ -5312,7 +5332,10 @@
         "id": 724299760,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "public",
+        "ele": "19.1",
+        "height": "6.7",
+        "source": "MLIT_PLATEAU bldg_349aafcd-cf95-4c89-a758-1ceca7c82477"
       }
     },
     {
@@ -5338,16 +5361,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          136.77375632,
-          35.43336114
+          136.77378465000004,
+          35.433360775
         ]
       },
       "properties": {
         "id": 726772162,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
-        "source": "Bing"
+        "building:part": "public"
       }
     },
     {
@@ -6630,6 +6652,22 @@
         "ele": "67.3",
         "height": "3.2",
         "source": "MLIT_PLATEAU bldg_cf7b5f61-03d9-494c-9181-5352968cd417"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.17052456000002,
+          35.3400302
+        ]
+      },
+      "properties": {
+        "id": 1492443744,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
       }
     }
   ]

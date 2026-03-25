@@ -3847,6 +3847,22 @@
         "building": "yes",
         "toilets:disposal": "flush"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.15962937999998,
+          33.2216245
+        ]
+      },
+      "properties": {
+        "id": 1492124704,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes"
+      }
     }
   ]
 }

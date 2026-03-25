@@ -3193,8 +3193,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.9557275,
-          36.1831932
+          139.9557248,
+          36.1831916
         ]
       },
       "properties": {
@@ -3371,6 +3371,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          140.1096324,
+          35.9564777
+        ]
+      },
+      "properties": {
+        "id": 13615635401,
+        "element_type": "node",
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           140.56290723846155,
           36.31524416153846
         ]
@@ -3433,7 +3448,8 @@
         "id": 269144690,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
+        "building": "toilets",
+        "building:levels": "1",
         "source": "GSI/KIBAN 2500; NARO; bing; survey"
       }
     },
@@ -3516,7 +3532,8 @@
         "id": 350840906,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "toilets",
+        "building:levels": "1"
       }
     },
     {
@@ -3532,7 +3549,8 @@
         "id": 350840907,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes"
+        "building": "toilets",
+        "building:levels": "1"
       }
     },
     {
@@ -5016,7 +5034,7 @@
         "id": 840048131,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "service",
+        "building": "toilets",
         "building:levels": "1"
       }
     },
@@ -5033,7 +5051,8 @@
         "id": 840048132,
         "element_type": "way",
         "amenity": "toilets",
-        "building": "yes",
+        "building": "toilets",
+        "building:levels": "1",
         "name": "中門御手洗い"
       }
     },

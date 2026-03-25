@@ -651,6 +651,52 @@
         "fee": "no",
         "indoor": "no"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8036569,
+          26.446286
+        ]
+      },
+      "properties": {
+        "id": 13647158473,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7806753,
+          26.2749113
+        ]
+      },
+      "properties": {
+        "id": 13658265350,
+        "amenity": "drinking_water",
+        "check_date": "2026-03-18"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3035592,
+          26.2322178
+        ]
+      },
+      "properties": {
+        "id": 13668574101,
+        "amenity": "drinking_water",
+        "fee": "no",
+        "fountain": "bubbler",
+        "seasonal": "no"
+      }
     }
   ]
 }

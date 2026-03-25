@@ -360,7 +360,9 @@
       },
       "properties": {
         "id": 9921720103,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "fee": "no",
+        "seasonal": "no"
       }
     },
     {
@@ -1265,13 +1267,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.6523308,
-          30.3006773
+          130.6524025,
+          30.3007459
         ]
       },
       "properties": {
         "id": 13012978583,
-        "amenity": "drinking_water"
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "seasonal": "no"
       }
     },
     {
@@ -1525,7 +1530,9 @@
       },
       "properties": {
         "id": 13350809155,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "fee": "no",
+        "seasonal": "no"
       }
     },
     {

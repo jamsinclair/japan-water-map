@@ -12540,6 +12540,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          139.9971309,
+          35.7724044
+        ]
+      },
+      "properties": {
+        "id": 13629508946,
+        "element_type": "node",
+        "amenity": "toilets",
+        "female": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           140.13440448823528,
           35.57070069411765
         ]
@@ -14683,6 +14699,23 @@
         "amenity": "toilets",
         "building": "yes",
         "name": "魚見塚展台トイレ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.07540056,
+          35.22422248
+        ]
+      },
+      "properties": {
+        "id": 725216491,
+        "element_type": "way",
+        "amenity": "toilets",
+        "building": "yes",
+        "building:levels": "1"
       }
     },
     {
@@ -17382,6 +17415,27 @@
         "amenity": "toilets",
         "building": "yes",
         "building:levels": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.99492714000002,
+          35.77153276
+        ]
+      },
+      "properties": {
+        "id": 1486826532,
+        "element_type": "way",
+        "access": "yes",
+        "amenity": "toilets",
+        "building": "yes",
+        "female": "yes",
+        "male": "yes",
+        "unisex": "yes",
+        "wheelchair": "yes"
       }
     }
   ]

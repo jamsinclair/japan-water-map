@@ -2315,6 +2315,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          136.2189755,
+          36.2213211
+        ]
+      },
+      "properties": {
+        "id": 13639841426,
+        "element_type": "node",
+        "access": "yes",
+        "amenity": "toilets",
+        "fee": "no",
+        "toilets:disposal": "flush"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           135.76277154,
           35.49212467
         ]

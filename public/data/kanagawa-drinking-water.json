@@ -23244,6 +23244,76 @@
         "seasonal": "no",
         "warm_water": "no"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3211562,
+          35.3967761
+        ]
+      },
+      "properties": {
+        "id": 13624532574,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.3231744,
+          35.3936457
+        ]
+      },
+      "properties": {
+        "id": 13624570881,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.2540588,
+          35.4215585
+        ]
+      },
+      "properties": {
+        "id": 13626215328,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.498416,
+          35.6181829
+        ]
+      },
+      "properties": {
+        "id": 13649140328,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6505364,
+          35.1425348
+        ]
+      },
+      "properties": {
+        "id": 13656670218,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }

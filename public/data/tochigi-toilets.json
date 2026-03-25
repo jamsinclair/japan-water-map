@@ -1997,8 +1997,14 @@
         "id": 6401714447,
         "element_type": "node",
         "access": "yes",
+        "addr:floor": "0",
         "amenity": "toilets",
-        "fee": "no"
+        "changing_table": "yes",
+        "check_date": "2026-03-08",
+        "fee": "no",
+        "level": "0",
+        "toilets:disposal": "flush",
+        "wheelchair": "yes"
       }
     },
     {
@@ -2058,7 +2064,17 @@
       "properties": {
         "id": 6433501928,
         "element_type": "node",
-        "amenity": "toilets"
+        "access": "yes",
+        "addr:floor": "0",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "check_date": "2026-03-08",
+        "level": "0",
+        "toilets:disposal": "flush",
+        "toilets:handwashing": "yes",
+        "toilets:menstrual_products": "no",
+        "toilets:position": "seated;urinal",
+        "wheelchair": "yes"
       }
     },
     {

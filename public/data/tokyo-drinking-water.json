@@ -5450,7 +5450,8 @@
       "properties": {
         "id": 2414256872,
         "amenity": "drinking_water",
-        "check_date": "2025-06-09"
+        "check_date": "2025-06-09",
+        "fountain": "bubbler"
       }
     },
     {
@@ -7443,21 +7444,6 @@
         "id": 2687528851,
         "amenity": "drinking_water",
         "source": "image,2014-02;Bing"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.686098,
-          35.5871678
-        ]
-      },
-      "properties": {
-        "id": 2690537494,
-        "amenity": "drinking_water",
-        "source": "survey,2014-02"
       }
     },
     {
@@ -28885,7 +28871,8 @@
       },
       "properties": {
         "id": 12309060905,
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
       }
     },
     {
@@ -31583,6 +31570,77 @@
       },
       "properties": {
         "id": 13583518435,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7276302,
+          35.6510536
+        ]
+      },
+      "properties": {
+        "id": 13649074578,
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7238866,
+          35.6517588
+        ]
+      },
+      "properties": {
+        "id": 13664056318,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7512159,
+          35.694784
+        ]
+      },
+      "properties": {
+        "id": 13664105274,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7899353,
+          35.6415079
+        ]
+      },
+      "properties": {
+        "id": 13671366573,
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7905145,
+          35.6421909
+        ]
+      },
+      "properties": {
+        "id": 13671428244,
         "amenity": "drinking_water"
       }
     }

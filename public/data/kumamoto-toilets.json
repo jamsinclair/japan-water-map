@@ -4593,7 +4593,9 @@
         "element_type": "way",
         "amenity": "toilets",
         "building": "toilets",
+        "building:levels": "1",
         "fee": "no",
+        "roof:shape": "gabled",
         "toilets:disposal": "flush",
         "unisex": "yes",
         "wheelchair": "yes"

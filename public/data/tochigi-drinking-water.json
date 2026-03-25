@@ -889,6 +889,20 @@
         "amenity": "drinking_water",
         "operator": "Nikko Botanical Garden"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.9094524,
+          36.558139
+        ]
+      },
+      "properties": {
+        "id": 13649304592,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }

@@ -130,6 +130,20 @@
         "id": 9834671823,
         "amenity": "drinking_water"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.8248272,
+          35.4323446
+        ]
+      },
+      "properties": {
+        "id": 13665973489,
+        "amenity": "drinking_water"
+      }
     }
   ]
 }

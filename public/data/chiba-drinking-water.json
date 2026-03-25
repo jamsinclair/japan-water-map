@@ -3867,6 +3867,38 @@
         "id": 13550838628,
         "amenity": "drinking_water"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.9970242,
+          35.7723825
+        ]
+      },
+      "properties": {
+        "id": 13629508936,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.994974,
+          35.7714245
+        ]
+      },
+      "properties": {
+        "id": 13629508951,
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no"
+      }
     }
   ]
 }

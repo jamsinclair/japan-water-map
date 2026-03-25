@@ -379,6 +379,7 @@
         "id": 2447703546,
         "element_type": "node",
         "amenity": "toilets",
+        "check_date": "2026-03-23",
         "name": "町家空間おもてなしトイレ"
       }
     },
@@ -5653,6 +5654,23 @@
         "toilets:position": "seated;urinal",
         "unisex": "yes",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.74563532000002,
+          34.6225631
+        ]
+      },
+      "properties": {
+        "id": 427846397,
+        "element_type": "way",
+        "access": "customers",
+        "amenity": "toilets",
+        "building": "yes"
       }
     },
     {
